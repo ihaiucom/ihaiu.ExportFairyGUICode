@@ -1,0 +1,15 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"",
+		"codePath":"E:\\zengfeng\\github\\ihaiu.ExportFairyGUICode\\FairyGUI\\export\\code",
+		"codeType":"TS",
+		"getMemberByName":true,
+		"ignoreNoname":false,
+		"memberNamePrefix":"",
+		"packageName":"fgui"
+	},
+	"compressDesc":false,
+	"fileExtension":"bin",
+	"packageCount":2,
+	"path":"E:\\zengfeng\\github\\ihaiu.ExportFairyGUICode\\FairyGUI\\export\\res"
+}

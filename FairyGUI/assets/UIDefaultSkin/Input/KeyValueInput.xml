@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,40" initName="inputGroup">
+  <displayList>
+    <component id="n4_raoc" name="n4" src="raoc3p" fileName="Input/TextInput.xml" xy="94,0" size="214,40">
+      <relation target="" sidePair="right-center,middle-middle"/>
+      <Label title="Input User Name"/>
+    </component>
+    <text id="n5_raoc" name="n5" xy="0,9" size="85,27" fontSize="20" text="用户名：">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+  </displayList>
+</component>

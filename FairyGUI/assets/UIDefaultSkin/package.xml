@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="snq31xvr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="raoc0" name="LoginPanel.xml" path="/" exported="true"/>
+    <image id="raoc1" name="chun.png" path="/guis/guis_login/"/>
+    <image id="raoc2" name="denglong1.png" path="/guis/guis_login/"/>
+    <image id="raoc3" name="denglong2.png" path="/guis/guis_login/"/>
+    <image id="raoc4" name="denglong_daizi.png" path="/guis/guis_login/"/>
+    <image id="raoc5" name="denglu_beijing.png" path="/guis/guis_login/"/>
+    <image id="raoc6" name="denglu_beijing01.png" path="/guis/guis_login/"/>
+    <image id="raoc7" name="denglu_beijing2.png" path="/guis/guis_login/"/>
+    <image id="raoc8" name="denglu_yun1.png" path="/guis/guis_login/"/>
+    <image id="raoc9" name="denglu_yun2.png" path="/guis/guis_login/"/>
+    <image id="raoca" name="denglu_zhonggaowenzi.png" path="/guis/guis_login/"/>
+    <image id="raocb" name="denglu_zhuomian.png" path="/guis/guis_login/"/>
+    <image id="raocc" name="gong.png" path="/guis/guis_login/"/>
+    <image id="raocd" name="he.png" path="/guis/guis_login/"/>
+    <image id="raoce" name="huaban1.png" path="/guis/guis_login/"/>
+    <image id="raocf" name="huaban2.png" path="/guis/guis_login/"/>
+    <image id="raocg" name="login_zhanghao.png" path="/guis/guis_login/"/>
+    <image id="raoch" name="meihua_yuo.png" path="/guis/guis_login/"/>
+    <image id="raoci" name="meihua_zuo.png" path="/guis/guis_login/"/>
+    <image id="raocj" name="xiangyun_1.png" path="/guis/guis_login/"/>
+    <image id="raock" name="xiangyun_2.png" path="/guis/guis_login/"/>
+    <image id="raocl" name="xin.png" path="/guis/guis_login/"/>
+    <image id="raocm" name="bangzhu_button.png" path="/guis/guis_common/" scale=""/>
+    <image id="raocn" name="bs_gonggaolan.png" path="/guis/guis_common/"/>
+    <image id="raoco" name="cammon_yirenkapian.png" path="/guis/guis_common/"/>
+    <image id="raocp" name="commer_duihuakuang.png" path="/guis/guis_common/" scale="9grid" scale9grid="23,23,46,46"/>
+    <image id="raocq" name="commer_jiantou.png" path="/guis/guis_common/"/>
+    <image id="raocr" name="commer_juxing_fanguang.png" path="/guis/guis_common/"/>
+    <image id="raocs" name="commer_kuang_di.png" path="/guis/guis_common/"/>
+    <image id="raoct" name="commer_shuaguang.png" path="/guis/guis_common/"/>
+    <image id="raocu" name="commer_suoding.png" path="/guis/guis_common/"/>
+    <image id="raocv" name="commer_suoding1.png" path="/guis/guis_common/"/>
+    <image id="raocw" name="commer_suoding2.png" path="/guis/guis_common/"/>
+    <image id="raocx" name="commer_xingxing_bai.png" path="/guis/guis_common/"/>
+    <image id="raocy" name="commer_xingxing_jing.png" path="/guis/guis_common/"/>
+    <image id="raocz" name="commer_xingxing_lan.png" path="/guis/guis_common/"/>
+    <image id="raoc10" name="commer_xingxing_zi.png" path="/guis/guis_common/"/>
+    <image id="raoc11" name="commer_zhizhang.png" path="/guis/guis_common/"/>
+    <image id="raoc12" name="common+.png" path="/guis/guis_common/"/>
+    <image id="raoc13" name="common_anniu_hong1.png" path="/guis/guis_common/"/>
+    <image id="raoc14" name="common_anniu_hong2.png" path="/guis/guis_common/"/>
+    <image id="raoc15" name="common_anniu_huang1.png" path="/guis/guis_common/"/>
+    <image id="raoc16" name="common_anniu_huang2.png" path="/guis/guis_common/"/>
+    <image id="raoc17" name="common_anniu_lv1.png" path="/guis/guis_common/"/>
+    <image id="raoc18" name="common_anniu_lv2.png" path="/guis/guis_common/"/>
+    <image id="raoc19" name="common_anniu_qianlan.png" path="/guis/guis_common/"/>
+    <image id="raoc1a" name="common_anniu_qianzi.png" path="/guis/guis_common/"/>
+    <image id="raoc1b" name="common_anniu_weixuanzhong.png" path="/guis/guis_common/"/>
+    <image id="raoc1c" name="common_anwen.png" path="/guis/guis_common/"/>
+    <image id="raoc1d" name="common_diban3.png" path="/guis/guis_common/"/>
+    <image id="raoc1e" name="common_diyu_juxing10.png" path="/guis/guis_common/"/>
+    <image id="raoc1f" name="common_diyu_juxing11.png" path="/guis/guis_common/"/>
+    <image id="raoc1g" name="common_diyu_juxing12.png" path="/guis/guis_common/"/>
+    <image id="raoc1h" name="common_diyu_juxing13.png" path="/guis/guis_common/"/>
+    <image id="raoc1i" name="common_diyu_juxing14.png" path="/guis/guis_common/"/>
+    <image id="raoc1j" name="common_diyu_juxing15.png" path="/guis/guis_common/"/>
+    <image id="raoc1k" name="common_diyu_juxing16.png" path="/guis/guis_common/"/>
+    <image id="raoc1l" name="common_diyu_juxing17.png" path="/guis/guis_common/"/>
+    <image id="raoc1m" name="common_diyu_juxing2.png" path="/guis/guis_common/" scale="9grid" scale9grid="14,14,28,28"/>
+    <image id="raoc1n" name="common_diyu_juxing3.png" path="/guis/guis_common/"/>
+    <image id="raoc1o" name="common_diyu_juxing4.png" path="/guis/guis_common/"/>
+    <image id="raoc1p" name="common_diyu_juxing6.png" path="/guis/guis_common/" scale="9grid" scale9grid="15,15,30,30"/>
+    <image id="raoc1q" name="common_diyu_juxing8.png" path="/guis/guis_common/"/>
+    <image id="raoc1r" name="common_diyu_juxing9.png" path="/guis/guis_common/"/>
+    <image id="raoc1s" name="common_diyu_xuxian.png" path="/guis/guis_common/"/>
+    <image id="raoc1t" name="common_duihuakuang.png" path="/guis/guis_common/"/>
+    <image id="raoc1u" name="common_jianbian.png" path="/guis/guis_common/"/>
+    <image id="raoc1v" name="common_juxing_qiejiao.png" path="/guis/guis_common/"/>
+    <image id="raoc1w" name="common_juxing_waikuang.png" path="/guis/guis_common/"/>
+    <image id="raoc1x" name="common_loading_chen.png" path="/guis/guis_common/"/>
+    <image id="raoc1y" name="common_loading_chen_toubu.png" path="/guis/guis_common/"/>
+    <image id="raoc1z" name="common_loading_dise.png" path="/guis/guis_common/"/>
+    <image id="raoc20" name="common_loading_zi.png" path="/guis/guis_common/"/>
+    <image id="raoc21" name="common_neiyinying.png" path="/guis/guis_common/"/>
+    <image id="raoc22" name="common_next.png" path="/guis/guis_common/"/>
+    <image id="raoc23" name="common_next_hui.png" path="/guis/guis_common/"/>
+    <image id="raoc24" name="common_tishi_dian.png" path="/guis/guis_common/"/>
+    <image id="raoc25" name="common_toggle_k.png" path="/guis/guis_common/"/>
+    <image id="raoc26" name="common_touxiangkuang.png" path="/guis/guis_common/"/>
+    <image id="raoc27" name="common_tuoyuan_128.png" path="/guis/guis_common/"/>
+    <image id="raoc28" name="common_tuoyuan_128quan.png" path="/guis/guis_common/"/>
+    <image id="raoc29" name="common_tuoyuan_32.png" path="/guis/guis_common/"/>
+    <image id="raoc2a" name="common_tuoyuan_64.png" path="/guis/guis_common/"/>
+    <image id="raoc2b" name="common_tuoyuan_8.png" path="/guis/guis_common/"/>
+    <image id="raoc2c" name="common_xiangqing.png" path="/guis/guis_common/"/>
+    <image id="raoc2d" name="common_xiangsudian.png" path="/guis/guis_common/"/>
+    <image id="raoc2e" name="common_xiangsudian_touming.png" path="/guis/guis_common/"/>
+    <image id="raoc2f" name="common_xiangsudian_touying.png" path="/guis/guis_common/"/>
+    <image id="raoc2g" name="common_xiangsu_miaobian.png" path="/guis/guis_common/"/>
+    <image id="raoc2h" name="common_xiebian.png" path="/guis/guis_common/"/>
+    <image id="raoc2i" name="common_xuhua.png" path="/guis/guis_common/"/>
+    <image id="raoc2j" name="common_xuhua_2.png" path="/guis/guis_common/"/>
+    <image id="raoc2k" name="common_yeqian_weixuanzhong.png" path="/guis/guis_common/"/>
+    <image id="raoc2l" name="common_yeqian_xuanzhong.png" path="/guis/guis_common/"/>
+    <image id="raoc2m" name="cxsy_suo.png" path="/guis/guis_common/"/>
+    <image id="raoc2n" name="dingbuxiaoxikuang.png" path="/guis/guis_common/"/>
+    <image id="raoc2o" name="duihua_jiantou.png" path="/guis/guis_common/"/>
+    <image id="raoc2p" name="fanhui_anniu.png" path="/guis/guis_common/"/>
+    <image id="raoc2q" name="fengexian_heibai.png" path="/guis/guis_common/"/>
+    <image id="raoc2r" name="guangbi_anniu.png" path="/guis/guis_common/"/>
+    <image id="raoc2s" name="gz_guangquan.png" path="/guis/guis_common/"/>
+    <image id="raoc2t" name="hetongshu.png" path="/guis/guis_common/"/>
+    <image id="raoc2u" name="jiesuan_beiguang.png" path="/guis/guis_common/"/>
+    <image id="raoc2v" name="jingtoumohu_da.png" path="/guis/guis_common/"/>
+    <image id="raoc2w" name="jq_gou.png" path="/guis/guis_common/"/>
+    <image id="raoc2x" name="juxing_neiyinying.png" path="/guis/guis_common/"/>
+    <image id="raoc2y" name="jy_zixian.png" path="/guis/guis_common/"/>
+    <image id="raoc2z" name="light.png" path="/guis/guis_common/"/>
+    <image id="raoc30" name="new.png" path="/guis/guis_common/"/>
+    <image id="raoc31" name="new2.png" path="/guis/guis_common/"/>
+    <image id="raoc32" name="sanjiaoxing_baidi.png" path="/guis/guis_common/"/>
+    <image id="raoc33" name="shengji_jiantou.png" path="/guis/guis_common/"/>
+    <image id="raoc34" name="tiaowen_xiangsu.png" path="/guis/guis_common/"/>
+    <image id="raoc35" name="tuoyuan_64_neifaguang.png" path="/guis/guis_common/"/>
+    <image id="raoc36" name="ty_wenli.png" path="/guis/guis_common/"/>
+    <image id="raoc37" name="wt_baoxiang_kaiqi.png" path="/guis/guis_common/"/>
+    <image id="raoc38" name="wt_baoxiang_kaiqizhong.png" path="/guis/guis_common/"/>
+    <image id="raoc39" name="wt_baoxiang_kelingqu.png" path="/guis/guis_common/"/>
+    <image id="raoc3a" name="wt_baoxiang_yiban.png" path="/guis/guis_common/"/>
+    <image id="raoc3b" name="wt_baoxiang_zhihui.png" path="/guis/guis_common/"/>
+    <image id="raoc3c" name="wt_duihuakuang.png" path="/guis/guis_common/"/>
+    <image id="raoc3d" name="wuse_hengfu.png" path="/guis/guis_common/"/>
+    <image id="raoc3e" name="wy_jieduan.png" path="/guis/guis_common/"/>
+    <image id="raoc3f" name="yr_shaizi.png" path="/guis/guis_common/"/>
+    <image id="raoc3g" name="yr_zhaomu_zhuotai.png" path="/guis/guis_common/"/>
+    <image id="raoc3h" name="zhuanniudiban.png" path="/guis/guis_common/"/>
+    <image id="raoc3i" name="zhuanniudiban2.png" path="/guis/guis_common/"/>
+    <image id="raoc3j" name="ziyuan_diban.png" path="/guis/guis_common/"/>
+    <image id="raoc3k" name="ziyuan_diban02.png" path="/guis/guis_common/"/>
+    <image id="raoc3l" name="zy_anniu_dizhuo_shang.png" path="/guis/guis_common/"/>
+    <image id="raoc3m" name="zy_ziyuandiban.png" path="/guis/guis_common/"/>
+    <component id="raoc3n" name="RedButton.xml" path="/Button/" exported="true"/>
+    <component id="raoc3o" name="HelpButton.xml" path="/Button/" exported="true"/>
+    <component id="raoc3p" name="TextInput.xml" path="/Input/" exported="true"/>
+    <component id="raoc3q" name="KeyValueInput.xml" path="/Input/" exported="true"/>
+    <component id="o24g3r" name="RightArrow.xml" path="/" exported="true"/>
+    <component id="sfsc3u" name="ComButtonNormal.xml" path="/"/>
+    <component id="sfsc3v" name="ComButtonCheck.xml" path="/"/>
+    <component id="sfsc3w" name="ComButtonRadio.xml" path="/"/>
+    <component id="sfsc3x" name="ComLabel.xml" path="/"/>
+    <component id="sfsc3y" name="ComComboBox_item.xml" path="/"/>
+    <component id="sfsc3z" name="ComComboBox_popup.xml" path="/"/>
+    <component id="sfsc40" name="ComComboBox.xml" path="/" exported="true"/>
+    <component id="sfsc41" name="ComScrollBar_arrow1.xml" path="/"/>
+    <component id="sfsc42" name="ComScrollBar_arrow2.xml" path="/"/>
+    <component id="sfsc43" name="ComScrollBar_grip.xml" path="/"/>
+    <component id="sfsc44" name="ComScrollBar.xml" path="/" exported="true"/>
+    <component id="sfsc45" name="ComProgressBar.xml" path="/"/>
+    <component id="sfsc46" name="Slider1_grip.xml" path="/"/>
+    <component id="sfsc47" name="Slider1.xml" path="/"/>
+    <component id="sfsc48" name="PopupMenu1_item.xml" path="/"/>
+    <component id="sfsc49" name="PopupMenu1.xml" path="/" exported="true"/>
+    <movieclip id="sfsc4a" name="ComMovieClip1.jta" path="/"/>
+    <font id="sfsc4b" name="Font1.fnt" path="/" exported="true"/>
+  </resources>
+  <publish name="UIDefaultSkin" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,200" extention="ScrollBar">
+  <ScrollBar/>
+  <displayList>
+    <image id="n1" src="raoc1p" name="n1" xy="0,0" size="57,200">
+      <relation target="" sidePair="height"/>
+    </image>
+    <graph id="n2" name="bar" xy="0,20" size="57,160">
+      <relation target="" sidePair="height"/>
+    </graph>
+    <component id="n3" name="arrow1" xy="0,0" src="sfsc41"/>
+    <component id="n4" name="arrow2" xy="0,180" src="sfsc42">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n5" name="grip" xy="0,20" src="sfsc43"/>
+  </displayList>
+</component>

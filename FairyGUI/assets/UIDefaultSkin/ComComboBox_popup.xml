@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200">
+  <displayList>
+    <image id="n1" name="n1" src="raocp" fileName="guis/guis_common/commer_duihuakuang.png" xy="0,0" size="150,200">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n2" name="list" xy="0,0" size="150,200" overflow="scroll" defaultItem="ui://snq31xvrsfsc3y">
+      <relation target="" sidePair="width-width"/>
+      <item title="aaa"/>
+      <item title="bbb"/>
+      <item title="cccc"/>
+    </list>
+  </displayList>
+  <relation target="n2" sidePair="height-height"/>
+</component>

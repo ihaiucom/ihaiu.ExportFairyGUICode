@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="93,62" extention="Button">
+  <Button mode="Check"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="raoc37" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2" src="raoc38" name="n2" xy="-14,-21">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3" src="raoc39" name="n3" xy="-13,-20">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n4" src="raoc3a" name="n4" xy="15,-4">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text id="n5" name="title" xy="0,0" size="93,62" fontSize="12" autoSize="none" align="center" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+    <loader id="n6" name="icon" xy="0,0" size="93,62" align="center" vAlign="middle">
+      <relation target="" sidePair="width,height"/>
+    </loader>
+  </displayList>
+</component>

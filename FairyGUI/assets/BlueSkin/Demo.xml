@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="766,662" bgColorEnabled="true" bgColor="#cccccc">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_wf5i" name="n0" src="raoc18" xy="25,10" size="90,30">
+      <Button title="Demo Button"/>
+    </component>
+    <component id="n1_wf5i" name="n1" src="raoc1a" xy="38,74" size="95,19">
+      <Button checked="true" title="Checkbox 1"/>
+    </component>
+    <component id="n2_wf5i" name="n2" src="raoc1b" xy="155,74" size="108,19">
+      <Button checked="true" title="RadioButton 1"/>
+    </component>
+    <component id="n3_wf5i" name="n3" src="raoc1c" xy="23,170">
+      <Label title="Demo Text"/>
+    </component>
+    <component id="n5_wf5i" name="n5" src="raoc1d" xy="23,221">
+      <Label title="Demo Text"/>
+    </component>
+    <component id="n6_wf5i" name="n6" src="raoc1e" xy="21,368" size="166,24">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n7_wf5i" name="n7" src="raoc1g" xy="54,434" size="24,105">
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n8_wf5i" name="n8" src="raocr" xy="351,172" size="208,251" group="n10_wf5i"/>
+    <list id="n9_wf5i" name="n9" xy="353,174" size="204,247" group="n10_wf5i" overflow="scroll" defaultItem="ui://stv9j6m6raoc0">
+      <item title="ListItem 1"/>
+      <item title="ListItem 2"/>
+      <item title="ListItem 3"/>
+      <item title="ListItem 4"/>
+    </list>
+    <group id="n10_wf5i" name="n10" xy="351,172" size="208,251"/>
+    <component id="n12_wf5i" name="n12" src="raoc1h" xy="22,323" size="175,20">
+      <ProgressBar value="49" max="100"/>
+    </component>
+    <component id="n13_wf5i" name="n13" src="raoc1i" xy="31,118">
+      <ComboBox title="ComboBox" visibleItemCount="10">
+        <item title="1"/>
+        <item title="2"/>
+        <item title="3"/>
+      </ComboBox>
+    </component>
+    <component id="n19_wf5i" name="frame" src="raoc1j" xy="352,454" size="196,178" controller="hasClose,1"/>
+    <component id="n20_wf5i" name="n20" src="raoc1f" xy="255,10" size="52,50">
+      <Button icon="ui://stv9j6m6raoc17"/>
+    </component>
+    <component id="n21_wf5i" name="n21" src="raoc1k" xy="131,9" size="104,30">
+      <Button title="Icon Button" icon="ui://stv9j6m6raoc16"/>
+    </component>
+    <component id="n14_wf5i" name="n14" src="raoc1l" xy="358,17" group="n17_wf5i">
+      <Button checked="true" title="Tab 1" controller="c1" page="0"/>
+    </component>
+    <component id="n15_wf5i" name="n15" src="raoc1l" xy="411,17" group="n17_wf5i">
+      <Button title="Tab 2" controller="c1" page="1"/>
+    </component>
+    <component id="n16_wf5i" name="n16" src="raoc1l" xy="464,17" group="n17_wf5i">
+      <Button title="Tab 3" controller="c1" page="2"/>
+    </component>
+    <group id="n17_wf5i" name="n17" xy="358,17" size="158,32" group="n22_wf5i" advanced="true" layout="hz" colGap="1"/>
+    <graph id="n18_wf5i" name="n18" xy="355,47" size="259,100" group="n22_wf5i" type="rect" lineSize="0" fillColor="#ffdedcdc"/>
+    <group id="n22_wf5i" name="n22" xy="355,17" size="259,130"/>
+  </displayList>
+</component>

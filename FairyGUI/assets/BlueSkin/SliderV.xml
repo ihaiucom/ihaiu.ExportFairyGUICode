@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="24,102" extention="Slider">
+  <displayList>
+    <image id="n1" name="n1" src="raocp" xy="6,0" size="14,104">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n2" name="bar_v" src="raocq" xy="7,15" size="10,86"/>
+    <component id="n3" name="grip" src="raoc1f" xy="0,-1" size="24,20">
+      <relation target="n2" sidePair="bottom-top"/>
+      <Button icon="ui://stv9j6m6raocm"/>
+    </component>
+  </displayList>
+  <Slider reverse="true"/>
+  <relation target="n1" sidePair="width-width"/>
+</component>

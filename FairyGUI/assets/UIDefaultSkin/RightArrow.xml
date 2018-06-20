@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,112" initName="rightArrow">
+  <displayList>
+    <image id="n19_o24g" name="pic" src="raocq" fileName="guis/guis_common/commer_jiantou.png" xy="30,0"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n19_o24g" tween="true" startValue="30,0" endValue="0,0" duration="12"/>
+    <item time="12" type="XY" target="n19_o24g" tween="true" startValue="0,0" endValue="30,0" duration="12"/>
+    <item time="24" type="XY" target="n19_o24g" tween="true" startValue="30,0"/>
+  </transition>
+</component>

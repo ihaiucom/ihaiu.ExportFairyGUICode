@@ -1,0 +1,6 @@
+{
+  "autoEnd": true,
+  "optionSetting": "./optionSetting.json",
+  "fairyProject": "../FairyGUI",
+  "outDir": "../FairyGUICode/TS"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="stv9j6m6" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="raoc0" name="ListItem.xml" path="/components/"/>
+    <image id="raoc1" name="listitem-selected.png" path="/images/" exported="true" scale="9grid" scale9grid="6,3,33,15"/>
+    <image id="raoc2" name="listitem-over.png" path="/images/" exported="true" scale="9grid" scale9grid="8,4,31,14"/>
+    <component id="raoc3" name="ScrollBar_arrow.xml" path="/components/"/>
+    <image id="raoc4" name="scrollbar-button.png" path="/images/" exported="true" scale="9grid" scale9grid="6,4,37,7"/>
+    <image id="raoc5" name="scrollbar-button-over.png" path="/images/" exported="true" scale="9grid" scale9grid="5,4,34,7"/>
+    <component id="raoc6" name="ScrollBar_grip.xml" path="/components/"/>
+    <component id="raoc7" name="ComboBox_popup.xml" path="/components/"/>
+    <image id="raoc8" name="popup-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="10,14,75,74"/>
+    <component id="raoc9" name="WindowCloseButton.xml" path="/components/"/>
+    <image id="raoca" name="cross_light_small.png" path="/images/" exported="true"/>
+    <image id="raocb" name="button-down.png" path="/images/" exported="true" scale="9grid" scale9grid="10,7,32,8"/>
+    <image id="raocc" name="button-normal.png" path="/images/" exported="true" scale="9grid" scale9grid="14,7,28,13"/>
+    <image id="raocd" name="button-over.png" path="/images/" exported="true" scale="9grid" scale9grid="11,7,31,11"/>
+    <image id="raoce" name="checkbox.png" path="/images/" exported="true"/>
+    <image id="raocf" name="cross_dark.png" path="/images/" exported="true"/>
+    <image id="raocg" name="checkbox-disabled.png" path="/images/" exported="true"/>
+    <image id="raoch" name="cross_dark_disabled.png" path="/images/" exported="true"/>
+    <image id="raoci" name="button-disabled.png" path="/images/" exported="true" scale="9grid" scale9grid="10,7,32,11"/>
+    <image id="raocj" name="circle_dark.png" path="/images/" exported="true"/>
+    <image id="raock" name="TextInput.png" path="/images/" exported="true" scale="9grid" scale9grid="6,6,86,18"/>
+    <image id="raocl" name="gripper_horizontal.png" path="/images/" exported="true"/>
+    <image id="raocm" name="gripper_vertical.png" path="/images/" exported="true"/>
+    <image id="raocn" name="hslider-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="14,4,64,4"/>
+    <image id="raoco" name="hslider-value.png" path="/images/" exported="true" scale="9grid" scale9grid="13,3,26,4"/>
+    <image id="raocp" name="vslider-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="4,6,4,90"/>
+    <image id="raocq" name="vslider-value.png" path="/images/" exported="true" scale="9grid" scale9grid="3,6,3,36"/>
+    <image id="raocr" name="list-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="raocs" name="hpogress-value.png" path="/images/" exported="true" scale="9grid" scale9grid="13,3,28,3"/>
+    <image id="raoct" name="hprogress-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="26,3,52,4"/>
+    <image id="raocu" name="scrollbar-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="4,2,40,10"/>
+    <image id="raocv" name="arrow_right.png" path="/images/" exported="true"/>
+    <image id="raocw" name="arrow_up.png" path="/images/" exported="true"/>
+    <image id="raocx" name="arrow_down.png" path="/images/" exported="true"/>
+    <image id="raocy" name="arrow_left.png" path="/images/" exported="true"/>
+    <image id="raocz" name="tab-button-normal.png" path="/images/" exported="true"/>
+    <image id="raoc10" name="tab-button-over.png" path="/images/" exported="true"/>
+    <image id="raoc11" name="tab-button-selected.png" path="/images/" exported="true"/>
+    <image id="raoc12" name="window-bg.png" path="/images/" exported="true" scale="9grid" scale9grid="13,13,78,76"/>
+    <image id="raoc13" name="window-titlebar.png" path="/images/" exported="true" scale="9grid" scale9grid="8,8,64,16"/>
+    <image id="raoc14" name="blue-document-css.png" path="/images/" exported="true"/>
+    <image id="raoc15" name="blue-document-xml.png" path="/images/" exported="true"/>
+    <image id="raoc16" name="fav_16.png" path="/images/" exported="true"/>
+    <image id="raoc17" name="information.png" path="/images/" exported="true"/>
+    <component id="raoc18" name="Button.xml" path="/" exported="true"/>
+    <component id="raoc19" name="Demo.xml" path="/"/>
+    <component id="raoc1a" name="Checkbox.xml" path="/" exported="true"/>
+    <component id="raoc1b" name="RadioButton.xml" path="/" exported="true"/>
+    <component id="raoc1c" name="InputTextField.xml" path="/" exported="true"/>
+    <component id="raoc1d" name="InputTextArea.xml" path="/" exported="true"/>
+    <component id="raoc1e" name="SliderH.xml" path="/" exported="true"/>
+    <component id="raoc1f" name="Button_icon.xml" path="/" exported="true"/>
+    <component id="raoc1g" name="SliderV.xml" path="/" exported="true"/>
+    <component id="raoc1h" name="ProgressBar.xml" path="/" exported="true"/>
+    <component id="raoc1i" name="ComboBox.xml" path="/" exported="true"/>
+    <component id="raoc1j" name="WindowFrame.xml" path="/" exported="true"/>
+    <component id="raoc1k" name="Button_icon_text.xml" path="/" exported="true"/>
+    <component id="raoc1l" name="TabButton.xml" path="/" exported="true"/>
+    <component id="raoc1m" name="ScrollBarH.xml" path="/" exported="true"/>
+    <component id="raoc1n" name="ScrollBarV.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="BlueSkin" genCode="true"/>
+</packageDescription>

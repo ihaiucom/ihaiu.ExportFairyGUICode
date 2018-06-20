@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,100">
+  <displayList>
+    <image id="n1" name="n1" src="raoc1o" fileName="guis/guis_common/common_diyu_juxing4.png" xy="0,0" size="65,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n2" name="list" xy="0,0" size="65,100" defaultItem="ui://snq31xvrsfsc48">
+      <relation target="" sidePair="width-width"/>
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+    </list>
+  </displayList>
+  <relation target="n2" sidePair="height-height"/>
+</component>

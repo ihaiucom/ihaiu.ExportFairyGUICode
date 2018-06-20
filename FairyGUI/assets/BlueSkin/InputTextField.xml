@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,30" extention="Label">
+  <displayList>
+    <image id="n0_wf5i" name="n0" src="raock" xy="0,0" size="150,30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_wf5i" name="title" xy="2,2" size="146,26" input="true" fontSize="13" vAlign="middle" leading="4" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

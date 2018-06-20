@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n0_raoc" name="windowBg" src="raoc5" fileName="guis/guis_login/denglu_beijing.png" xy="-15,-27"/>
+    <component id="n3_raoc" name="helpButton" src="raoc3o" fileName="Button/HelpButton.xml" xy="617,18">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <image id="n2_raoc" name="formBg" src="raocp" fileName="guis/guis_common/commer_duihuakuang.png" xy="146,792" size="432,368" group="n18_o24g"/>
+    <component id="n1_raoc" name="enterButton" src="raoc3n" fileName="Button/RedButton.xml" xy="281,1056" size="187,69" group="n18_o24g">
+      <Button title="Enter"/>
+    </component>
+    <component id="n9_raoc" name="usernameInput" src="raoc3p" fileName="Input/TextInput.xml" xy="302,866" size="214,40" group="n11_raoc">
+      <relation target="" sidePair="rightext-right,middle-middle"/>
+      <Label title="Input User Name"/>
+    </component>
+    <text id="n10_raoc" name="usernameKey" xy="208,875" size="85,27" group="n11_raoc" fontSize="20" text="用户名：">
+      <relation target="" sidePair="rightext-left,middle-middle"/>
+    </text>
+    <group id="n11_raoc" name="usernameGroup" xy="208,866" size="308,40" group="n18_o24g" advanced="true"/>
+    <component id="n12_raoc" name="passwordInput" src="raoc3p" fileName="Input/TextInput.xml" xy="302,951" size="214,40" group="n14_raoc">
+      <relation target="" sidePair="right-center,middle-middle"/>
+      <Label password="true"/>
+    </component>
+    <text id="n13_raoc" name="passwordKey" xy="208,960" size="65,27" group="n14_raoc" fontSize="20" text="密码：">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+    <group id="n14_raoc" name="passwordGroup" xy="208,951" size="308,40" group="n18_o24g" advanced="true"/>
+    <component id="n17_o24g" name="checkbox" src="p7th8" fileName="Checkbox/Checkbox.xml" pkg="s1yj9w6m" xy="312,1024" size="70,19" group="n18_o24g">
+      <Button title="记住密码"/>
+    </component>
+    <group id="n18_o24g" name="loginForm" xy="146,792" size="432,368"/>
+    <component id="n21_o24g" name="rightArrow" src="o24g3r" fileName="RightArrow.xml" xy="427,9" touchable="false"/>
+    <component id="n22_sfsc" name="n22" src="sfsc40" fileName="ComComboBox.xml" xy="172,275">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <movieclip id="n23_sfsc" name="n23" src="sfsc4a" fileName="ComMovieClip1.jta" xy="-25,-44"/>
+    <component id="n24_sfsc" name="n24" src="sfsc3v" fileName="ComButtonCheck.xml" xy="99,473"/>
+    <component id="n25_sfsc" name="n25" src="sfsc3u" fileName="ComButtonNormal.xml" xy="289,446"/>
+    <component id="n26_sfsc" name="n26" src="sfsc3w" fileName="ComButtonRadio.xml" xy="543,489"/>
+    <component id="n27_sfsc" name="n27" src="sfsc3x" fileName="ComLabel.xml" xy="140,594"/>
+    <component id="n28_sfsc" name="n28" src="sfsc45" fileName="ComProgressBar.xml" xy="49,386">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n29_sfsc" name="n29" src="sfsc44" fileName="ComScrollBar.xml" xy="496,315"/>
+    <component id="n30_sfsc" name="n30" src="sfsc49" fileName="PopupMenu1.xml" xy="637,250"/>
+    <component id="n31_sfsc" name="n31" src="sfsc47" fileName="Slider1.xml" xy="88,322">
+      <Slider value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

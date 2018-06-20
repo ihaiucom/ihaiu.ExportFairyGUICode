@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" extention="Label" initName="frame">
+  <controller name="hasClose" exported="true" pages="0,no,1,yes" selected="1"/>
+  <displayList>
+    <image id="n0_wf5i" name="n0" src="raoc12" xy="0,0" size="305,306">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_wf5i" name="n1" src="raoc13" xy="2,2" size="295,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <graph id="n2_wf5i" name="contentArea" xy="0,33" size="300,267">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4_wf5i" name="dragArea" xy="0,0" size="300,32">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n5_wf5i" name="n5" src="raoc9" xy="275,10">
+      <gearDisplay controller="hasClose" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n6_wf5i" name="title" xy="4,3" size="290,28" fontSize="13" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Title">
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+</component>

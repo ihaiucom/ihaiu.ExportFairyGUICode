@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,30" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="raocc" xy="0,0" size="123,32">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n5_wf5i" name="n5" src="raoci" xy="0,0" size="123,32">
+      <gearDisplay controller="button" pages="4,5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="raocb" xy="0,0" size="123,32">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="raocd" xy="0,0" size="123,32">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4" name="title" xy="5,0" size="92,30" fontSize="13" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearColor controller="button" pages="4,5" values="#cccccc,#000000|#cccccc,#000000" default="#ffffff,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n6_wf5i" name="n6" src="raocx" xy="107,13"/>
+  </displayList>
+  <ComboBox dropdown="ui://stv9j6m6raoc7"/>
+  <relation target="n1" sidePair="height-height"/>
+</component>

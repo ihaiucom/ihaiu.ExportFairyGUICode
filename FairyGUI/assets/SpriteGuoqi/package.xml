@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sxwxu38j" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="raoc0" name="australia.png" path="/" exported="true"/>
+    <image id="raoc1" name="canada.png" path="/" exported="true"/>
+    <image id="raoc2" name="china.png" path="/" exported="true"/>
+    <image id="raoc3" name="dongnanya.png" path="/" exported="true"/>
+    <image id="raoc4" name="europe and america.png" path="/" exported="true"/>
+    <image id="raoc5" name="european union.png" path="/" exported="true"/>
+    <image id="raoc6" name="hong kong.png" path="/" exported="true"/>
+    <image id="raoc7" name="japan.png" path="/" exported="true"/>
+    <image id="raoc8" name="linshi_oumei.png" path="/" exported="true"/>
+    <image id="raoc9" name="linshi_rihan.png" path="/" exported="true"/>
+    <image id="raoca" name="linshi_zhongguo.png" path="/" exported="true"/>
+    <image id="raocb" name="qizhi_beimei.png" path="/" exported="true"/>
+    <image id="raocc" name="qizhi_beiou.png" path="/" exported="true"/>
+    <image id="raocd" name="qizhi_china.png" path="/" exported="true"/>
+    <image id="raoce" name="qizhi_dayangzhou.png" path="/" exported="true"/>
+    <image id="raocf" name="qizhi_dongnanya.png" path="/" exported="true"/>
+    <image id="raocg" name="qizhi_dongou.png" path="/" exported="true"/>
+    <image id="raoch" name="qizhi_feizhou.png" path="/" exported="true"/>
+    <image id="raoci" name="qizhi_nanmei.png" path="/" exported="true"/>
+    <image id="raocj" name="qizhi_rihan.png" path="/" exported="true"/>
+    <image id="raock" name="qizhi_xiou.png" path="/" exported="true"/>
+    <image id="raocl" name="qizhi_zhongdong.png" path="/" exported="true"/>
+    <image id="raocm" name="rihan.png" path="/" exported="true"/>
+    <image id="raocn" name="south korea.png" path="/" exported="true"/>
+    <image id="raoco" name="united kingdom.png" path="/" exported="true"/>
+    <image id="raocp" name="united states.png" path="/" exported="true"/>
+  </resources>
+  <publish name="SpriteGuoqi" genCode="true"/>
+</packageDescription>

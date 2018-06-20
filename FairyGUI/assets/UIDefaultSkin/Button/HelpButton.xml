@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button" initName="helpButton">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="icon" src="raocm" fileName="guis/guis_common/bangzhu_button.png" xy="0,0" pivot="0.5,0.5" scale="0.8,0.8">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearSize controller="button" pages="1,2,3" values="80,80,1,1|80,80,0.8,0.8|80,80,0.8,0.8" default="80,80,0.8,0.8"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>
