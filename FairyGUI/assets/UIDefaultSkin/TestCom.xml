@@ -31,5 +31,6 @@
     <component id="n21_oett" name="n21" src="p7th6" fileName="Button/AutoSizeButton.xml" pkg="s1yj9w6m" xy="167,490"/>
     <component id="n22_oett" name="n22" src="p7th8" fileName="Checkbox/Checkbox.xml" pkg="s1yj9w6m" xy="180,537"/>
     <component id="n23_oett" name="n23" src="p7th36" fileName="Tab/TabButton.xml" pkg="s1yj9w6m" xy="178,579"/>
+    <component id="n24_oett" name="helpButton" src="raoc3o" fileName="Button/HelpButton.xml" xy="196,309"/>
   </displayList>
 </component>

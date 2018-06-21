@@ -28,6 +28,7 @@ module fgui.UIDefaultSkin {
 		public n21:fairygui.GButton;
 		public n22:fairygui.GButton;
 		public n23:fairygui.GButton;
+		public helpButton:HelpButton;
 
 		public static URL:string = "ui://snq31xvroett4f";
 
@@ -66,6 +67,7 @@ module fgui.UIDefaultSkin {
 			this.n21 = <fairygui.GButton><any>(this.getChild("n21"));
 			this.n22 = <fairygui.GButton><any>(this.getChild("n22"));
 			this.n23 = <fairygui.GButton><any>(this.getChild("n23"));
+			this.helpButton = <HelpButton><any>(this.getChild("helpButton"));
 		}
 	}
 }

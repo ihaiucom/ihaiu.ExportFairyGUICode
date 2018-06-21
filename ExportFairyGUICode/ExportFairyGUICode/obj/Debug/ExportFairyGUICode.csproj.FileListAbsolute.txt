@@ -10,3 +10,5 @@ E:\zengfeng\github\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.pdb
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csproj.CopyComplete
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.dll
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.pdb
+E:\zengfeng\github\ihaiu.ExportFairyGUICode\Bin\NLog.config
+E:\zengfeng\github\ihaiu.ExportFairyGUICode\Bin\NLog.xsd

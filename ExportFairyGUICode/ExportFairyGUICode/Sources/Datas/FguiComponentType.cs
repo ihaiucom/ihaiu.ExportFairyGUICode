@@ -54,6 +54,33 @@ public static class fairygui
         // 组件
         public const string Component = "Component";
 
+        public static string GetExtendClass(string name)
+        {
+            string cls = CommonName.GComponent;
+            switch(name)
+            {
+                case Button:
+                    cls = CommonName.GButton;
+                    break;
+                case ComboBox:
+                    cls = CommonName.GComboBox;
+                    break;
+                case Label:
+                    cls = CommonName.GLabel;
+                    break;
+                case ProgressBar:
+                    cls = CommonName.GProgressBar;
+                    break;
+                case ScrollBar:
+                    cls = CommonName.GScrollBar;
+                    break;
+                case Slider:
+                    cls = CommonName.GSlider;
+                    break;
+            }
+            return cls;
+        }
+
     }
 
 

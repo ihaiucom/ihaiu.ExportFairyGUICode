@@ -107,16 +107,21 @@ public class ComponentReader
 
                             // 自定义组件
                             case fairygui.NodeName.component:
-
-                                ResourceComponent com = null;
-                                resourceComponent.displayList.Add(new ComponentNode() { name = nodeName, type = fairygui.CommonName.GComponent, resourceComponent = com });
+                                string pkg = null;
+                                if (displayNode.Attributes["pkg"] != null)
+                                {
+                                    pkg = displayNode.Attributes.GetNamedItem("pkg").InnerText;
+                                }
+                                resourceComponent.AddNode(new ComponentNode() { name = nodeName, type = fairygui.CommonName.GComponent,
+                                    pkg = pkg,
+                                    src = displayNode.Attributes.GetNamedItem("src").InnerText
+                                });
                                 break;
 
                         }
                     }
                     break;
             }
-            Console.WriteLine(node.Name);
         }
 
     }

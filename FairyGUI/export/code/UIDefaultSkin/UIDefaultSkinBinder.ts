@@ -9,6 +9,8 @@ module fgui.UIDefaultSkin {
 			fairygui.UIObjectFactory.setPackageItemExtension(TestGroup.URL, TestGroup);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestList.URL, TestList);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestCom.URL, TestCom);
+			fairygui.UIObjectFactory.setPackageItemExtension(CC.URL, CC);
+			fairygui.UIObjectFactory.setPackageItemExtension(CC.URL, CC);
 			fairygui.UIObjectFactory.setPackageItemExtension(LoginPanel.URL, LoginPanel);
 			fairygui.UIObjectFactory.setPackageItemExtension(RedButton.URL, RedButton);
 			fairygui.UIObjectFactory.setPackageItemExtension(HelpButton.URL, HelpButton);

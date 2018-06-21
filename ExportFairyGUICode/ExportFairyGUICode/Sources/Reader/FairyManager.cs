@@ -16,6 +16,42 @@ public class FairyManager
         packages.Enqueue(package.id, package);
     }
 
+    public Package GetPackage(string packageId)
+    {
+        if(packages.ContainsKey(packageId))
+        {
+            return packages[packageId];
+        }
+        return null;
+    }
+
+    public ResourceComponent GetRescoureComponent(string packageId, string resId)
+    {
+        Package package = GetPackage(packageId);
+        if(package != null)
+        {
+            package.GetResource(resId);
+        }
+        return null;
+    }
+
+
+
+    public ResourceComponent GetRescoureComponent(ComponentNode node)
+    {
+        if(string.IsNullOrEmpty(node.pkg) && node.parent != null)
+        {
+            return node.parent.package.GetResource(node.src);
+        }
+
+        Package package = GetPackage(node.pkg);
+        if (package != null)
+        {
+            return package.GetResource(node.src);
+        }
+        return null;
+    }
+
     public void LoadProject(string projectPath)
     {
         string root = projectPath + "/assets";
@@ -32,15 +68,11 @@ public class FairyManager
         }
 
         LoadComponent();
+        SetComponentNode();
     }
 
     private void LoadComponent()
     {
-        foreach (Package package in packageList)
-        {
-            Console.WriteLine($" {package.id} {package.name} {package.rootPath} ");
-        }
-        return;
         foreach (Package package in packageList)
         {
             foreach(ResourceComponent component in package.ComponentList)
@@ -50,4 +82,40 @@ public class FairyManager
             }
         }
     }
+
+    private void SetComponentNode()
+    {
+        foreach (Package package in packageList)
+        {
+            foreach (ResourceComponent component in package.ComponentList)
+            {
+                foreach(ComponentNode node in component.componentList)
+                {
+                    node.resourceComponent = GetRescoureComponent(node);
+                    if (node.resourceComponent == null)
+                    {
+                        Log.Warning($"没有找到 resourceComponent packagename= {node.parent.package.name} comname= {node.parent.name} nodename={node.name}");
+                    }
+                }
+            }
+        }
+    }
+
+    public void ExportTS()
+    {
+        ExportTSComponent();
+    }
+
+    private void ExportTSComponent()
+    {
+        foreach (Package package in packageList)
+        {
+            foreach (ResourceComponent component in package.ComponentList)
+            {
+                TsExportComponent export = new TsExportComponent() { com = component };
+                export.Export();
+            }
+        }
+    }
+
 }

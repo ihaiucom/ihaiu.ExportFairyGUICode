@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lcxzsda7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="oett0" name="Test Class Name1.xml" path="/" exported="true"/>
+    <component id="oett1" name="Test-Class_Name 2.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Test-Pack_name" genCode="true"/>
+</packageDescription>

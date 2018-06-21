@@ -15,6 +15,7 @@ class Program
 
         FairyManager fairyManager = new FairyManager();
         fairyManager.LoadProject(Setting.Options.fairyProject);
+        fairyManager.ExportTS();
 
 
         Console.WriteLine("完成!");

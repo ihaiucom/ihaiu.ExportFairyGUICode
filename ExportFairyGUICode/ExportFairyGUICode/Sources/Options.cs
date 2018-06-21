@@ -18,9 +18,30 @@ public class Options
     [Option("xlsxDir", Required = false, Default = "../FairyGUI")]
     public string fairyProject { get; set; }
 
-    // 配置输出目录
-    [Option("outDir", Required = false, Default = "../FairyGUICode/TS")]
-    public string outDir { get; set; }
+    // 模板目录
+    [Option("templateDir", Required = false, Default = "../../../Template")]
+    public string templateDir { get; set; }
+
+
+    // 代码--代码保存路径
+    [Option("codePath", Required = false, Default = "../FairyGUICode")]
+    public string codePath { get; set; }
+
+    // 代码--命名空间
+    [Option("codeNamespace", Required = false, Default = "fgui")]
+    public string codeNamespace { get; set; }
+
+    // 代码--成员变量名前缀
+    [Option("codeMemberNamePrefix", Required = false, Default = "")]
+    public string codeMemberNamePrefix { get; set; }
+
+    // 代码--忽略自动生成的成员变量名
+    [Option("codeIgnoreNoname", Required = false, Default = false)]
+    public bool codeIgnoreNoname { get; set; }
+
+    // 代码--是否使用其他包的组件类型
+    [Option("codeIgnoreNoname", Required = false, Default = true)]
+    public bool codeUseOtherPkgType{ get; set; }
 
 
 

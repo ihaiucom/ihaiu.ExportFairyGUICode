@@ -39,4 +39,11 @@ public class Package
         }
     }
 
+    public ResourceComponent GetResource(string resId)
+    {
+        if (resources.ContainsKey(resId))
+            return resources[resId];
+        return null;
+    }
+
 }

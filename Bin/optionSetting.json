@@ -2,5 +2,10 @@
   "autoEnd": true,
   "optionSetting": "./optionSetting.json",
   "fairyProject": "../FairyGUI",
-  "outDir": "../FairyGUICode/TS"
+  "templateDir": "../ExportFairyGUICode/ExportFairyGUICode/Template",
+  "codePath": "../FairyGUICode",
+  "codeNamespace": "fgui",
+  "codeMemberNamePrefix": "m_",
+  "codeIgnoreNoname": false,
+  "codeUseOtherPkgType": true
 }

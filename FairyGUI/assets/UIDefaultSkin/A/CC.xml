@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n0_oett" name="img" src="raocm" fileName="guis/guis_common/bangzhu_button.png" xy="150,171"/>
+  </displayList>
+</component>
