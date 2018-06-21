@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" bgColor="#00ff00">
+  <displayList>
+    <text id="n7_oett" name="zuwai_start" xy="64,6" size="57,19" fontSize="12" text="组外 Start"/>
+    <graph id="n0_oett" name="n0" xy="66,45" size="100,100" group="n2_oett" type="rect" fillColor="#ff006600"/>
+    <graph id="n1_oett" name="n1" xy="71,155" size="100,100" group="n2_oett" type="rect" fillColor="#ffcc0000"/>
+    <group id="n2_oett" name="normalGroup" xy="66,45" size="105,210"/>
+    <graph id="n3_oett" name="n3" xy="253,55" size="100,100" group="n5_oett" type="rect" fillColor="#ff006600"/>
+    <graph id="n4_oett" name="n4" xy="258,165" size="100,100" group="n5_oett" type="rect" fillColor="#ffcc0000"/>
+    <text id="n8_oett" name="zuwai_center" xy="176,168" size="66,19" fontSize="12" text="组外 center"/>
+    <group id="n5_oett" name="adGroup" xy="253,55" size="105,210" advanced="true"/>
+    <text id="n6_oett" name="zuwai_end" xy="132,300" size="54,19" fontSize="12" text="组外 End"/>
+    <loader id="n9_oett" name="loader" xy="259,308" size="50,50" url="ui://snq31xvrraocw"/>
+  </displayList>
+</component>

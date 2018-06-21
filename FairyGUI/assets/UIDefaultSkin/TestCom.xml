@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_oett" name="n0" src="sfsc3v" fileName="ComButtonCheck.xml" xy="139,63"/>
+    <component id="n1_oett" name="n1" src="sfsc3u" fileName="ComButtonNormal.xml" xy="180,161"/>
+    <component id="n2_oett" name="n2" src="sfsc3w" fileName="ComButtonRadio.xml" xy="234,282"/>
+    <component id="n3_oett" name="n3" src="sfsc40" fileName="ComComboBox.xml" xy="228,377">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n4_oett" name="n4" src="sfsc3y" fileName="ComComboBox_item.xml" xy="246,504"/>
+    <component id="n5_oett" name="n5" src="sfsc3z" fileName="ComComboBox_popup.xml" xy="253,609"/>
+    <component id="n6_oett" name="n6" src="sfsc3x" fileName="ComLabel.xml" xy="609,52"/>
+    <movieclip id="n7_oett" name="n7" src="sfsc4a" fileName="ComMovieClip1.jta" xy="620,503"/>
+    <component id="n8_oett" name="n8" src="sfsc45" fileName="ComProgressBar.xml" xy="526,675">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n9_oett" name="n9" src="sfsc44" fileName="ComScrollBar.xml" xy="603,539"/>
+    <component id="n10_oett" name="n10" src="sfsc41" fileName="ComScrollBar_arrow1.xml" xy="512,515"/>
+    <component id="n11_oett" name="n11" src="sfsc42" fileName="ComScrollBar_arrow2.xml" xy="443,561"/>
+    <component id="n12_oett" name="n12" src="sfsc43" fileName="ComScrollBar_grip.xml" xy="534,631"/>
+    <component id="n13_oett" name="n13" src="sfsc49" fileName="PopupMenu1.xml" xy="645,327"/>
+    <component id="n14_oett" name="n14" src="sfsc48" fileName="PopupMenu1_item.xml" xy="741,353"/>
+    <component id="n15_oett" name="rightArrow" src="o24g3r" fileName="RightArrow.xml" xy="671,235"/>
+    <component id="n16_oett" name="n16" src="sfsc47" fileName="Slider1.xml" xy="537,223">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n17_oett" name="n17" src="sfsc46" fileName="Slider1_grip.xml" xy="556,343"/>
+    <component id="n18_oett" name="n18" src="oett4d" fileName="TestGroup.xml" xy="470,294"/>
+    <component id="n19_oett" name="n19" src="oett4e" fileName="TestList.xml" xy="453,304"/>
+    <component id="n20_oett" name="n20" src="oett4c" fileName="TestText.xml" xy="371,334"/>
+    <component id="n21_oett" name="n21" src="p7th6" fileName="Button/AutoSizeButton.xml" pkg="s1yj9w6m" xy="167,490"/>
+    <component id="n22_oett" name="n22" src="p7th8" fileName="Checkbox/Checkbox.xml" pkg="s1yj9w6m" xy="180,537"/>
+    <component id="n23_oett" name="n23" src="p7th36" fileName="Tab/TabButton.xml" pkg="s1yj9w6m" xy="178,579"/>
+  </displayList>
+</component>

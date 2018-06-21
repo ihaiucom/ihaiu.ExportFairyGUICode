@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <list id="n0_oett" name="list" xy="83,30" size="200,300" selectionMode="multiple" overflow="scroll"/>
+  </displayList>
+</component>

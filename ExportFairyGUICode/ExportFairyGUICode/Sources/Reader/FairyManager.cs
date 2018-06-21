@@ -36,15 +36,18 @@ public class FairyManager
 
     private void LoadComponent()
     {
-        foreach(Package package in packageList)
+        foreach (Package package in packageList)
+        {
+            Console.WriteLine($" {package.id} {package.name} {package.rootPath} ");
+        }
+        return;
+        foreach (Package package in packageList)
         {
             foreach(ResourceComponent component in package.ComponentList)
             {
                 string path = package.rootPath + component.path + component.name;
                 ComponentReader.Load(path, component);
-                break;
             }
-            break;
         }
     }
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <text id="n0_oett" name="textNormal" xy="58,40" size="53,19" fontSize="12" text="普通文本"/>
+    <text id="n1_oett" name="textInput" xy="59,74" size="53,19" input="true" fontSize="12" text="输入文本"/>
+    <text id="n2_oett" name="textInputPassword" xy="66,118" size="35,19" input="true" password="true" fontSize="12" text="输入文本密码"/>
+    <text id="n3_oett" name="textInput" xy="61,154" size="53,19" input="true" keyboardType="1" fontSize="12" text="输入文本"/>
+    <text id="n4_oett" name="textInputUBB" xy="60,199" size="130,19" input="true" keyboardType="1" fontSize="12" ubb="true" text="输入文本[size=40]Size[/size]"/>
+    <text id="n5_oett" name="textInputSignalLine" xy="67,261" size="53,19" input="true" keyboardType="1" fontSize="12" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="输入文本"/>
+    <richtext id="n6_oett" name="ftxt" xy="257,36" size="41,19" fontSize="12" text="富文本"/>
+    <richtext id="n7_oett" name="ftxtUbb" xy="251,74" size="66,19" fontSize="12" ubb="true" text="富文本UBB"/>
+    <graph id="n8_oett" name="shapeRect" xy="247,160" size="100,100" type="rect"/>
+    <graph id="n9_oett" name="shapeCircle" xy="251,272" size="100,100" type="eclipse"/>
+    <graph id="n10_oett" name="shapeEmpty" xy="129,272" size="100,100"/>
+  </displayList>
+</component>

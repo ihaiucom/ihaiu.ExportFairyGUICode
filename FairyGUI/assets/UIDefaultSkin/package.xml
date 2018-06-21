@@ -137,24 +137,28 @@
     <component id="raoc3p" name="TextInput.xml" path="/Input/" exported="true"/>
     <component id="raoc3q" name="KeyValueInput.xml" path="/Input/" exported="true"/>
     <component id="o24g3r" name="RightArrow.xml" path="/" exported="true"/>
-    <component id="sfsc3u" name="ComButtonNormal.xml" path="/"/>
-    <component id="sfsc3v" name="ComButtonCheck.xml" path="/"/>
-    <component id="sfsc3w" name="ComButtonRadio.xml" path="/"/>
-    <component id="sfsc3x" name="ComLabel.xml" path="/"/>
-    <component id="sfsc3y" name="ComComboBox_item.xml" path="/"/>
-    <component id="sfsc3z" name="ComComboBox_popup.xml" path="/"/>
+    <component id="sfsc3u" name="ComButtonNormal.xml" path="/" exported="true"/>
+    <component id="sfsc3v" name="ComButtonCheck.xml" path="/" exported="true"/>
+    <component id="sfsc3w" name="ComButtonRadio.xml" path="/" exported="true"/>
+    <component id="sfsc3x" name="ComLabel.xml" path="/" exported="true"/>
+    <component id="sfsc3y" name="ComComboBox_item.xml" path="/" exported="true"/>
+    <component id="sfsc3z" name="ComComboBox_popup.xml" path="/" exported="true"/>
     <component id="sfsc40" name="ComComboBox.xml" path="/" exported="true"/>
-    <component id="sfsc41" name="ComScrollBar_arrow1.xml" path="/"/>
-    <component id="sfsc42" name="ComScrollBar_arrow2.xml" path="/"/>
-    <component id="sfsc43" name="ComScrollBar_grip.xml" path="/"/>
+    <component id="sfsc41" name="ComScrollBar_arrow1.xml" path="/" exported="true"/>
+    <component id="sfsc42" name="ComScrollBar_arrow2.xml" path="/" exported="true"/>
+    <component id="sfsc43" name="ComScrollBar_grip.xml" path="/" exported="true"/>
     <component id="sfsc44" name="ComScrollBar.xml" path="/" exported="true"/>
-    <component id="sfsc45" name="ComProgressBar.xml" path="/"/>
-    <component id="sfsc46" name="Slider1_grip.xml" path="/"/>
-    <component id="sfsc47" name="Slider1.xml" path="/"/>
-    <component id="sfsc48" name="PopupMenu1_item.xml" path="/"/>
+    <component id="sfsc45" name="ComProgressBar.xml" path="/" exported="true"/>
+    <component id="sfsc46" name="Slider1_grip.xml" path="/" exported="true"/>
+    <component id="sfsc47" name="Slider1.xml" path="/" exported="true"/>
+    <component id="sfsc48" name="PopupMenu1_item.xml" path="/" exported="true"/>
     <component id="sfsc49" name="PopupMenu1.xml" path="/" exported="true"/>
-    <movieclip id="sfsc4a" name="ComMovieClip1.jta" path="/"/>
+    <movieclip id="sfsc4a" name="ComMovieClip1.jta" path="/" exported="true"/>
     <font id="sfsc4b" name="Font1.fnt" path="/" exported="true"/>
+    <component id="oett4c" name="TestText.xml" path="/" exported="true"/>
+    <component id="oett4d" name="TestGroup.xml" path="/" exported="true"/>
+    <component id="oett4e" name="TestList.xml" path="/" exported="true"/>
+    <component id="oett4f" name="TestCom.xml" path="/" exported="true"/>
   </resources>
   <publish name="UIDefaultSkin" genCode="true"/>
 </packageDescription>
