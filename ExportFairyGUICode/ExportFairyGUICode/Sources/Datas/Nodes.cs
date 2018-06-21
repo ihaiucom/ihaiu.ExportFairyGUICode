@@ -47,6 +47,11 @@ public class ComponentNode : Node
 
     public string GetType(ResourceComponent com)
     {
+        if(resourceComponent.isIngore)
+        {
+            return resourceComponent.extendClassName;
+        }
+
         if(com.package == resourceComponent.package)
         {
             return resourceComponent.classNameExtend;

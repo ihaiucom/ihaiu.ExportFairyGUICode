@@ -112,6 +112,9 @@ public class FairyManager
         {
             foreach (ResourceComponent component in package.ComponentList)
             {
+                if (component.isIngore)
+                    continue;
+
                 TsExportComponent export = new TsExportComponent() { com = component };
                 export.Export();
             }

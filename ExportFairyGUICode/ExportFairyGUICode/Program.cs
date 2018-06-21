@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-
+using System.Text.RegularExpressions;
 
 class Program
 {
@@ -9,6 +9,7 @@ class Program
     {
         //注册EncodeProvider
         Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+        
 
 
         Setting.Init(args);

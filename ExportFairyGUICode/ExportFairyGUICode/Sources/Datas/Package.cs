@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+using System.Text.RegularExpressions;
 
 public class Package
 {
@@ -44,6 +44,50 @@ public class Package
         if (resources.ContainsKey(resId))
             return resources[resId];
         return null;
+    }
+
+
+    // 代码文件夹名称
+    private string _codeFolderName;
+    public string codeFolderName
+    {
+        get
+        {
+            if (string.IsNullOrEmpty(_codeFolderName))
+            {
+                _codeFolderName = Regex.Replace(name, @"[^A-Za-z0-9_]", @"_");
+            }
+            return _codeFolderName;
+        }
+
+
+        set
+        {
+            _codeFolderName = value;
+        }
+    }
+
+
+    // 命名空间
+    private string _nameSpace;
+    public string nameSpace
+    {
+        get
+        {
+            if (string.IsNullOrEmpty(_nameSpace))
+            {
+                _nameSpace = codeFolderName;
+                if (!string.IsNullOrEmpty(Setting.Options.codeNamespace))
+                    _nameSpace = Setting.Options.codeNamespace + "." + _nameSpace;
+            }
+            return _nameSpace;
+        }
+
+
+        set
+        {
+            _nameSpace = value;
+        }
     }
 
 }

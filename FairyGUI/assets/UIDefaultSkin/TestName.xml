@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <component id="n0_us71" name="a" src="sfsc3v" fileName="ComButtonCheck.xml" xy="80,146"/>
+    <component id="n1_us71" name="a" src="sfsc3v" fileName="ComButtonCheck.xml" xy="133,292"/>
+    <component id="n2_us71" name="a" src="sfsc3x" fileName="ComLabel.xml" xy="218,139"/>
+  </displayList>
+</component>

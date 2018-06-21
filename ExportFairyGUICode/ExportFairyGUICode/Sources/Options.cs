@@ -39,6 +39,11 @@ public class Options
     [Option("codeIgnoreNoname", Required = false, Default = false)]
     public bool codeIgnoreNoname { get; set; }
 
+
+    // 代码--忽略非法组件名称
+    [Option("codeIgnorIllegalClassName", Required = false, Default = false)]
+    public bool codeIgnorIllegalClassName { get; set; }
+
     // 代码--是否使用其他包的组件类型
     [Option("codeIgnoreNoname", Required = false, Default = true)]
     public bool codeUseOtherPkgType{ get; set; }

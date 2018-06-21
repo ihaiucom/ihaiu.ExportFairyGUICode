@@ -32,6 +32,7 @@ module fgui.UIDefaultSkin {
 			fairygui.UIObjectFactory.setPackageItemExtension(Slider1.URL, Slider1);
 			fairygui.UIObjectFactory.setPackageItemExtension(PopupMenu1_item.URL, PopupMenu1_item);
 			fairygui.UIObjectFactory.setPackageItemExtension(PopupMenu1.URL, PopupMenu1);
+			fairygui.UIObjectFactory.setPackageItemExtension(TestName.URL, TestName);
 		}
 	}
 }

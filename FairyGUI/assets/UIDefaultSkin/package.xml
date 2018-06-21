@@ -162,6 +162,7 @@
     <component id="oett4g" name="CC.xml" path="/A/" exported="true"/>
     <component id="oett4h" name="CC.xml" path="/B/" exported="true"/>
     <component id="oett4i" name="Test-Class_Name.xml" path="/" exported="true"/>
+    <component id="us714j" name="TestName.xml" path="/" exported="true"/>
   </resources>
   <publish name="UIDefaultSkin" genCode="true"/>
 </packageDescription>

@@ -7,5 +7,6 @@
   "codeNamespace": "fgui",
   "codeMemberNamePrefix": "m_",
   "codeIgnoreNoname": false,
+  "codeIgnorIllegalClassName": false,
   "codeUseOtherPkgType": true
 }

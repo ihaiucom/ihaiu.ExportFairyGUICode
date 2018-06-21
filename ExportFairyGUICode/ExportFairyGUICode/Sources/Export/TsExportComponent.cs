@@ -117,7 +117,7 @@ public class TsExportComponent
         template.AddVariable("setDisplayList", setDisplayList.ToArray());
         template.AddVariable("setTransitionList", setTransitionList.ToArray());
         string content = template.Parse();
-        string path = string.Format(TsPathOut.ComponentStruct, com.packageName, name);
+        string path = string.Format(TsPathOut.ComponentStruct, com.package.codeFolderName, name);
 
         PathHelper.CheckPath(path);
         File.WriteAllText(path, content);
@@ -134,7 +134,7 @@ public class TsExportComponent
         template.AddVariable("classNameStruct", com.classNameStruct);
         template.AddVariable("classNameExtend", com.classNameExtend);
         string content = template.Parse();
-        string path = string.Format(TsPathOut.ComponentExtend, com.packageName, name);
+        string path = string.Format(TsPathOut.ComponentExtend, com.package.codeFolderName, name);
 
         PathHelper.CheckPath(path);
         File.WriteAllText(path, content);

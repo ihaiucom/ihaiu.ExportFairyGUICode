@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using System.Text.RegularExpressions;
 
 public class ResourceComponent
 {
@@ -44,6 +44,35 @@ public class ResourceComponent
         }
     }
 
+    
+    static Regex EnableRegex = new Regex("^[A-Za-z_]+[A-Za-z0-9_]*");
+
+    public bool classNameIsEnable
+    {
+        get
+        {
+            return EnableRegex.IsMatch(className);
+        }
+    }
+
+    public bool isIngore
+    {
+        get
+        {
+            if(package.genCode == false)
+            {
+                return true;
+            }
+
+            if (Setting.Options.codeIgnorIllegalClassName)
+            {
+                return !classNameIsEnable;
+            }
+            else
+                return false;
+        }
+    }
+
     // 类名
     private string _className;
     public string className
@@ -52,7 +81,15 @@ public class ResourceComponent
         {
             if(string.IsNullOrEmpty(_className))
             {
-                _className = Path.GetFileNameWithoutExtension(name).FirstUpper();
+                if (Setting.Options.codeIgnorIllegalClassName)
+                {
+                    _className = Path.GetFileNameWithoutExtension(name).FirstUpper();
+                }
+                else
+                {
+                    _className = Regex.Replace(Path.GetFileNameWithoutExtension(name), @"[^A-Za-z0-9_]", @"").FirstUpper();
+                }
+
             }
             return _className;
         }
@@ -62,6 +99,7 @@ public class ResourceComponent
             _className = value;
         }
     }
+    
 
     // 继承类 名
     private string _extendClassName;
@@ -93,25 +131,14 @@ public class ResourceComponent
     }
 
     // 命名空间
-    private string _nameSpace;
     public string nameSpace
     {
         get
         {
-            if (string.IsNullOrEmpty(_nameSpace))
-            {
-                _nameSpace = packageName;
-                if(!string.IsNullOrEmpty(Setting.Options.codeNamespace))
-                    _nameSpace = Setting.Options.codeNamespace + "." + _nameSpace;
-            }
-            return _nameSpace;
+            return package.nameSpace;
         }
 
-
-        set
-        {
-            _nameSpace = value;
-        }
+        
     }
 
 
