@@ -20,4 +20,12 @@ public class TsPathTemplate
             return Setting.Options.templateDir + "/TS/ComponentExtend.txt";
         }
     }
+
+    public static string Binder
+    {
+        get
+        {
+            return Setting.Options.templateDir + "/TS/Binder.txt";
+        }
+    }
 }

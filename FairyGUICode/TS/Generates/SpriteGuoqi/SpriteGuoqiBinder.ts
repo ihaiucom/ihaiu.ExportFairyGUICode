@@ -3,9 +3,12 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-namespace fgui.Test-Pack_name
+namespace fgui.SpriteGuoqi
 {
-	export class Test Class Name1 extends Test Class Name1Struct
+	export class SpriteGuoqiBinder
 	{
+		public static bindAll():void 
+		{
+		}
 	}
 }

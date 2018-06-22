@@ -9,7 +9,7 @@ public static class TsPathOut
     {
         get
         {
-            return Setting.Options.codePath + "/TS/{0}/ComponentStructs/{1}Struct.ts";
+            return Setting.Options.codePath + "/TS/Generates/{0}/{1}Struct.ts";
         }
     }
 
@@ -18,7 +18,17 @@ public static class TsPathOut
     {
         get
         {
-            return Setting.Options.codePath + "/TS/{0}/ComponentExtends/{1}.ts";
+            return Setting.Options.codePath + "/TS/Extends/{0}/{1}.ts";
+        }
+    }
+
+
+
+    public static string Binder
+    {
+        get
+        {
+            return Setting.Options.codePath + "/TS/Generates/{0}/{1}.ts";
         }
     }
 }

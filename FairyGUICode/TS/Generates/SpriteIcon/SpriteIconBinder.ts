@@ -3,9 +3,12 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-namespace fgui.Test-Pack_name
+namespace fgui.SpriteIcon
 {
-	export class TestClass_Name2 extends TestClass_Name2Struct
+	export class SpriteIconBinder
 	{
+		public static bindAll():void 
+		{
+		}
 	}
 }

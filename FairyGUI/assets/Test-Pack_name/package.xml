@@ -4,5 +4,5 @@
     <component id="oett0" name="Test Class Name1.xml" path="/" exported="true"/>
     <component id="oett1" name="Test-Class_Name 2.xml" path="/" exported="true"/>
   </resources>
-  <publish name="Test-Pack_name" genCode="true"/>
+  <publish name="Test-Pack_name"/>
 </packageDescription>

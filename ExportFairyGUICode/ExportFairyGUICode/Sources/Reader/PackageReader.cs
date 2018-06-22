@@ -8,16 +8,32 @@ public class PackageReader
 {
     public static Package Load(string path)
     {
+
         Package package = new Package();
         package.rootPath = Path.GetDirectoryName(path);
+
+
 
         XmlDocument xmlDocument = new XmlDocument();
         xmlDocument.Load(path);
         XmlNode packageDescription = xmlDocument.SelectSingleNode(@"packageDescription");
         XmlNode publish = xmlDocument.SelectSingleNode(@"packageDescription/publish");
+
+
+        package.genCode = false;
         package.id = packageDescription.Attributes.GetNamedItem("id").InnerText;
-        package.name = publish.Attributes.GetNamedItem("name").InnerText;
-        package.genCode = publish.Attributes.GetNamedItem("genCode").InnerText == "true";
+        if (publish != null)
+        {
+            package.name = publish.Attributes.GetNamedItem("name").InnerText;
+
+            if (publish.Attributes["genCode"] != null)
+                package.genCode = publish.Attributes.GetNamedItem("genCode").InnerText == "true";
+        }
+        else
+        {
+            package.name = Path.GetFileNameWithoutExtension( Path.GetDirectoryName(path) );
+        }
+
 
         XmlNodeList xmlNodeList = xmlDocument.SelectSingleNode("packageDescription/resources").ChildNodes;
 

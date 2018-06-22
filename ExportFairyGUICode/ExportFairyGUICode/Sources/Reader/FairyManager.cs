@@ -104,6 +104,7 @@ public class FairyManager
     public void ExportTS()
     {
         ExportTSComponent();
+        ExportTSBinder();
     }
 
     private void ExportTSComponent()
@@ -118,6 +119,16 @@ public class FairyManager
                 TsExportComponent export = new TsExportComponent() { com = component };
                 export.Export();
             }
+        }
+    }
+
+    private void ExportTSBinder()
+    {
+
+        foreach (Package package in packageList)
+        {
+            if(package.genCode)
+                TSExportBinder.Export(package);
         }
     }
 

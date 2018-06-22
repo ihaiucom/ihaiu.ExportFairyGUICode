@@ -1,8 +1,0 @@
-/////////////////////////////////////
-// ExportXlsx生成
-// http://blog.ihaiu.com
-/////////////////////////////////////
-
->:FOREACH list:<
-import >:[0]:<  = configs.>:[0]:< ;
->:ENDFOREACH:<

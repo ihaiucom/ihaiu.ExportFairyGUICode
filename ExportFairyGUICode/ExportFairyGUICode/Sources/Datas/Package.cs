@@ -90,4 +90,18 @@ public class Package
         }
     }
 
+    private string _classNameBinder;
+    public string classNameBinder
+    {
+
+        get
+        {
+            if (string.IsNullOrEmpty(_classNameBinder))
+            {
+                _classNameBinder = codeFolderName.FirstUpper() + "Binder"; 
+            }
+            return _classNameBinder;
+        }
+    }
+
 }

@@ -7,7 +7,6 @@ public class ComponentReader
 {
     public static void Load(string path,  ResourceComponent resourceComponent)
     {
-        Console.WriteLine(path);
         XmlDocument xmlDocument = new XmlDocument();
         xmlDocument.Load(path);
 

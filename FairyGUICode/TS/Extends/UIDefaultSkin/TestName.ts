@@ -3,9 +3,9 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-namespace fgui.Test_Pack_name
+namespace fgui.UIDefaultSkin
 {
-	export class TestClass_Name2 extends TestClass_Name2Struct
+	export class TestName extends TestNameStruct
 	{
 	}
 }
