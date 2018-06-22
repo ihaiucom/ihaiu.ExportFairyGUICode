@@ -12,7 +12,7 @@ namespace fgui.BlueSkin
 		public m_grip : Button_icon;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1e";
+		public static URL:string = "ui://stv9j6m6raoc1e";
 
 		
 

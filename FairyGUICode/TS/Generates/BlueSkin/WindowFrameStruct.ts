@@ -16,7 +16,7 @@ namespace fgui.BlueSkin
 		public m_n5 : WindowCloseButton;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1j";
+		public static URL:string = "ui://stv9j6m6raoc1j";
 
 		
 

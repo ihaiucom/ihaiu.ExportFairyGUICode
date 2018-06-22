@@ -13,7 +13,7 @@ namespace fgui.BlackSkin
 		public m_title : fairygui.GTextField;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th2q";
+		public static URL:string = "ui://s1yj9w6mp7th2q";
 
 		
 

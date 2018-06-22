@@ -15,7 +15,7 @@ namespace fgui.BlackSkin
 		public m_closeButton : TabCloseButton;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th39";
+		public static URL:string = "ui://s1yj9w6mp7th39";
 
 		
 

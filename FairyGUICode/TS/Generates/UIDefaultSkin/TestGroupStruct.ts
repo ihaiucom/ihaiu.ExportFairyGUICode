@@ -18,7 +18,7 @@ namespace fgui.UIDefaultSkin
 		public m_loader : fairygui.GLoader;
 
 		
-		public static URL:string = "uiL://snq31xvroett4d";
+		public static URL:string = "ui://snq31xvroett4d";
 
 		
 

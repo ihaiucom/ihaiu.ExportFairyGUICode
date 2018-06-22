@@ -11,7 +11,7 @@ namespace fgui.UIDefaultSkin
 		public m_n4 : TextInput;
 
 		
-		public static URL:string = "uiL://snq31xvrraoc3q";
+		public static URL:string = "ui://snq31xvrraoc3q";
 
 		
 

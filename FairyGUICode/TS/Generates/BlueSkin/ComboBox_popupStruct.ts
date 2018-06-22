@@ -11,7 +11,7 @@ namespace fgui.BlueSkin
 		public m_list : fairygui.GList;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc7";
+		public static URL:string = "ui://stv9j6m6raoc7";
 
 		
 

@@ -16,7 +16,7 @@ namespace fgui.BlueSkin
 		public m_n6 : fairygui.GImage;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1i";
+		public static URL:string = "ui://stv9j6m6raoc1i";
 
 		
 

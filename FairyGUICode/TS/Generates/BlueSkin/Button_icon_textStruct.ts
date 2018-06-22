@@ -16,7 +16,7 @@ namespace fgui.BlueSkin
 		public m_icon : fairygui.GLoader;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1k";
+		public static URL:string = "ui://stv9j6m6raoc1k";
 
 		
 

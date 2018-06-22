@@ -14,7 +14,7 @@ namespace fgui.BlackSkin
 		public m_arrow1 : ScrollLeftButton;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th30";
+		public static URL:string = "ui://s1yj9w6mp7th30";
 
 		
 

@@ -11,7 +11,7 @@ namespace fgui.UIDefaultSkin
 		public m_pic : fairygui.GImage;
 
 		
-		public static URL:string = "uiL://snq31xvro24g3r";
+		public static URL:string = "ui://snq31xvro24g3r";
 
 		
 

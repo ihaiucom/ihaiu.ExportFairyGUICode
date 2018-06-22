@@ -12,7 +12,7 @@ namespace fgui.BlackSkin
 		public m_icon : fairygui.GLoader;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th4";
+		public static URL:string = "ui://s1yj9w6mp7th4";
 
 		
 

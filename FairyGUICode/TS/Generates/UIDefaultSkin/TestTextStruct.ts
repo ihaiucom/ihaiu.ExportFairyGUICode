@@ -20,7 +20,7 @@ namespace fgui.UIDefaultSkin
 		public m_shapeEmpty : fairygui.GGraph;
 
 		
-		public static URL:string = "uiL://snq31xvroett4c";
+		public static URL:string = "ui://snq31xvroett4c";
 
 		
 

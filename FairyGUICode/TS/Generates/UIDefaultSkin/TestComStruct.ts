@@ -34,7 +34,7 @@ namespace fgui.UIDefaultSkin
 		public m_helpButton : HelpButton;
 
 		
-		public static URL:string = "uiL://snq31xvroett4f";
+		public static URL:string = "ui://snq31xvroett4f";
 
 		
 

@@ -13,7 +13,7 @@ namespace fgui.UIDefaultSkin
 		public m_title : fairygui.GTextInput;
 
 		
-		public static URL:string = "uiL://snq31xvrraoc3p";
+		public static URL:string = "ui://snq31xvrraoc3p";
 
 		
 

@@ -14,7 +14,7 @@ namespace fgui.BlueSkin
 		public m_grip : ScrollBar_grip;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1m";
+		public static URL:string = "ui://stv9j6m6raoc1m";
 
 		
 

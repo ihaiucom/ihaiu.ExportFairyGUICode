@@ -14,7 +14,7 @@ namespace fgui.BlackSkin
 		public m_n4 : fairygui.GImage;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th3a";
+		public static URL:string = "ui://s1yj9w6mp7th3a";
 
 		
 

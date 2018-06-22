@@ -13,7 +13,7 @@ namespace fgui.UIDefaultSkin
 		public m_grip : Slider1_grip;
 
 		
-		public static URL:string = "uiL://snq31xvrsfsc47";
+		public static URL:string = "ui://snq31xvrsfsc47";
 
 		
 

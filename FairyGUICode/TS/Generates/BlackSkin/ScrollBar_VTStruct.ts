@@ -14,7 +14,7 @@ namespace fgui.BlackSkin
 		public m_grip : GripButton_VT;
 
 		
-		public static URL:string = "uiL://s1yj9w6mp7th2w";
+		public static URL:string = "ui://s1yj9w6mp7th2w";
 
 		
 

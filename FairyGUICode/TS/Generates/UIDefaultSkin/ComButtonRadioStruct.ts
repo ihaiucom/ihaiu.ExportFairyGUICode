@@ -16,7 +16,7 @@ namespace fgui.UIDefaultSkin
 		public m_icon : fairygui.GLoader;
 
 		
-		public static URL:string = "uiL://snq31xvrsfsc3w";
+		public static URL:string = "ui://snq31xvrsfsc3w";
 
 		
 

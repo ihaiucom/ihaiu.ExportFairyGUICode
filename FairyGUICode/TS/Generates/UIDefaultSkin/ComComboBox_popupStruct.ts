@@ -11,7 +11,7 @@ namespace fgui.UIDefaultSkin
 		public m_list : fairygui.GList;
 
 		
-		public static URL:string = "uiL://snq31xvrsfsc3z";
+		public static URL:string = "ui://snq31xvrsfsc3z";
 
 		
 

@@ -31,7 +31,7 @@ namespace fgui.UIDefaultSkin
 		public m_n31 : Slider1;
 
 		
-		public static URL:string = "uiL://snq31xvrraoc0";
+		public static URL:string = "ui://snq31xvrraoc0";
 
 		
 

@@ -9,7 +9,7 @@ namespace fgui.UIDefaultSkin
 	{
 
 		
-		public static URL:string = "uiL://snq31xvroett4i";
+		public static URL:string = "ui://snq31xvroett4i";
 
 		
 

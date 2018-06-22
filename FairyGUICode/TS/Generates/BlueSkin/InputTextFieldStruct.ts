@@ -11,7 +11,7 @@ namespace fgui.BlueSkin
 		public m_title : fairygui.GTextInput;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc1c";
+		public static URL:string = "ui://stv9j6m6raoc1c";
 
 		
 

@@ -40,7 +40,7 @@ public class ResourceComponent
     {
         get
         {
-            return $"uiL://{package.id}{id}";
+            return $"ui://{package.id}{id}";
         }
     }
 

@@ -14,7 +14,7 @@ namespace fgui.UIDefaultSkin
 		public m_grip : ComScrollBar_grip;
 
 		
-		public static URL:string = "uiL://snq31xvrsfsc44";
+		public static URL:string = "ui://snq31xvrsfsc44";
 
 		
 

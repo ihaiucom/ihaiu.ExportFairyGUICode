@@ -12,7 +12,7 @@ namespace fgui.UIDefaultSkin
 		public m_a : ComLabel;
 
 		
-		public static URL:string = "uiL://snq31xvrus714j";
+		public static URL:string = "ui://snq31xvrus714j";
 
 		
 

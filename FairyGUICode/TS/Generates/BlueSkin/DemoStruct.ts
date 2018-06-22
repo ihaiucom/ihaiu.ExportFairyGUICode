@@ -29,7 +29,7 @@ namespace fgui.BlueSkin
 		public m_n16 : TabButton;
 
 		
-		public static URL:string = "uiL://stv9j6m6raoc19";
+		public static URL:string = "ui://stv9j6m6raoc19";
 
 		
 
