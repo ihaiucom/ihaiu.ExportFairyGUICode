@@ -8,5 +8,7 @@
   "codeMemberNamePrefix": "m_",
   "codeIgnoreNoname": false,
   "codeIgnorIllegalClassName": false,
+  "codeIgnorNoExported": true,
+  "codeExportDepend": true,
   "codeUseOtherPkgType": true
 }

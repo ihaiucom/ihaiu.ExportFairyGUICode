@@ -18,6 +18,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7thi";
 
 		
+		public static createInstance():DropdownButton {
+			return <DropdownButton><any>(fairygui.UIPackage.createObject("BlackSkin","DropdownButton"));
+		}
+
+		
 
 		public constructor() 
 		{

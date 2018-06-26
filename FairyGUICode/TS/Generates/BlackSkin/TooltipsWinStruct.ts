@@ -14,6 +14,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3b";
 
 		
+		public static createInstance():TooltipsWin {
+			return <TooltipsWin><any>(fairygui.UIPackage.createObject("BlackSkin","TooltipsWin"));
+		}
+
+		
 
 		public constructor() 
 		{

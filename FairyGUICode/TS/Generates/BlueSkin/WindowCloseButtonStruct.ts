@@ -14,6 +14,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc9";
 
 		
+		public static createInstance():WindowCloseButton {
+			return <WindowCloseButton><any>(fairygui.UIPackage.createObject("BlueSkin","WindowCloseButton"));
+		}
+
+		
 
 		public constructor() 
 		{

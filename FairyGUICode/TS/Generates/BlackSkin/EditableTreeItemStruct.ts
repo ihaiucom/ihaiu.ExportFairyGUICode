@@ -24,6 +24,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3e";
 
 		
+		public static createInstance():EditableTreeItem {
+			return <EditableTreeItem><any>(fairygui.UIPackage.createObject("BlackSkin","EditableTreeItem"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -16,6 +16,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc3";
 
 		
+		public static createInstance():ScrollBar_arrow {
+			return <ScrollBar_arrow><any>(fairygui.UIPackage.createObject("BlueSkin","ScrollBar_arrow"));
+		}
+
+		
 
 		public constructor() 
 		{

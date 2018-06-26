@@ -15,6 +15,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc1e";
 
 		
+		public static createInstance():SliderH {
+			return <SliderH><any>(fairygui.UIPackage.createObject("BlueSkin","SliderH"));
+		}
+
+		
 
 		public constructor() 
 		{

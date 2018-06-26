@@ -16,6 +16,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th36";
 
 		
+		public static createInstance():TabButton {
+			return <TabButton><any>(fairygui.UIPackage.createObject("BlackSkin","TabButton"));
+		}
+
+		
 
 		public constructor() 
 		{

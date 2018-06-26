@@ -14,6 +14,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2m";
 
 		
+		public static createInstance():TextArea {
+			return <TextArea><any>(fairygui.UIPackage.createObject("BlackSkin","TextArea"));
+		}
+
+		
 
 		public constructor() 
 		{

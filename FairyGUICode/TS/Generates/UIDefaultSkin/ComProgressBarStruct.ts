@@ -15,6 +15,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc45";
 
 		
+		public static createInstance():ComProgressBar {
+			return <ComProgressBar><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComProgressBar"));
+		}
+
+		
 
 		public constructor() 
 		{

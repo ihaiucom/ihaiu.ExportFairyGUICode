@@ -17,6 +17,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc48";
 
 		
+		public static createInstance():PopupMenu1_item {
+			return <PopupMenu1_item><any>(fairygui.UIPackage.createObject("UIDefaultSkin","PopupMenu1_item"));
+		}
+
+		
 
 		public constructor() 
 		{

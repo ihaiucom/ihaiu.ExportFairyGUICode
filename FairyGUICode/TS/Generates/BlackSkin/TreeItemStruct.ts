@@ -20,6 +20,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3c";
 
 		
+		public static createInstance():TreeItem {
+			return <TreeItem><any>(fairygui.UIPackage.createObject("BlackSkin","TreeItem"));
+		}
+
+		
 
 		public constructor() 
 		{

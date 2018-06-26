@@ -15,6 +15,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th4";
 
 		
+		public static createInstance():FlatIconButton {
+			return <FlatIconButton><any>(fairygui.UIPackage.createObject("BlackSkin","FlatIconButton"));
+		}
+
+		
 
 		public constructor() 
 		{

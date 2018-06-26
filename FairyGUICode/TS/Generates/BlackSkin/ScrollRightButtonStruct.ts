@@ -16,6 +16,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th32";
 
 		
+		public static createInstance():ScrollRightButton {
+			return <ScrollRightButton><any>(fairygui.UIPackage.createObject("BlackSkin","ScrollRightButton"));
+		}
+
+		
 
 		public constructor() 
 		{

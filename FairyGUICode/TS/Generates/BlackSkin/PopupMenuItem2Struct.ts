@@ -18,6 +18,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2s";
 
 		
+		public static createInstance():PopupMenuItem2 {
+			return <PopupMenuItem2><any>(fairygui.UIPackage.createObject("BlackSkin","PopupMenuItem2"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -14,6 +14,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvro24g3r";
 
 		
+		public static createInstance():RightArrow {
+			return <RightArrow><any>(fairygui.UIPackage.createObject("UIDefaultSkin","RightArrow"));
+		}
+
+		
 
 		public constructor() 
 		{

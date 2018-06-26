@@ -16,6 +16,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2q";
 
 		
+		public static createInstance():MenuBarItem {
+			return <MenuBarItem><any>(fairygui.UIPackage.createObject("BlackSkin","MenuBarItem"));
+		}
+
+		
 
 		public constructor() 
 		{

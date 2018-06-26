@@ -111,6 +111,9 @@ public class TsExportComponent
         template.AddVariable("namespace", com.nameSpace);
         template.AddVariable("classNameFGUI", com.classNameFGUI);
         template.AddVariable("classNameStruct", com.classNameStruct);
+        template.AddVariable("classNameExtend", com.classNameExtend);
+        template.AddVariable("packagename", com.packageName);
+        template.AddVariable("comname", Path.GetFileNameWithoutExtension(com.name));
         template.AddVariable("URL", com.URL);
         template.AddVariable("fields", fields.ToArray());
         template.AddVariable("setControllerList", setControllerList.ToArray());

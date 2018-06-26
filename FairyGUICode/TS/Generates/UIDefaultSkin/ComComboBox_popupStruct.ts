@@ -14,6 +14,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc3z";
 
 		
+		public static createInstance():ComComboBox_popup {
+			return <ComComboBox_popup><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComComboBox_popup"));
+		}
+
+		
 
 		public constructor() 
 		{

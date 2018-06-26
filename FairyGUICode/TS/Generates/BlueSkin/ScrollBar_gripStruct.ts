@@ -16,6 +16,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc6";
 
 		
+		public static createInstance():ScrollBar_grip {
+			return <ScrollBar_grip><any>(fairygui.UIPackage.createObject("BlueSkin","ScrollBar_grip"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -19,6 +19,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc3w";
 
 		
+		public static createInstance():ComButtonRadio {
+			return <ComButtonRadio><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComButtonRadio"));
+		}
+
+		
 
 		public constructor() 
 		{

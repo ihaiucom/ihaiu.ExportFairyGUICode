@@ -18,6 +18,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th6";
 
 		
+		public static createInstance():AutoSizeButton {
+			return <AutoSizeButton><any>(fairygui.UIPackage.createObject("BlackSkin","AutoSizeButton"));
+		}
+
+		
 
 		public constructor() 
 		{

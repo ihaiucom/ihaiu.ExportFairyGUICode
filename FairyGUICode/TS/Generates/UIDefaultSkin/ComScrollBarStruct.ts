@@ -17,6 +17,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc44";
 
 		
+		public static createInstance():ComScrollBar {
+			return <ComScrollBar><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComScrollBar"));
+		}
+
+		
 
 		public constructor() 
 		{

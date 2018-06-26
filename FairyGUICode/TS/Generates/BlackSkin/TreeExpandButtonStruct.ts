@@ -15,6 +15,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3d";
 
 		
+		public static createInstance():TreeExpandButton {
+			return <TreeExpandButton><any>(fairygui.UIPackage.createObject("BlackSkin","TreeExpandButton"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -15,6 +15,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc46";
 
 		
+		public static createInstance():Slider1_grip {
+			return <Slider1_grip><any>(fairygui.UIPackage.createObject("UIDefaultSkin","Slider1_grip"));
+		}
+
+		
 
 		public constructor() 
 		{

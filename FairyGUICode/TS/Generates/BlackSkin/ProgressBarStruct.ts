@@ -14,6 +14,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2u";
 
 		
+		public static createInstance():ProgressBar {
+			return <ProgressBar><any>(fairygui.UIPackage.createObject("BlackSkin","ProgressBar"));
+		}
+
+		
 
 		public constructor() 
 		{

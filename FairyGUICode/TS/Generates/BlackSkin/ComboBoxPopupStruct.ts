@@ -14,6 +14,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7thf";
 
 		
+		public static createInstance():ComboBoxPopup {
+			return <ComboBoxPopup><any>(fairygui.UIPackage.createObject("BlackSkin","ComboBoxPopup"));
+		}
+
+		
 
 		public constructor() 
 		{

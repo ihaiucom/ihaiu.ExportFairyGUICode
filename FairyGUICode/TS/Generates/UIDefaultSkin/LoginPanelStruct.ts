@@ -34,6 +34,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrraoc0";
 
 		
+		public static createInstance():LoginPanel {
+			return <LoginPanel><any>(fairygui.UIPackage.createObject("UIDefaultSkin","LoginPanel"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -17,6 +17,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3a";
 
 		
+		public static createInstance():TitleBar {
+			return <TitleBar><any>(fairygui.UIPackage.createObject("BlackSkin","TitleBar"));
+		}
+
+		
 
 		public constructor() 
 		{

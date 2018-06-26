@@ -14,6 +14,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc3x";
 
 		
+		public static createInstance():ComLabel {
+			return <ComLabel><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComLabel"));
+		}
+
+		
 
 		public constructor() 
 		{

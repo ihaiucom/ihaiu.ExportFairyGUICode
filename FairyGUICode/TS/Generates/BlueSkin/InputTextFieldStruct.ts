@@ -14,6 +14,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc1c";
 
 		
+		public static createInstance():InputTextField {
+			return <InputTextField><any>(fairygui.UIPackage.createObject("BlueSkin","InputTextField"));
+		}
+
+		
 
 		public constructor() 
 		{

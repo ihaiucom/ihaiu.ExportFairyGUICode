@@ -14,6 +14,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrraoc3o";
 
 		
+		public static createInstance():HelpButton {
+			return <HelpButton><any>(fairygui.UIPackage.createObject("UIDefaultSkin","HelpButton"));
+		}
+
+		
 
 		public constructor() 
 		{

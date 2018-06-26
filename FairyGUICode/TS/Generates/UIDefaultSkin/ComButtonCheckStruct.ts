@@ -19,6 +19,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrsfsc3v";
 
 		
+		public static createInstance():ComButtonCheck {
+			return <ComButtonCheck><any>(fairygui.UIPackage.createObject("UIDefaultSkin","ComButtonCheck"));
+		}
+
+		
 
 		public constructor() 
 		{

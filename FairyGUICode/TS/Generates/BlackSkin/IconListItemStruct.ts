@@ -17,6 +17,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2o";
 
 		
+		public static createInstance():IconListItem {
+			return <IconListItem><any>(fairygui.UIPackage.createObject("BlackSkin","IconListItem"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -18,6 +18,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th2l";
 
 		
+		public static createInstance():NumericInput {
+			return <NumericInput><any>(fairygui.UIPackage.createObject("BlackSkin","NumericInput"));
+		}
+
+		
 
 		public constructor() 
 		{

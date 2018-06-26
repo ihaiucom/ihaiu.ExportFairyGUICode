@@ -15,6 +15,11 @@ namespace >:namespace:<
 		public static URL:string = ">:URL:<";
 
 		
+		public static createInstance():>:classNameExtend:< {
+			return <>:classNameExtend:<><any>(fairygui.UIPackage.createObject(">:packagename:<",">:comname:<"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -44,6 +44,15 @@ public class Options
     [Option("codeIgnorIllegalClassName", Required = false, Default = false)]
     public bool codeIgnorIllegalClassName { get; set; }
 
+
+    // 代码--忽略没设置导出的组件
+    [Option("codeIgnorNoExported", Required = false, Default = true)]
+    public bool codeIgnorNoExported { get; set; }
+
+    // 代码--导出依赖的组件
+    [Option("codeExportDepend", Required = false, Default = true)]
+    public bool codeExportDepend { get; set; }
+
     // 代码--是否使用其他包的组件类型
     [Option("codeIgnoreNoname", Required = false, Default = true)]
     public bool codeUseOtherPkgType{ get; set; }

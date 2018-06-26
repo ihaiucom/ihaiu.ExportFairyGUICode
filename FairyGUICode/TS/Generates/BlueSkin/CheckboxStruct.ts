@@ -18,6 +18,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc1a";
 
 		
+		public static createInstance():Checkbox {
+			return <Checkbox><any>(fairygui.UIPackage.createObject("BlueSkin","Checkbox"));
+		}
+
+		
 
 		public constructor() 
 		{

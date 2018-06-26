@@ -17,6 +17,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrraoc3n";
 
 		
+		public static createInstance():RedButton {
+			return <RedButton><any>(fairygui.UIPackage.createObject("UIDefaultSkin","RedButton"));
+		}
+
+		
 
 		public constructor() 
 		{

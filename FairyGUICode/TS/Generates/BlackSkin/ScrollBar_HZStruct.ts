@@ -17,6 +17,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th30";
 
 		
+		public static createInstance():ScrollBar_HZ {
+			return <ScrollBar_HZ><any>(fairygui.UIPackage.createObject("BlackSkin","ScrollBar_HZ"));
+		}
+
+		
 
 		public constructor() 
 		{

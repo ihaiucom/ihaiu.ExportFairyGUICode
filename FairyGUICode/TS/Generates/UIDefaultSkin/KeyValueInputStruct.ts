@@ -14,6 +14,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvrraoc3q";
 
 		
+		public static createInstance():KeyValueInput {
+			return <KeyValueInput><any>(fairygui.UIPackage.createObject("UIDefaultSkin","KeyValueInput"));
+		}
+
+		
 
 		public constructor() 
 		{

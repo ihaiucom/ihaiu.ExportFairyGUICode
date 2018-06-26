@@ -17,6 +17,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc1b";
 
 		
+		public static createInstance():RadioButton {
+			return <RadioButton><any>(fairygui.UIPackage.createObject("BlueSkin","RadioButton"));
+		}
+
+		
 
 		public constructor() 
 		{

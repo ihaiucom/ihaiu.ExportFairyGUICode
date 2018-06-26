@@ -32,6 +32,11 @@ namespace fgui.BlueSkin
 		public static URL:string = "ui://stv9j6m6raoc19";
 
 		
+		public static createInstance():Demo {
+			return <Demo><any>(fairygui.UIPackage.createObject("BlueSkin","Demo"));
+		}
+
+		
 
 		public constructor() 
 		{

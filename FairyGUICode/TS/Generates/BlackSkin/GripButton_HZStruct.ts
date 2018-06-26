@@ -16,6 +16,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th31";
 
 		
+		public static createInstance():GripButton_HZ {
+			return <GripButton_HZ><any>(fairygui.UIPackage.createObject("BlackSkin","GripButton_HZ"));
+		}
+
+		
 
 		public constructor() 
 		{

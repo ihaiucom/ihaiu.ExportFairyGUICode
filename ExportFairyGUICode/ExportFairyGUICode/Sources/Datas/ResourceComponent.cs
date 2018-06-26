@@ -29,6 +29,14 @@ public class ResourceComponent
     // 显示列表--Component
     public List<ComponentNode> componentList = new List<ComponentNode>();
 
+    // 被依赖的组件列表
+    public List<ResourceComponent> beDependList = new List<ResourceComponent>();
+
+    // 是否被导出组件依赖
+    public bool hasBeDependForExtported = false;
+
+
+
     public void AddNode(ComponentNode node)
     {
         node.parent = this;
@@ -62,6 +70,24 @@ public class ResourceComponent
             if(package.genCode == false)
             {
                 return true;
+            }
+
+            if (Setting.Options.codeIgnorNoExported)
+            {
+                if (exported == false)
+                {
+                    if(Setting.Options.codeExportDepend)
+                    {
+                        if(!hasBeDependForExtported)
+                        {
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        return true;
+                    }
+                }
             }
 
             if (Setting.Options.codeIgnorIllegalClassName)

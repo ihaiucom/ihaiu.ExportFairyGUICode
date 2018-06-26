@@ -13,6 +13,11 @@ namespace fgui.UIDefaultSkin
 		public static URL:string = "ui://snq31xvroett4e";
 
 		
+		public static createInstance():TestList {
+			return <TestList><any>(fairygui.UIPackage.createObject("UIDefaultSkin","TestList"));
+		}
+
+		
 
 		public constructor() 
 		{

@@ -16,6 +16,11 @@ namespace fgui.BlackSkin
 		public static URL:string = "ui://s1yj9w6mp7th3f";
 
 		
+		public static createInstance():WindowFrame {
+			return <WindowFrame><any>(fairygui.UIPackage.createObject("BlackSkin","WindowFrame"));
+		}
+
+		
 
 		public constructor() 
 		{

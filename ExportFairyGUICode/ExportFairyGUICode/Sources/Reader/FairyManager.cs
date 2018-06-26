@@ -96,9 +96,20 @@ public class FairyManager
                     {
                         Log.Warning($"没有找到 resourceComponent packagename= {node.parent.package.name} comname= {node.parent.name} nodename={node.name}");
                     }
+                    else
+                    {
+                        // 添加被依赖
+                        node.resourceComponent.beDependList.Add(component);
+                        if (component.exported)
+                        {
+                            node.resourceComponent.hasBeDependForExtported = true;
+                        }
+                    }
                 }
             }
         }
+
+
     }
 
     public void ExportTS()
