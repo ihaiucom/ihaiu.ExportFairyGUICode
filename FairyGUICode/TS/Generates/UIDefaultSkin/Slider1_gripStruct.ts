@@ -13,6 +13,8 @@ namespace fgui.UIDefaultSkin
 
 		
 		public static URL:string = "ui://snq31xvrsfsc46";
+		
+		public static DependPackages:string[] = ["UIDefaultSkin"];
 
 		
 		public static createInstance():Slider1_grip {

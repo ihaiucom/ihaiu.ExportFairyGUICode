@@ -29,11 +29,23 @@ public class ResourceComponent
     // 显示列表--Component
     public List<ComponentNode> componentList = new List<ComponentNode>();
 
+
+    // 依赖的包列表
+    public List<Package>    dependPackageList = new List<Package>();
+
     // 被依赖的组件列表
     public List<ResourceComponent> beDependList = new List<ResourceComponent>();
 
     // 是否被导出组件依赖
     public bool hasBeDependForExtported = false;
+
+    public void AddDependPackage(Package package)
+    {
+        if(!dependPackageList.Contains(package))
+        {
+            dependPackageList.Add(package);
+        }
+    }
 
 
 

@@ -15,6 +15,8 @@ namespace fgui.UIDefaultSkin
 
 		
 		public static URL:string = "ui://snq31xvrsfsc48";
+		
+		public static DependPackages:string[] = ["UIDefaultSkin"];
 
 		
 		public static createInstance():PopupMenu1_item {

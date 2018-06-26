@@ -18,6 +18,8 @@ namespace fgui.BlackSkin
 
 		
 		public static URL:string = "ui://s1yj9w6mp7th3c";
+		
+		public static DependPackages:string[] = ["BlackSkin"];
 
 		
 		public static createInstance():TreeItem {

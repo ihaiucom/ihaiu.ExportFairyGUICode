@@ -12,6 +12,8 @@ namespace fgui.UIDefaultSkin
 
 		
 		public static URL:string = "ui://snq31xvrsfsc42";
+		
+		public static DependPackages:string[] = ["UIDefaultSkin"];
 
 		
 		public static createInstance():ComScrollBar_arrow2 {

@@ -42,12 +42,27 @@ public class ComponentReader
                     XmlNodeList displayNodeList = node.ChildNodes;
                     foreach (XmlNode displayNode in displayNodeList)
                     {
+
+                        string pkg = null;
+                        string src = null;
                         string nodeName = displayNode.Attributes.GetNamedItem("name").InnerText;
                         switch (displayNode.Name)
                         {
                             // 图片
                             case fairygui.NodeName.image:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GImage });
+
+                                pkg = null;
+                                if (displayNode.Attributes["pkg"] != null)
+                                {
+                                    pkg = displayNode.Attributes.GetNamedItem("pkg").InnerText;
+                                }
+
+                                src = null;
+                                if (displayNode.Attributes["src"] != null)
+                                {
+                                    src = displayNode.Attributes.GetNamedItem("src").InnerText;
+                                }
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GImage, pkg= pkg, src = src });
                                 break;
                             // 文本
                             case fairygui.NodeName.text:
@@ -106,7 +121,7 @@ public class ComponentReader
 
                             // 自定义组件
                             case fairygui.NodeName.component:
-                                string pkg = null;
+                                pkg = null;
                                 if (displayNode.Attributes["pkg"] != null)
                                 {
                                     pkg = displayNode.Attributes.GetNamedItem("pkg").InnerText;

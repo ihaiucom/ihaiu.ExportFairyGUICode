@@ -35,6 +35,8 @@ namespace fgui.UIDefaultSkin
 
 		
 		public static URL:string = "ui://snq31xvroett4f";
+		
+		public static DependPackages:string[] = ["UIDefaultSkin","BlackSkin"];
 
 		
 		public static createInstance():TestCom {

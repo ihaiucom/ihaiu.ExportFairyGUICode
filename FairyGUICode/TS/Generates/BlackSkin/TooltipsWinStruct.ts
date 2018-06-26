@@ -12,6 +12,8 @@ namespace fgui.BlackSkin
 
 		
 		public static URL:string = "ui://s1yj9w6mp7th3b";
+		
+		public static DependPackages:string[] = ["BlackSkin"];
 
 		
 		public static createInstance():TooltipsWin {

@@ -17,7 +17,6 @@ namespace fgui.BlackSkin
 			fairygui.UIObjectFactory.setPackageItemExtension(Checkbox.URL, Checkbox);
 			fairygui.UIObjectFactory.setPackageItemExtension(ComboBox.URL, ComboBox);
 			fairygui.UIObjectFactory.setPackageItemExtension(ComboBoxPopup.URL, ComboBoxPopup);
-			fairygui.UIObjectFactory.setPackageItemExtension(ComboBoxItem.URL, ComboBoxItem);
 			fairygui.UIObjectFactory.setPackageItemExtension(DropdownButton.URL, DropdownButton);
 			fairygui.UIObjectFactory.setPackageItemExtension(TextInput.URL, TextInput);
 			fairygui.UIObjectFactory.setPackageItemExtension(NumericInput.URL, NumericInput);
@@ -27,7 +26,6 @@ namespace fgui.BlackSkin
 			fairygui.UIObjectFactory.setPackageItemExtension(CheckIconListItem.URL, CheckIconListItem);
 			fairygui.UIObjectFactory.setPackageItemExtension(MenuBarItem.URL, MenuBarItem);
 			fairygui.UIObjectFactory.setPackageItemExtension(PopupMenuItem.URL, PopupMenuItem);
-			fairygui.UIObjectFactory.setPackageItemExtension(PopupMenuItem2.URL, PopupMenuItem2);
 			fairygui.UIObjectFactory.setPackageItemExtension(PopupMenu.URL, PopupMenu);
 			fairygui.UIObjectFactory.setPackageItemExtension(ProgressBar.URL, ProgressBar);
 			fairygui.UIObjectFactory.setPackageItemExtension(RadioButton.URL, RadioButton);

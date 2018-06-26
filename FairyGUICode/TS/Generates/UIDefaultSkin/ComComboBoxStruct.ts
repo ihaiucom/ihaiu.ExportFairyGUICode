@@ -14,6 +14,8 @@ namespace fgui.UIDefaultSkin
 
 		
 		public static URL:string = "ui://snq31xvrsfsc40";
+		
+		public static DependPackages:string[] = ["UIDefaultSkin"];
 
 		
 		public static createInstance():ComComboBox {

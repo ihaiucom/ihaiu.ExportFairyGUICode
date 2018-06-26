@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="swg0eosv" jpegQuality="80" compressPNG="true">
   <resources>
-    <image id="raoc0" name="001.png" path="/"/>
+    <image id="raoc0" name="001.png" path="/" exported="true"/>
     <image id="raoc1" name="002.png" path="/"/>
     <image id="raoc2" name="003.png" path="/"/>
     <image id="raoc3" name="004.png" path="/"/>

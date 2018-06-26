@@ -16,6 +16,8 @@ namespace fgui.BlueSkin
 
 		
 		public static URL:string = "ui://stv9j6m6raoc1a";
+		
+		public static DependPackages:string[] = ["BlueSkin"];
 
 		
 		public static createInstance():Checkbox {

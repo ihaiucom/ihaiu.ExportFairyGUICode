@@ -39,6 +39,7 @@ namespace fgui.UIDefaultSkin
 			fairygui.UIObjectFactory.setPackageItemExtension(CC.URL, CC);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestClass_Name.URL, TestClass_Name);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestName.URL, TestName);
+			fairygui.UIObjectFactory.setPackageItemExtension(TestOtherPackageImage.URL, TestOtherPackageImage);
 		}
 	}
 }

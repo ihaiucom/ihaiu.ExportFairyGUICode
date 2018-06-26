@@ -16,6 +16,8 @@ namespace fgui.BlackSkin
 
 		
 		public static URL:string = "ui://s1yj9w6mp7th2l";
+		
+		public static DependPackages:string[] = ["BlackSkin"];
 
 		
 		public static createInstance():NumericInput {

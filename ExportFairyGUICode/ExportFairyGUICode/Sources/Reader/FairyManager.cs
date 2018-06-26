@@ -109,13 +109,51 @@ public class FairyManager
             }
         }
 
+        // 生成依赖的包列表
+        foreach (Package package in packageList)
+        {
+            foreach (ResourceComponent component in package.ComponentList)
+            {
+                component.AddDependPackage(package);
+                TraverseDependPackage(component, component);
+
+
+                foreach (Node node in component.displayList)
+                {
+                    if (node.pkg != null)
+                    {
+
+                        Package pkg = GetPackage(node.pkg);
+                        if (pkg != null)
+                        {
+                            component.AddDependPackage(pkg);
+                        }
+                    }
+                }
+            }
+        }
 
     }
+
+    void TraverseDependPackage(ResourceComponent component, ResourceComponent root)
+    {
+
+        foreach (ComponentNode node in component.componentList)
+        {
+            if (node.resourceComponent != null)
+            {
+                root.AddDependPackage(node.resourceComponent.package);
+                TraverseDependPackage(node.resourceComponent, root);
+            }
+        }
+    }
+
 
     public void ExportTS()
     {
         ExportTSComponent();
         ExportTSBinder();
+        ExportTSExportGuiPackageNames();
     }
 
     private void ExportTSComponent()
@@ -141,6 +179,12 @@ public class FairyManager
             if(package.genCode)
                 TSExportBinder.Export(package);
         }
+    }
+
+    private void ExportTSExportGuiPackageNames()
+    {
+
+        TSExportGuiPackageNames.Export(packageList);
     }
 
 }

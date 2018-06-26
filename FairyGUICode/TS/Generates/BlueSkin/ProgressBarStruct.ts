@@ -12,6 +12,8 @@ namespace fgui.BlueSkin
 
 		
 		public static URL:string = "ui://stv9j6m6raoc1h";
+		
+		public static DependPackages:string[] = ["BlueSkin"];
 
 		
 		public static createInstance():ProgressBar {

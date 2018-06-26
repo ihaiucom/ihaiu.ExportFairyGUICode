@@ -12,6 +12,8 @@ namespace fgui.BlackSkin
 
 		
 		public static URL:string = "ui://s1yj9w6mp7th7";
+		
+		public static DependPackages:string[] = ["BlackSkin"];
 
 		
 		public static createInstance():LinkButton {

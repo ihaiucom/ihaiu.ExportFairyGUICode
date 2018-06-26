@@ -31,4 +31,12 @@ public static class TsPathOut
             return Setting.Options.codePath + "/TS/Generates/{0}/{1}.ts";
         }
     }
+
+    public static string GuiPackageNames
+    {
+        get
+        {
+            return Setting.Options.codePath + "/TS/Generates/GuiPackageNames.ts";
+        }
+    }
 }

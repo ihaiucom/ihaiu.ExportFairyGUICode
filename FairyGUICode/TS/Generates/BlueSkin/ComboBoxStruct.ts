@@ -17,6 +17,8 @@ namespace fgui.BlueSkin
 
 		
 		public static URL:string = "ui://stv9j6m6raoc1i";
+		
+		public static DependPackages:string[] = ["BlueSkin"];
 
 		
 		public static createInstance():ComboBox {

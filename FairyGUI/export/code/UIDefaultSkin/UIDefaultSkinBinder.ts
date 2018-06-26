@@ -4,6 +4,7 @@ module fgui.UIDefaultSkin {
 
 	export class UIDefaultSkinBinder{
 		public static bindAll():void {
+			fairygui.UIObjectFactory.setPackageItemExtension(TestOtherPackageImage.URL, TestOtherPackageImage);
 			fairygui.UIObjectFactory.setPackageItemExtension(RightArrow.URL, RightArrow);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestText.URL, TestText);
 			fairygui.UIObjectFactory.setPackageItemExtension(TestGroup.URL, TestGroup);

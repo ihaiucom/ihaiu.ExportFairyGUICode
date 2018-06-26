@@ -16,6 +16,8 @@ namespace fgui.BlueSkin
 
 		
 		public static URL:string = "ui://stv9j6m6raoc1f";
+		
+		public static DependPackages:string[] = ["BlueSkin"];
 
 		
 		public static createInstance():Button_icon {

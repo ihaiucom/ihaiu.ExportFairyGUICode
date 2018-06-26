@@ -8,6 +8,12 @@ public class Node
     public string name;
     public string type;
 
+
+    // 所在包ID
+    public string pkg;
+    // 资源ID
+    public string src;
+
     private string _fieldName;
     public string fieldName
     {
@@ -37,10 +43,6 @@ public class Node
 
 public class ComponentNode : Node
 {
-    // 所在包ID
-    public string pkg;
-    // 资源ID
-    public string src;
 
     public ResourceComponent parent;
     public ResourceComponent resourceComponent;

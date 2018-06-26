@@ -14,6 +14,8 @@ namespace fgui.BlackSkin
 
 		
 		public static URL:string = "ui://s1yj9w6mp7th33";
+		
+		public static DependPackages:string[] = ["BlackSkin"];
 
 		
 		public static createInstance():ScrollLeftButton {

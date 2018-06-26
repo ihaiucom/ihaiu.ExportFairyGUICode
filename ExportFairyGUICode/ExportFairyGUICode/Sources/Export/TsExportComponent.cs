@@ -106,6 +106,16 @@ public class TsExportComponent
             setDisplayList.Add(lines);
         }
 
+        string dependPackages = "";
+        List<string> dependPackageList = new List<string>();
+
+        foreach (Package item in com.dependPackageList)
+        {
+            dependPackageList.Add($"\"{item.name}\"");
+        }
+       
+        dependPackages = String.Join(",", dependPackageList.ToArray());
+
 
         TemplateSystem template = new TemplateSystem(File.ReadAllText(TsPathTemplate.ComponentStruct));
         template.AddVariable("namespace", com.nameSpace);
@@ -113,6 +123,7 @@ public class TsExportComponent
         template.AddVariable("classNameStruct", com.classNameStruct);
         template.AddVariable("classNameExtend", com.classNameExtend);
         template.AddVariable("packagename", com.packageName);
+        template.AddVariable("dependPackages", dependPackages);
         template.AddVariable("comname", Path.GetFileNameWithoutExtension(com.name));
         template.AddVariable("URL", com.URL);
         template.AddVariable("fields", fields.ToArray());
