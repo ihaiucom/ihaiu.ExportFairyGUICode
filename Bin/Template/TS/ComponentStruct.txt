@@ -1,4 +1,4 @@
-/////////////////////////////////////
+﻿/////////////////////////////////////
 // ihaiu.ExportFairyGUICode生成
 // http://blog.ihaiu.com
 /////////////////////////////////////
@@ -13,6 +13,13 @@ namespace >:namespace:<
 
 		
 		public static URL:string = ">:URL:<";
+		
+		public static DependPackages:string[] = [>:dependPackages:<];
+
+		
+		public static createInstance():>:classNameExtend:< {
+			return <>:classNameExtend:<><any>(fairygui.UIPackage.createObject(">:packagename:<",">:comname:<"));
+		}
 
 		
 
