@@ -39,4 +39,14 @@ public static class TsPathOut
             return Setting.Options.codePath + "/TS/Generates/GuiPackageNames.ts";
         }
     }
+
+    public static string GuiBinderList
+    {
+        get
+        {
+            return Setting.Options.codePath + "/TS/Generates/GuiBinderList.ts";
+        }
+    }
+
+    
 }

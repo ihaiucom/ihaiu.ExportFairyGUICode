@@ -8,7 +8,7 @@ class Program
     static void Main(string[] args)
     {
         //注册EncodeProvider
-        Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+        //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
         
 
 

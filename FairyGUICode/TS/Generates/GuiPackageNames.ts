@@ -11,12 +11,12 @@ namespace Games
     export class GuiPackageNames
     {
 	
-		public BlackSkin : BlackSkin;
-		public BlueSkin : BlueSkin;
-		public SpriteGuoqi : SpriteGuoqi;
-		public SpriteIcon : SpriteIcon;
-		public Test_Pack_name : Test-Pack_name;
-		public UIDefaultSkin : UIDefaultSkin;
+		public static BlackSkin : string = "BlackSkin";
+		public static BlueSkin : string = "BlueSkin";
+		public static SpriteGuoqi : string = "SpriteGuoqi";
+		public static SpriteIcon : string = "SpriteIcon";
+		public static Test_Pack_name : string = "Test-Pack_name";
+		public static UIDefaultSkin : string = "UIDefaultSkin";
 
     }
 }

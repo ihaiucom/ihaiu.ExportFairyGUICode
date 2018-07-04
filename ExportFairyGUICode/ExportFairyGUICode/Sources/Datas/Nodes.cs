@@ -49,6 +49,11 @@ public class ComponentNode : Node
 
     public string GetType(ResourceComponent com)
     {
+        if(resourceComponent == null)
+        {
+            return fairygui.CommonName.GObject;
+        }
+
         if(resourceComponent.isIngore)
         {
             return resourceComponent.extendClassName;

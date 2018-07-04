@@ -1,0 +1,27 @@
+2018-07-03 20:19:06.6532   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= MarketPublicityPanel.xml nodename=tabSelfmotion
+2018-07-03 20:19:06.7482   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-03 20:19:06.7482   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-03 20:19:13.9616   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= MarketPublicityPanel.xml nodename=tabSelfmotion
+2018-07-03 20:19:14.0706   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-03 20:19:14.0706   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-03 20:19:24.0062    没有找到 resourceComponent packagename= PfSkin comname= MarketPublicityPanel.xml nodename=tabSelfmotion
+2018-07-03 20:19:24.1342    没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-03 20:19:24.1342    没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:50:59.5339   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:50:59.6349   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:52:19.9465   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:52:20.0265   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:53:25.9223   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:53:25.9993   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:53:52.3558   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:53:52.4478   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:55:28.3993   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:55:28.4763   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:56:02.8082   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:56:02.8852   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:57:26.4830   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:57:26.5570   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 15:58:28.7156   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 15:58:28.7926   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-07-04 16:09:36.6478   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
+2018-07-04 16:09:36.7248   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney

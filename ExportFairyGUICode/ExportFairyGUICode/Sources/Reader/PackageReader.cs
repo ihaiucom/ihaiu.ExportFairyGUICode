@@ -54,7 +54,13 @@ public class PackageReader
                 type = node.Name.GetResourceComponentTypeByName()
             };
 
-            package.AddResource(item);
+
+            string comPath = package.rootPath + item.path + item.name;
+            if(File.Exists(comPath))
+            {
+                package.AddResource(item);
+            }
+
         }
 
         return package;

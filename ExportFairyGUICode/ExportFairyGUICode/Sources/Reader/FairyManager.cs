@@ -154,6 +154,7 @@ public class FairyManager
         ExportTSComponent();
         ExportTSBinder();
         ExportTSExportGuiPackageNames();
+        ExportTSExportGuiBinderList();
     }
 
     private void ExportTSComponent()
@@ -187,4 +188,9 @@ public class FairyManager
         TSExportGuiPackageNames.Export(packageList);
     }
 
+    private void ExportTSExportGuiBinderList()
+    {
+
+        TSExportGuiBinderList.Export(packageList);
+    }
 }

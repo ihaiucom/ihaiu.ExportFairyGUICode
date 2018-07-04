@@ -36,4 +36,12 @@ public class TsPathTemplate
             return Setting.Options.templateDir + "/TS/GuiPackageNames.txt";
         }
     }
+
+    public static string GuiBinderList
+    {
+        get
+        {
+            return Setting.Options.templateDir + "/TS/GuiBinderList.txt";
+        }
+    }
 }

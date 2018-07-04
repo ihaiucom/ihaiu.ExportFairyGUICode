@@ -86,6 +86,8 @@ public static class fairygui
 
     public static class CommonName
     {
+        // 对象
+        public const string GObject = "fairygui.GObject";
 
         // 组件
         public const string GComponent = "fairygui.GComponent";
