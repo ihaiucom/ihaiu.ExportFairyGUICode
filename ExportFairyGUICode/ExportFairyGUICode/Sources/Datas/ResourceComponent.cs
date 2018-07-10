@@ -84,6 +84,11 @@ public class ResourceComponent
                 return true;
             }
 
+            if(name.StartsWith("_"))
+            {
+                return true;
+            }
+
             if (Setting.Options.codeIgnorNoExported)
             {
                 if (exported == false)
