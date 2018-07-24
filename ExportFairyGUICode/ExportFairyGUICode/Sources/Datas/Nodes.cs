@@ -33,7 +33,12 @@ public class Node
         get
         {
             if (Setting.Options.codeIgnoreNoname)
+            {
+                if (name.StartsWith("_"))
+                    return true;
+
                 return IngoreRegex.IsMatch(name);
+            }
             else
                 return false;
         }
