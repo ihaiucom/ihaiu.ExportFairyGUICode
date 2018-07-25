@@ -57,6 +57,10 @@ public class Options
     [Option("codeIgnoreNoname", Required = false, Default = true)]
     public bool codeUseOtherPkgType{ get; set; }
 
+    // 声音--包名
+    [Option("soundPackageName", Required = false, Default = "Sound")]
+    public string soundPackageName { get; set; }
+
 
 
     public void Save(string path = null)

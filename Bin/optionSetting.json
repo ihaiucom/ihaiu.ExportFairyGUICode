@@ -10,5 +10,6 @@
   "codeIgnorIllegalClassName": false,
   "codeIgnorNoExported": true,
   "codeExportDepend": true,
-  "codeUseOtherPkgType": true
+  "codeUseOtherPkgType": true,
+  "soundPackageName": "Sound"
 }

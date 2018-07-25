@@ -9,11 +9,13 @@ public class FairyManager
 {
     List<Package> packageList = new List<Package>();
     QueueDictionary<string, Package> packages = new QueueDictionary<string, Package>();
+    Dictionary<string, Package> packagesByName = new Dictionary<string, Package>();
 
     public void AddPackage(Package package)
     {
         packageList.Add(package);
         packages.Enqueue(package.id, package);
+        packagesByName.Add(package.name, package);
     }
 
     public Package GetPackage(string packageId)
@@ -21,6 +23,15 @@ public class FairyManager
         if(packages.ContainsKey(packageId))
         {
             return packages[packageId];
+        }
+        return null;
+    }
+
+    public Package GetPackageByName(string packageName)
+    {
+        if (packagesByName.ContainsKey(packageName))
+        {
+            return packagesByName[packageName];
         }
         return null;
     }
@@ -155,6 +166,7 @@ public class FairyManager
         ExportTSBinder();
         ExportTSExportGuiPackageNames();
         ExportTSExportGuiBinderList();
+        ExportTSExportSoundKey();
     }
 
     private void ExportTSComponent()
@@ -192,5 +204,14 @@ public class FairyManager
     {
 
         TSExportGuiBinderList.Export(packageList);
+    }
+
+    private void ExportTSExportSoundKey()
+    {
+        Package sound =  GetPackageByName(Setting.Options.soundPackageName);
+        if(sound != null)
+        {
+            TSExportSoundKey.Export(sound);
+        }
     }
 }

@@ -44,4 +44,13 @@ public class TsPathTemplate
             return Setting.Options.templateDir + "/TS/GuiBinderList.txt";
         }
     }
+
+
+    public static string SoundKey
+    {
+        get
+        {
+            return Setting.Options.templateDir + "/TS/SoundKey.txt";
+        }
+    }
 }

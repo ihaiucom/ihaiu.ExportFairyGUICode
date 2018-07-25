@@ -48,5 +48,15 @@ public static class TsPathOut
         }
     }
 
-    
+
+
+    public static string SoundKey
+    {
+        get
+        {
+            return Setting.Options.codePath + "/TS/Generates/SoundKey.ts";
+        }
+    }
+
+
 }

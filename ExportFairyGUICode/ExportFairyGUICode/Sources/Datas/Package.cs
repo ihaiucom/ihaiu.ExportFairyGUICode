@@ -14,6 +14,7 @@ public class Package
     QueueDictionary<string, ResourceComponent> resources = new QueueDictionary<string, ResourceComponent>();
     List<ResourceComponent> components = new List<ResourceComponent>();
     List<ResourceComponent> exportComponents = new List<ResourceComponent>();
+    public List<ResourceComponent> sounds = new List<ResourceComponent>();
 
     public List<ResourceComponent> ComponentList
     {
@@ -22,6 +23,8 @@ public class Package
             return components;
         }
     }
+
+
 
     public void AddResource(ResourceComponent res)
     {
@@ -36,6 +39,10 @@ public class Package
             {
                 exportComponents.Add(res);
             }
+        }
+        else if(res.type == ResourceComponentType.sound)
+        {
+            sounds.Add(res);
         }
     }
 

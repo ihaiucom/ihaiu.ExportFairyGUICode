@@ -10,6 +10,7 @@ public enum ResourceComponentType
     movieclip,
     swf,
     font,
+    sound,
 }
 
 public static class ResourceComponentTypeHelper
