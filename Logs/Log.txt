@@ -25,3 +25,25 @@
 2018-07-04 15:58:28.7926   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
 2018-07-04 16:09:36.6478   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=btnClose
 2018-07-04 16:09:36.7248   (FairyManager.cs:97) 没有找到 resourceComponent packagename= PfSkin comname= WindowFrame.xml nodename=Labmoney
+2018-08-07 15:58:28.2125   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Common comname= ProgressTotalBarYellow.xml nodename=n9
+2018-08-07 15:58:28.3185   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Common comname= ProgressTotalBarRed.xml nodename=ProgressBar
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Common comname= SliderRed.xml nodename=grip
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Guide comname= GuideTaskUI.xml nodename=n20
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Guide comname= GuideTaskUI.xml nodename=recordsBtn
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n2
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n5
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n6
+2018-08-07 15:58:28.3215   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n7
+2018-08-07 15:58:28.3365   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n8
+2018-08-07 15:58:28.3365   (FairyManager.cs:108) 没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n9
+2018-08-07 15:58:40.3070    没有找到 resourceComponent packagename= Common comname= ProgressTotalBarYellow.xml nodename=n9
+2018-08-07 15:58:40.3920    没有找到 resourceComponent packagename= Common comname= ProgressTotalBarRed.xml nodename=ProgressBar
+2018-08-07 15:58:40.3920    没有找到 resourceComponent packagename= Common comname= SliderRed.xml nodename=grip
+2018-08-07 15:58:40.3920    没有找到 resourceComponent packagename= Guide comname= GuideTaskUI.xml nodename=n20
+2018-08-07 15:58:40.3965    没有找到 resourceComponent packagename= Guide comname= GuideTaskUI.xml nodename=recordsBtn
+2018-08-07 15:58:40.3965    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n2
+2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n5
+2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n6
+2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n7
+2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n8
+2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n9

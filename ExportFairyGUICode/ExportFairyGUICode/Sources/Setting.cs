@@ -2,9 +2,19 @@
 using System;
 using System.IO;
 
+
+public class CmdType
+{
+    // 生成代码
+    public const string generatecode = "generatecode";
+    // 修改 xlsx
+    public const string modifyxml = "modifyxml";
+}
+
 public class Setting
 {
     public static Options Options { get; set; }
+    public static string cmd = CmdType.generatecode;
 
     public static void Init(string[] args)
     {
@@ -25,7 +35,14 @@ public class Setting
             Options.Save(Options.optionSetting);
         }
 
-        if(useSetting)
+
+        cmd = Options.cmd;
+        if (string.IsNullOrEmpty(cmd))
+        {
+            cmd = CmdType.generatecode;
+        }
+
+        if (useSetting)
         {
             Options = Options.Load(Options.optionSetting);
         }

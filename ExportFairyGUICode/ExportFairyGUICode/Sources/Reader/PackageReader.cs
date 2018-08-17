@@ -8,6 +8,7 @@ public class PackageReader
 {
     public static Package Load(string path)
     {
+        Console.WriteLine("PackageReader:" + path);
 
         Package package = new Package();
         package.rootPath = Path.GetDirectoryName(path);

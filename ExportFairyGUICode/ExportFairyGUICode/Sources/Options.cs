@@ -10,6 +10,10 @@ public class Options
     [Option("autoEnd", Required = false, Default = true)]
     public bool autoEnd { get; set; }
 
+    // 命令
+    [Option("cmd", Required = false, Default = "generatecode")]
+    public string cmd { get; set; }
+
     // 启动参数设置 配置路径
     [Option("optionSetting", Required = false, Default = "./optionSetting.json")]
     public string optionSetting { get; set; }

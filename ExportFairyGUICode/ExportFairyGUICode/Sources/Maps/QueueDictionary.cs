@@ -9,6 +9,10 @@ namespace ETModel
 
 		public void Enqueue(T t, K k)
 		{
+            if(this.dictionary.ContainsKey(t))
+            {
+                System.Console.WriteLine($"[Error] 已经存在key={t}");
+            }
 			this.list.Add(t);
 			this.dictionary.Add(t, k);
 		}
