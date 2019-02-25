@@ -2,7 +2,7 @@
   "profiles": {
     "ExportFairyGUICode": {
       "commandName": "Project",
-      "commandLineArgs": "--cmd=modifyxml --optionSetting=optionSetting.json"
+      "commandLineArgs": "--cmd=generatecode --optionSetting=optionSetting.json"
     }
   }
 }

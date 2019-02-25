@@ -12,3 +12,17 @@ E:\zengfeng\github\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICod
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.pdb
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\Bin\NLog.config
 E:\zengfeng\github\ihaiu.ExportFairyGUICode\Bin\NLog.xsd
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\NLog.config
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\NLog.xsd
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.deps.json
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.runtimeconfig.json
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.runtimeconfig.dev.json
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.dll
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.pdb
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csprojAssemblyReference.cache
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csproj.CoreCompileInputs.cache
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.AssemblyInfoInputs.cache
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.AssemblyInfo.cs
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csproj.CopyComplete
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.dll
+E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.pdb

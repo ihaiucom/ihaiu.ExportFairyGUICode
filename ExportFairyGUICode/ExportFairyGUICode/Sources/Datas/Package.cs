@@ -111,4 +111,14 @@ public class Package
         }
     }
 
+    public string tsBinderPath
+    {
+        get
+        {
+            return string.Format(TsPathOut.Binder, codeFolderName, classNameBinder);
+        }
+    }
+
+    
+
 }

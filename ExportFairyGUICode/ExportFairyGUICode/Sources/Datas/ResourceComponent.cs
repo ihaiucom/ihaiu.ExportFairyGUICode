@@ -227,4 +227,22 @@ public class ResourceComponent
         }
     }
 
+    // 保存的代码路径--Struct
+    public string tsStructPath
+    {
+        get
+        {
+            return string.Format(TsPathOut.ComponentStruct, package.codeFolderName, className);
+        }
+    }
+
+    // 保存的代码路径--Extend
+    public string tsExtendPath
+    {
+        get
+        {
+            return string.Format(TsPathOut.ComponentExtend, package.codeFolderName, className);
+        }
+    }
+
 }

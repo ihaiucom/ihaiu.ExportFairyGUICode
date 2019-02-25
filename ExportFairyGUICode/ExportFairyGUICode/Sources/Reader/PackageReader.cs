@@ -35,6 +35,11 @@ public class PackageReader
             package.name = Path.GetFileNameWithoutExtension( Path.GetDirectoryName(path) );
         }
 
+        if(string.IsNullOrEmpty(package.name))
+        {
+            package.name = Path.GetFileNameWithoutExtension(Path.GetDirectoryName(path));
+        }
+
 
         XmlNodeList xmlNodeList = xmlDocument.SelectSingleNode("packageDescription/resources").ChildNodes;
 

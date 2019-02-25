@@ -9,8 +9,10 @@ public class TSExportBinder
 {
     public static void Export(Package package)
     {
+        string path = package.tsBinderPath;
 
         List<object[]> coms = new List<object[]>();
+        List<object[]> imports = new List<object[]>();
 
         foreach (ResourceComponent component in package.ComponentList)
         {
@@ -18,6 +20,7 @@ public class TSExportBinder
                 continue;
 
             coms.Add(new object[] { component .classNameExtend });
+            imports.Add(new object[] { component.classNameExtend , PathHelper.GetImportPath(path, component.tsExtendPath) });
         }
 
 
@@ -25,8 +28,8 @@ public class TSExportBinder
         template.AddVariable("namespace", package.nameSpace);
         template.AddVariable("className", package.classNameBinder);
         template.AddVariable("coms", coms.ToArray());
+        template.AddVariable("imports", imports.ToArray());
         string content = template.Parse();
-        string path = string.Format(TsPathOut.Binder, package.codeFolderName, package.classNameBinder);
 
         PathHelper.CheckPath(path);
         File.WriteAllText(path, content);

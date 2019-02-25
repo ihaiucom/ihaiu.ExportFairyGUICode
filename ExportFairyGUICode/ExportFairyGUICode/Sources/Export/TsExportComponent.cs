@@ -25,13 +25,14 @@ public class TsExportComponent
     private void ExportStruct()
     {
 
+        List<object[]> imports = new List<object[]>();
         List<object[]> fields = new List<object[]>();
         List<object[]> setControllerList = new List<object[]>();
         List<object[]> setTransitionList = new List<object[]>();
         List<object[]> setDisplayList = new List<object[]>();
 
         // fields
-        foreach(Node node in com.controllerList)
+        foreach (Node node in com.controllerList)
         {
             if (node.isIngore)
                 continue;
@@ -66,6 +67,19 @@ public class TsExportComponent
             object[] lines = new object[] { node.fieldName, node.GetType(com) };
             fields.Add(lines);
         }
+
+        // imports
+        foreach (ComponentNode node in com.componentList)
+        {
+            if (node.isIngore)
+                continue;
+
+            object[] lines = new object[] { node.resourceComponent.classNameExtend, node.GetImportPathForStruct(com) };
+            imports.Add(lines);
+        }
+
+
+        imports.Add(new object[] { com.classNameExtend, PathHelper.GetImportPath(com.tsStructPath, com.tsExtendPath)});
 
         // setControllerList
         foreach (Node node in com.controllerList)
@@ -130,8 +144,9 @@ public class TsExportComponent
         template.AddVariable("setControllerList", setControllerList.ToArray());
         template.AddVariable("setDisplayList", setDisplayList.ToArray());
         template.AddVariable("setTransitionList", setTransitionList.ToArray());
+        template.AddVariable("imports", imports.ToArray());
         string content = template.Parse();
-        string path = string.Format(TsPathOut.ComponentStruct, com.package.codeFolderName, name);
+        string path = com.tsStructPath;
 
         PathHelper.CheckPath(path);
         File.WriteAllText(path, content);
@@ -142,13 +157,21 @@ public class TsExportComponent
     /// </summary>
     private void ExportExtend()
     {
+
+        // imports
+        List<object[]> imports = new List<object[]>();
+
+        object[] lines = new object[] { com.classNameStruct, PathHelper.GetImportPath(com.tsExtendPath, com.tsStructPath) };
+        imports.Add(lines);
+
         TemplateSystem template = new TemplateSystem(File.ReadAllText(TsPathTemplate.ComponentExtend));
         template.AddVariable("namespace", com.nameSpace);
         template.AddVariable("classNameFGUI", com.classNameFGUI);
         template.AddVariable("classNameStruct", com.classNameStruct);
         template.AddVariable("classNameExtend", com.classNameExtend);
+        template.AddVariable("imports", imports.ToArray());
         string content = template.Parse();
-        string path = string.Format(TsPathOut.ComponentExtend, com.package.codeFolderName, name);
+        string path = com.tsExtendPath;
 
         PathHelper.CheckPath(path);
         File.WriteAllText(path, content);

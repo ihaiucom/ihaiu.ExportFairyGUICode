@@ -9,7 +9,7 @@ class Program
     {
         //注册EncodeProvider
         //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-        
+
 
 
         Setting.Init(args);
@@ -31,6 +31,7 @@ class Program
 
         if (!Setting.Options.autoEnd)
             Console.Read();
+
     }
 
     static void generatecode()

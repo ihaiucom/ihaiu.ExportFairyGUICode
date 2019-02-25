@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -80,4 +81,14 @@ public class ComponentNode : Node
             }
         }
     }
+
+    public string GetImportPathForStruct(ResourceComponent com)
+    {
+        string absolutePath = com.tsStructPath;
+        string relativeTo = resourceComponent.tsExtendPath;
+        string path = PathHelper.GetImportPath(absolutePath, relativeTo);
+       
+        return path;
+    }
+
 }

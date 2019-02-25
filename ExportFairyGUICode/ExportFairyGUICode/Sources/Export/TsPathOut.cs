@@ -5,6 +5,9 @@ using System.Text;
 
 public static class TsPathOut
 {
+    public static string ExtendsDirName = "Extends";
+    public static string StructDirName = "Generates";
+
     public static string ComponentStruct
     {
         get
