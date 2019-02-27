@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComButtonNormal from "../../Extends/UIDefaultSkin/ComButtonNormal";
 
 export default class ComButtonNormalStruct extends fairygui.GButton
 {

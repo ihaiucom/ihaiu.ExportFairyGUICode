@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import Button_icon from "../../Extends/BlueSkin/Button_icon";
 
 export default class Button_iconStruct extends fairygui.GButton
 {

@@ -3,14 +3,20 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import GameLaunchBinder from "./GameLaunch/GameLaunchBinder";
-import SoundBinder from "./Sound/SoundBinder";
+import BlackSkinBinder from "./BlackSkin/BlackSkinBinder";
+import BlueSkinBinder from "./BlueSkin/BlueSkinBinder";
+import SpriteGuoqiBinder from "./SpriteGuoqi/SpriteGuoqiBinder";
+import SpriteIconBinder from "./SpriteIcon/SpriteIconBinder";
+import UIDefaultSkinBinder from "./UIDefaultSkin/UIDefaultSkinBinder";
 
 export default class GuiBinderList
 {
 	static fguiBinderAll()
 	{
-		GameLaunchBinder.bindAll()
-		SoundBinder.bindAll()
+		BlackSkinBinder.bindAll()
+		BlueSkinBinder.bindAll()
+		SpriteGuoqiBinder.bindAll()
+		SpriteIconBinder.bindAll()
+		UIDefaultSkinBinder.bindAll()
 	}
 }

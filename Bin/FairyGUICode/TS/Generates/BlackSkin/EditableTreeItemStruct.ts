@@ -3,7 +3,8 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TreeExpandButton from "../../Extends/BlackSkin/TreeExpandButton.ts";
+import TreeExpandButton from "../../Extends/BlackSkin/TreeExpandButton";
+import EditableTreeItem from "../../Extends/BlackSkin/EditableTreeItem";
 
 export default class EditableTreeItemStruct extends fairygui.GButton
 {

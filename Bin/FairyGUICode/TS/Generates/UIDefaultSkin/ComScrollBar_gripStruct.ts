@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComScrollBar_grip from "../../Extends/UIDefaultSkin/ComScrollBar_grip";
 
 export default class ComScrollBar_gripStruct extends fairygui.GButton
 {

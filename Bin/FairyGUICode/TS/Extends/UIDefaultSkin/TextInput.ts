@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TextInputStruct from "../../Generates/UIDefaultSkin/TextInputStruct.ts";
+import TextInputStruct from "../../Generates/UIDefaultSkin/TextInputStruct";
 
 export default class TextInput extends TextInputStruct
 {

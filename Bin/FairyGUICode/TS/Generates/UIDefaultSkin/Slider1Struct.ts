@@ -3,7 +3,8 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import Slider1_grip from "../../Extends/UIDefaultSkin/Slider1_grip.ts";
+import Slider1_grip from "../../Extends/UIDefaultSkin/Slider1_grip";
+import Slider1 from "../../Extends/UIDefaultSkin/Slider1";
 
 export default class Slider1Struct extends fairygui.GSlider
 {

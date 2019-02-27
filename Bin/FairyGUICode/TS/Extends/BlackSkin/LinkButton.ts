@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import LinkButtonStruct from "../../Generates/BlackSkin/LinkButtonStruct.ts";
+import LinkButtonStruct from "../../Generates/BlackSkin/LinkButtonStruct";
 
 export default class LinkButton extends LinkButtonStruct
 {

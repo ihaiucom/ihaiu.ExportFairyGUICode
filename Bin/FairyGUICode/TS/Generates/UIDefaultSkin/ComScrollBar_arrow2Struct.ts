@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComScrollBar_arrow2 from "../../Extends/UIDefaultSkin/ComScrollBar_arrow2";
 
 export default class ComScrollBar_arrow2Struct extends fairygui.GButton
 {

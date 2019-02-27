@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ProgressBarStruct from "../../Generates/BlackSkin/ProgressBarStruct.ts";
+import ProgressBarStruct from "../../Generates/BlackSkin/ProgressBarStruct";
 
 export default class ProgressBar extends ProgressBarStruct
 {

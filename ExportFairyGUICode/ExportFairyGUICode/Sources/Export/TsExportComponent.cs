@@ -68,14 +68,19 @@ public class TsExportComponent
             fields.Add(lines);
         }
 
+        Dictionary<string, bool> importDict = new Dictionary<string, bool>();
         // imports
         foreach (ComponentNode node in com.componentList)
         {
             if (node.isIngore)
                 continue;
 
-            object[] lines = new object[] { node.resourceComponent.classNameExtend, node.GetImportPathForStruct(com) };
-            imports.Add(lines);
+            if(!importDict.ContainsKey(node.resourceComponent.classNameExtend))
+            {
+                importDict.Add(node.resourceComponent.classNameExtend, true);
+                object[] lines = new object[] { node.resourceComponent.classNameExtend, node.GetImportPathForStruct(com) };
+                imports.Add(lines);
+            }
         }
 
 

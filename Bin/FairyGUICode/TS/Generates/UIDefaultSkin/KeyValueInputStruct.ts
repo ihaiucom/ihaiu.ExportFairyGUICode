@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import KeyValueInput from "../../Extends/UIDefaultSkin/KeyValueInput";
 
 export default class KeyValueInputStruct extends fairygui.GComponent
 {

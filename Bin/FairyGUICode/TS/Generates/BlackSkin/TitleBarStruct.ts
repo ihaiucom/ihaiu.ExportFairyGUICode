@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TitleBar from "../../Extends/BlackSkin/TitleBar";
 
 export default class TitleBarStruct extends fairygui.GButton
 {

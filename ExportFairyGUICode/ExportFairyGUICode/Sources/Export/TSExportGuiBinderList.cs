@@ -14,13 +14,21 @@ public class TSExportGuiBinderList
         List<object[]> list = new List<object[]>();
         List<object[]> imports = new List<object[]>();
 
+        Dictionary<string, bool> importDict = new Dictionary<string, bool>();
+
         foreach (Package package in packageList)
         {
             if (!package.genCode)
                 continue;
 
             list.Add(new object[] { $"{package.classNameBinder}.bindAll()" });
-            imports.Add(new object[] { package.classNameBinder, PathHelper.GetImportPath(path, package.tsBinderPath) });
+
+
+            if (!importDict.ContainsKey(package.classNameBinder))
+            {
+                importDict.Add(package.classNameBinder, true);
+                imports.Add(new object[] { package.classNameBinder, PathHelper.GetImportPath(path, package.tsBinderPath) });
+            }
         }
 
 

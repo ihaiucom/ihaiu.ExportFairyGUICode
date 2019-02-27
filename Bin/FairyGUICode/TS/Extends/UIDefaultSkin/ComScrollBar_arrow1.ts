@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ComScrollBar_arrow1Struct from "../../Generates/UIDefaultSkin/ComScrollBar_arrow1Struct.ts";
+import ComScrollBar_arrow1Struct from "../../Generates/UIDefaultSkin/ComScrollBar_arrow1Struct";
 
 export default class ComScrollBar_arrow1 extends ComScrollBar_arrow1Struct
 {

@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import NumericInputStruct from "../../Generates/BlackSkin/NumericInputStruct.ts";
+import NumericInputStruct from "../../Generates/BlackSkin/NumericInputStruct";
 
 export default class NumericInput extends NumericInputStruct
 {

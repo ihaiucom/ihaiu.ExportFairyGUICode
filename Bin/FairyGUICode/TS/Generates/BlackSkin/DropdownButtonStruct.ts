@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import DropdownButton from "../../Extends/BlackSkin/DropdownButton";
 
 export default class DropdownButtonStruct extends fairygui.GButton
 {

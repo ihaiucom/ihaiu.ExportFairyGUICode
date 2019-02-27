@@ -3,9 +3,9 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ComButtonCheck from "../../Extends/UIDefaultSkin/ComButtonCheck.ts";
-import ComButtonCheck from "../../Extends/UIDefaultSkin/ComButtonCheck.ts";
-import ComLabel from "../../Extends/UIDefaultSkin/ComLabel.ts";
+import ComButtonCheck from "../../Extends/UIDefaultSkin/ComButtonCheck";
+import ComLabel from "../../Extends/UIDefaultSkin/ComLabel";
+import TestName from "../../Extends/UIDefaultSkin/TestName";
 
 export default class TestNameStruct extends fairygui.GComponent
 {

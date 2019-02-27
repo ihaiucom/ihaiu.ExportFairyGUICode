@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ScrollBar_grip from "../../Extends/BlueSkin/ScrollBar_grip";
 
 export default class ScrollBar_gripStruct extends fairygui.GButton
 {

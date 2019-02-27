@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import WindowCloseButtonStruct from "../../Generates/BlackSkin/WindowCloseButtonStruct.ts";
+import WindowCloseButtonStruct from "../../Generates/BlackSkin/WindowCloseButtonStruct";
 
 export default class WindowCloseButton extends WindowCloseButtonStruct
 {

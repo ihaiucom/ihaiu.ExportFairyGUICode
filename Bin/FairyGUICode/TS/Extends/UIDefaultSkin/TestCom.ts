@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TestComStruct from "../../Generates/UIDefaultSkin/TestComStruct.ts";
+import TestComStruct from "../../Generates/UIDefaultSkin/TestComStruct";
 
 export default class TestCom extends TestComStruct
 {

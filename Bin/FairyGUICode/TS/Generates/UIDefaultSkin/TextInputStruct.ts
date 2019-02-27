@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TextInput from "../../Extends/UIDefaultSkin/TextInput";
 
 export default class TextInputStruct extends fairygui.GLabel
 {

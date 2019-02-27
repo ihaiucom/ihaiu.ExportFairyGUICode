@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import PopupMenu1_item from "../../Extends/UIDefaultSkin/PopupMenu1_item";
 
 export default class PopupMenu1_itemStruct extends fairygui.GButton
 {

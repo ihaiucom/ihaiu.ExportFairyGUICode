@@ -3,7 +3,8 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import Button_icon from "../../Extends/BlueSkin/Button_icon.ts";
+import Button_icon from "../../Extends/BlueSkin/Button_icon";
+import SliderV from "../../Extends/BlueSkin/SliderV";
 
 export default class SliderVStruct extends fairygui.GSlider
 {

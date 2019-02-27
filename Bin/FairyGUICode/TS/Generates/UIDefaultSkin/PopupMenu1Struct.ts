@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import PopupMenu1 from "../../Extends/UIDefaultSkin/PopupMenu1";
 
 export default class PopupMenu1Struct extends fairygui.GComponent
 {

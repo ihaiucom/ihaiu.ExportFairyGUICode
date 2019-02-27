@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ComComboBox_popupStruct from "../../Generates/UIDefaultSkin/ComComboBox_popupStruct.ts";
+import ComComboBox_popupStruct from "../../Generates/UIDefaultSkin/ComComboBox_popupStruct";
 
 export default class ComComboBox_popup extends ComComboBox_popupStruct
 {

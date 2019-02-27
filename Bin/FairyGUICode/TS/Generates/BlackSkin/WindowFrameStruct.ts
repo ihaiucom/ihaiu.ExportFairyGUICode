@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import WindowFrame from "../../Extends/BlackSkin/WindowFrame";
 
 export default class WindowFrameStruct extends fairygui.GLabel
 {

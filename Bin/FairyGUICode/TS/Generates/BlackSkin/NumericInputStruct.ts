@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import NumericInput from "../../Extends/BlackSkin/NumericInput";
 
 export default class NumericInputStruct extends fairygui.GLabel
 {

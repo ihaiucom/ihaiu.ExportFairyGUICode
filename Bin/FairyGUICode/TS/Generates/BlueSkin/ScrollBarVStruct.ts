@@ -3,9 +3,9 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow.ts";
-import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow.ts";
-import ScrollBar_grip from "../../Extends/BlueSkin/ScrollBar_grip.ts";
+import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow";
+import ScrollBar_grip from "../../Extends/BlueSkin/ScrollBar_grip";
+import ScrollBarV from "../../Extends/BlueSkin/ScrollBarV";
 
 export default class ScrollBarVStruct extends fairygui.GScrollBar
 {

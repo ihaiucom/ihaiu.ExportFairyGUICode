@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import FileTabButtonStruct from "../../Generates/BlackSkin/FileTabButtonStruct.ts";
+import FileTabButtonStruct from "../../Generates/BlackSkin/FileTabButtonStruct";
 
 export default class FileTabButton extends FileTabButtonStruct
 {

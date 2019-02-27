@@ -3,9 +3,10 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ComScrollBar_arrow1 from "../../Extends/UIDefaultSkin/ComScrollBar_arrow1.ts";
-import ComScrollBar_arrow2 from "../../Extends/UIDefaultSkin/ComScrollBar_arrow2.ts";
-import ComScrollBar_grip from "../../Extends/UIDefaultSkin/ComScrollBar_grip.ts";
+import ComScrollBar_arrow1 from "../../Extends/UIDefaultSkin/ComScrollBar_arrow1";
+import ComScrollBar_arrow2 from "../../Extends/UIDefaultSkin/ComScrollBar_arrow2";
+import ComScrollBar_grip from "../../Extends/UIDefaultSkin/ComScrollBar_grip";
+import ComScrollBar from "../../Extends/UIDefaultSkin/ComScrollBar";
 
 export default class ComScrollBarStruct extends fairygui.GScrollBar
 {

@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import IconButton from "../../Extends/BlackSkin/IconButton";
 
 export default class IconButtonStruct extends fairygui.GButton
 {

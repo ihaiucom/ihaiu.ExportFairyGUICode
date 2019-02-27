@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import InputTextArea from "../../Extends/BlueSkin/InputTextArea";
 
 export default class InputTextAreaStruct extends fairygui.GLabel
 {

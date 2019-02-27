@@ -3,9 +3,10 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import GripButton_HZ from "../../Extends/BlackSkin/GripButton_HZ.ts";
-import ScrollRightButton from "../../Extends/BlackSkin/ScrollRightButton.ts";
-import ScrollLeftButton from "../../Extends/BlackSkin/ScrollLeftButton.ts";
+import GripButton_HZ from "../../Extends/BlackSkin/GripButton_HZ";
+import ScrollRightButton from "../../Extends/BlackSkin/ScrollRightButton";
+import ScrollLeftButton from "../../Extends/BlackSkin/ScrollLeftButton";
+import ScrollBar_HZ from "../../Extends/BlackSkin/ScrollBar_HZ";
 
 export default class ScrollBar_HZStruct extends fairygui.GScrollBar
 {

@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import RadioButton from "../../Extends/BlackSkin/RadioButton";
 
 export default class RadioButtonStruct extends fairygui.GButton
 {

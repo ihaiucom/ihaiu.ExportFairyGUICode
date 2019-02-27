@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TestList from "../../Extends/UIDefaultSkin/TestList";
 
 export default class TestListStruct extends fairygui.GComponent
 {

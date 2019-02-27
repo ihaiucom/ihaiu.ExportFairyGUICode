@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TestOtherPackageImage from "../../Extends/UIDefaultSkin/TestOtherPackageImage";
 
 export default class TestOtherPackageImageStruct extends fairygui.GComponent
 {

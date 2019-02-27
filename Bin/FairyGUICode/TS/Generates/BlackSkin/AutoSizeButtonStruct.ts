@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import AutoSizeButton from "../../Extends/BlackSkin/AutoSizeButton";
 
 export default class AutoSizeButtonStruct extends fairygui.GButton
 {

@@ -4,24 +4,24 @@
 /////////////////////////////////////
 
 
-import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow.ts";
-import ScrollBar_grip from "../../Extends/BlueSkin/ScrollBar_grip.ts";
-import WindowCloseButton from "../../Extends/BlueSkin/WindowCloseButton.ts";
-import Button from "../../Extends/BlueSkin/Button.ts";
-import Checkbox from "../../Extends/BlueSkin/Checkbox.ts";
-import RadioButton from "../../Extends/BlueSkin/RadioButton.ts";
-import InputTextField from "../../Extends/BlueSkin/InputTextField.ts";
-import InputTextArea from "../../Extends/BlueSkin/InputTextArea.ts";
-import SliderH from "../../Extends/BlueSkin/SliderH.ts";
-import Button_icon from "../../Extends/BlueSkin/Button_icon.ts";
-import SliderV from "../../Extends/BlueSkin/SliderV.ts";
-import ProgressBar from "../../Extends/BlueSkin/ProgressBar.ts";
-import ComboBox from "../../Extends/BlueSkin/ComboBox.ts";
-import WindowFrame from "../../Extends/BlueSkin/WindowFrame.ts";
-import Button_icon_text from "../../Extends/BlueSkin/Button_icon_text.ts";
-import TabButton from "../../Extends/BlueSkin/TabButton.ts";
-import ScrollBarH from "../../Extends/BlueSkin/ScrollBarH.ts";
-import ScrollBarV from "../../Extends/BlueSkin/ScrollBarV.ts";
+import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow";
+import ScrollBar_grip from "../../Extends/BlueSkin/ScrollBar_grip";
+import WindowCloseButton from "../../Extends/BlueSkin/WindowCloseButton";
+import Button from "../../Extends/BlueSkin/Button";
+import Checkbox from "../../Extends/BlueSkin/Checkbox";
+import RadioButton from "../../Extends/BlueSkin/RadioButton";
+import InputTextField from "../../Extends/BlueSkin/InputTextField";
+import InputTextArea from "../../Extends/BlueSkin/InputTextArea";
+import SliderH from "../../Extends/BlueSkin/SliderH";
+import Button_icon from "../../Extends/BlueSkin/Button_icon";
+import SliderV from "../../Extends/BlueSkin/SliderV";
+import ProgressBar from "../../Extends/BlueSkin/ProgressBar";
+import ComboBox from "../../Extends/BlueSkin/ComboBox";
+import WindowFrame from "../../Extends/BlueSkin/WindowFrame";
+import Button_icon_text from "../../Extends/BlueSkin/Button_icon_text";
+import TabButton from "../../Extends/BlueSkin/TabButton";
+import ScrollBarH from "../../Extends/BlueSkin/ScrollBarH";
+import ScrollBarV from "../../Extends/BlueSkin/ScrollBarV";
 
 export default class BlueSkinBinder
 {

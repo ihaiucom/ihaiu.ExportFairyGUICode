@@ -3,9 +3,10 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ScrollUpButton from "../../Extends/BlackSkin/ScrollUpButton.ts";
-import ScrollDownButton from "../../Extends/BlackSkin/ScrollDownButton.ts";
-import GripButton_VT from "../../Extends/BlackSkin/GripButton_VT.ts";
+import ScrollUpButton from "../../Extends/BlackSkin/ScrollUpButton";
+import ScrollDownButton from "../../Extends/BlackSkin/ScrollDownButton";
+import GripButton_VT from "../../Extends/BlackSkin/GripButton_VT";
+import ScrollBar_VT from "../../Extends/BlackSkin/ScrollBar_VT";
 
 export default class ScrollBar_VTStruct extends fairygui.GScrollBar
 {

@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ScrollRightButtonStruct from "../../Generates/BlackSkin/ScrollRightButtonStruct.ts";
+import ScrollRightButtonStruct from "../../Generates/BlackSkin/ScrollRightButtonStruct";
 
 export default class ScrollRightButton extends ScrollRightButtonStruct
 {

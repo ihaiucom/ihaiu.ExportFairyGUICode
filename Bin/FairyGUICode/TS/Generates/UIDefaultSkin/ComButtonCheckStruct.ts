@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComButtonCheck from "../../Extends/UIDefaultSkin/ComButtonCheck";
 
 export default class ComButtonCheckStruct extends fairygui.GButton
 {

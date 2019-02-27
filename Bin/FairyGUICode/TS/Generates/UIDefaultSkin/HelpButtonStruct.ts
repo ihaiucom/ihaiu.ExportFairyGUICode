@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import HelpButton from "../../Extends/UIDefaultSkin/HelpButton";
 
 export default class HelpButtonStruct extends fairygui.GButton
 {

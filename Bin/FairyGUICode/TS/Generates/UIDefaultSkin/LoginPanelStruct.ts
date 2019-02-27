@@ -3,12 +3,12 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import HelpButton from "../../Extends/UIDefaultSkin/HelpButton.ts";
-import RedButton from "../../Extends/UIDefaultSkin/RedButton.ts";
-import TextInput from "../../Extends/UIDefaultSkin/TextInput.ts";
-import TextInput from "../../Extends/UIDefaultSkin/TextInput.ts";
-import Checkbox from "../../Extends/BlackSkin/Checkbox.ts";
-import RightArrow from "../../Extends/UIDefaultSkin/RightArrow.ts";
+import HelpButton from "../../Extends/UIDefaultSkin/HelpButton";
+import RedButton from "../../Extends/UIDefaultSkin/RedButton";
+import TextInput from "../../Extends/UIDefaultSkin/TextInput";
+import Checkbox from "../../Extends/BlackSkin/Checkbox";
+import RightArrow from "../../Extends/UIDefaultSkin/RightArrow";
+import LoginPanel from "../../Extends/UIDefaultSkin/LoginPanel";
 
 export default class LoginPanelStruct extends fairygui.GComponent
 {

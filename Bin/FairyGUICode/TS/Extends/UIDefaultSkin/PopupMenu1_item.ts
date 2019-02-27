@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import PopupMenu1_itemStruct from "../../Generates/UIDefaultSkin/PopupMenu1_itemStruct.ts";
+import PopupMenu1_itemStruct from "../../Generates/UIDefaultSkin/PopupMenu1_itemStruct";
 
 export default class PopupMenu1_item extends PopupMenu1_itemStruct
 {

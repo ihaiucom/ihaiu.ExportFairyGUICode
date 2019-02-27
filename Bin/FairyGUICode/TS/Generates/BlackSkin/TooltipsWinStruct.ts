@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TooltipsWin from "../../Extends/BlackSkin/TooltipsWin";
 
 export default class TooltipsWinStruct extends fairygui.GLabel
 {

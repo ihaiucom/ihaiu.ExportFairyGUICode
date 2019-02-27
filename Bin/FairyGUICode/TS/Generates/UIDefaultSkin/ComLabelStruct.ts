@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComLabel from "../../Extends/UIDefaultSkin/ComLabel";
 
 export default class ComLabelStruct extends fairygui.GLabel
 {

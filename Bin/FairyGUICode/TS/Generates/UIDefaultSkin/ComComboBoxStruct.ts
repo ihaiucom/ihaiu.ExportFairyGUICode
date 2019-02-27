@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComComboBox from "../../Extends/UIDefaultSkin/ComComboBox";
 
 export default class ComComboBoxStruct extends fairygui.GComboBox
 {

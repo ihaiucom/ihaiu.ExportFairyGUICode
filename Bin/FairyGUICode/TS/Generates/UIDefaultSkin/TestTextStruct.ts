@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TestText from "../../Extends/UIDefaultSkin/TestText";
 
 export default class TestTextStruct extends fairygui.GComponent
 {

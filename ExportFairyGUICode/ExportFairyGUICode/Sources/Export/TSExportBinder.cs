@@ -14,13 +14,21 @@ public class TSExportBinder
         List<object[]> coms = new List<object[]>();
         List<object[]> imports = new List<object[]>();
 
+        Dictionary<string, bool> importDict = new Dictionary<string, bool>();
+
         foreach (ResourceComponent component in package.ComponentList)
         {
             if (component.isIngore)
                 continue;
 
             coms.Add(new object[] { component .classNameExtend });
-            imports.Add(new object[] { component.classNameExtend , PathHelper.GetImportPath(path, component.tsExtendPath) });
+
+
+            if (!importDict.ContainsKey(component.classNameExtend))
+            {
+                importDict.Add(component.classNameExtend, true);
+                imports.Add(new object[] { component.classNameExtend, PathHelper.GetImportPath(path, component.tsExtendPath) });
+            }
         }
 
 

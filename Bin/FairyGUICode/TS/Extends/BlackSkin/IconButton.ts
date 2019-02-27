@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import IconButtonStruct from "../../Generates/BlackSkin/IconButtonStruct.ts";
+import IconButtonStruct from "../../Generates/BlackSkin/IconButtonStruct";
 
 export default class IconButton extends IconButtonStruct
 {

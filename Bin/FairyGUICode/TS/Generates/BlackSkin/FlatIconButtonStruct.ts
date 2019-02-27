@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import FlatIconButton from "../../Extends/BlackSkin/FlatIconButton";
 
 export default class FlatIconButtonStruct extends fairygui.GButton
 {

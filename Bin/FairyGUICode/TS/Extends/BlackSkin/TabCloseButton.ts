@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TabCloseButtonStruct from "../../Generates/BlackSkin/TabCloseButtonStruct.ts";
+import TabCloseButtonStruct from "../../Generates/BlackSkin/TabCloseButtonStruct";
 
 export default class TabCloseButton extends TabCloseButtonStruct
 {

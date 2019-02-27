@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComButtonRadio from "../../Extends/UIDefaultSkin/ComButtonRadio";
 
 export default class ComButtonRadioStruct extends fairygui.GButton
 {

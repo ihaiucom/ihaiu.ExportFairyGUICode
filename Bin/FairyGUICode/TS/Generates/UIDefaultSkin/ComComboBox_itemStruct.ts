@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComComboBox_item from "../../Extends/UIDefaultSkin/ComComboBox_item";
 
 export default class ComComboBox_itemStruct extends fairygui.GButton
 {

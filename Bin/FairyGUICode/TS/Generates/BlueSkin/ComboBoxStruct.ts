@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComboBox from "../../Extends/BlueSkin/ComboBox";
 
 export default class ComboBoxStruct extends fairygui.GComboBox
 {

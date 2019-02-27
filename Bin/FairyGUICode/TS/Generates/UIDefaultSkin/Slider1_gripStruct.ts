@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import Slider1_grip from "../../Extends/UIDefaultSkin/Slider1_grip";
 
 export default class Slider1_gripStruct extends fairygui.GButton
 {

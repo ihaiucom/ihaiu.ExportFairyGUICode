@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ProgressBar from "../../Extends/BlueSkin/ProgressBar";
 
 export default class ProgressBarStruct extends fairygui.GProgressBar
 {

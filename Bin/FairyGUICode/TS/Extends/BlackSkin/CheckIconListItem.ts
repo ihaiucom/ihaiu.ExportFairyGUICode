@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import CheckIconListItemStruct from "../../Generates/BlackSkin/CheckIconListItemStruct.ts";
+import CheckIconListItemStruct from "../../Generates/BlackSkin/CheckIconListItemStruct";
 
 export default class CheckIconListItem extends CheckIconListItemStruct
 {

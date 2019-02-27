@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import RadioButtonStruct from "../../Generates/BlackSkin/RadioButtonStruct.ts";
+import RadioButtonStruct from "../../Generates/BlackSkin/RadioButtonStruct";
 
 export default class RadioButton extends RadioButtonStruct
 {

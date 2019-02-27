@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import WindowFrameStruct from "../../Generates/BlackSkin/WindowFrameStruct.ts";
+import WindowFrameStruct from "../../Generates/BlackSkin/WindowFrameStruct";
 
 export default class WindowFrame extends WindowFrameStruct
 {

@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TooltipsWinStruct from "../../Generates/BlackSkin/TooltipsWinStruct.ts";
+import TooltipsWinStruct from "../../Generates/BlackSkin/TooltipsWinStruct";
 
 export default class TooltipsWin extends TooltipsWinStruct
 {

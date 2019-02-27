@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import MenuBarItem from "../../Extends/BlackSkin/MenuBarItem";
 
 export default class MenuBarItemStruct extends fairygui.GButton
 {

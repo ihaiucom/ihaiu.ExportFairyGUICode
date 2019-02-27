@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import SliderHStruct from "../../Generates/BlueSkin/SliderHStruct.ts";
+import SliderHStruct from "../../Generates/BlueSkin/SliderHStruct";
 
 export default class SliderH extends SliderHStruct
 {

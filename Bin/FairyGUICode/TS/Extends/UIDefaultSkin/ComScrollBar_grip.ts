@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ComScrollBar_gripStruct from "../../Generates/UIDefaultSkin/ComScrollBar_gripStruct.ts";
+import ComScrollBar_gripStruct from "../../Generates/UIDefaultSkin/ComScrollBar_gripStruct";
 
 export default class ComScrollBar_grip extends ComScrollBar_gripStruct
 {

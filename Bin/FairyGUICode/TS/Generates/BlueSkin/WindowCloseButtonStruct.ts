@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import WindowCloseButton from "../../Extends/BlueSkin/WindowCloseButton";
 
 export default class WindowCloseButtonStruct extends fairygui.GButton
 {

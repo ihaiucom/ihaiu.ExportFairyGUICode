@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComComboBox_popup from "../../Extends/UIDefaultSkin/ComComboBox_popup";
 
 export default class ComComboBox_popupStruct extends fairygui.GComponent
 {

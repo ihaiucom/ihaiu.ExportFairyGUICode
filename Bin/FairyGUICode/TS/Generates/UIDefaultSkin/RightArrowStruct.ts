@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import RightArrow from "../../Extends/UIDefaultSkin/RightArrow";
 
 export default class RightArrowStruct extends fairygui.GComponent
 {

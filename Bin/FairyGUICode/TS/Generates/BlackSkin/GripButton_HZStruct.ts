@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import GripButton_HZ from "../../Extends/BlackSkin/GripButton_HZ";
 
 export default class GripButton_HZStruct extends fairygui.GButton
 {

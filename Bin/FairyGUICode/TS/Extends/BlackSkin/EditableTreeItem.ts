@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import EditableTreeItemStruct from "../../Generates/BlackSkin/EditableTreeItemStruct.ts";
+import EditableTreeItemStruct from "../../Generates/BlackSkin/EditableTreeItemStruct";
 
 export default class EditableTreeItem extends EditableTreeItemStruct
 {

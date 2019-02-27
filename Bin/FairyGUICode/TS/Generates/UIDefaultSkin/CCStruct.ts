@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import CC from "../../Extends/UIDefaultSkin/CC";
 
 export default class CCStruct extends fairygui.GComponent
 {

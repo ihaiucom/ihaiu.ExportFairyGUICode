@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TreeExpandButton from "../../Extends/BlackSkin/TreeExpandButton";
 
 export default class TreeExpandButtonStruct extends fairygui.GButton
 {

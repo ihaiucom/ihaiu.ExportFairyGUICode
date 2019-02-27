@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ScrollBarHStruct from "../../Generates/BlueSkin/ScrollBarHStruct.ts";
+import ScrollBarHStruct from "../../Generates/BlueSkin/ScrollBarHStruct";
 
 export default class ScrollBarH extends ScrollBarHStruct
 {

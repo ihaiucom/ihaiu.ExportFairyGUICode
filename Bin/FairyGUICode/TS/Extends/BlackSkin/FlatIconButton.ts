@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import FlatIconButtonStruct from "../../Generates/BlackSkin/FlatIconButtonStruct.ts";
+import FlatIconButtonStruct from "../../Generates/BlackSkin/FlatIconButtonStruct";
 
 export default class FlatIconButton extends FlatIconButtonStruct
 {

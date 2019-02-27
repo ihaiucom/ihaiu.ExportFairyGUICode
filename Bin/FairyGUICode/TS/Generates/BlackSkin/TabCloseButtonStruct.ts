@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TabCloseButton from "../../Extends/BlackSkin/TabCloseButton";
 
 export default class TabCloseButtonStruct extends fairygui.GButton
 {

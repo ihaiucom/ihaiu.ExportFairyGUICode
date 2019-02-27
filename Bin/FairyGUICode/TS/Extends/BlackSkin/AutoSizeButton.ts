@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import AutoSizeButtonStruct from "../../Generates/BlackSkin/AutoSizeButtonStruct.ts";
+import AutoSizeButtonStruct from "../../Generates/BlackSkin/AutoSizeButtonStruct";
 
 export default class AutoSizeButton extends AutoSizeButtonStruct
 {

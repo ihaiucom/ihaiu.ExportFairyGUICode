@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import HelpButtonStruct from "../../Generates/UIDefaultSkin/HelpButtonStruct.ts";
+import HelpButtonStruct from "../../Generates/UIDefaultSkin/HelpButtonStruct";
 
 export default class HelpButton extends HelpButtonStruct
 {

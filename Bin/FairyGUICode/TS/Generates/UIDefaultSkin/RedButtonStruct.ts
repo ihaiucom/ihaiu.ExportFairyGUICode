@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import RedButton from "../../Extends/UIDefaultSkin/RedButton";
 
 export default class RedButtonStruct extends fairygui.GButton
 {

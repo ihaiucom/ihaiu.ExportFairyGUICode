@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComboBoxPopup from "../../Extends/BlackSkin/ComboBoxPopup";
 
 export default class ComboBoxPopupStruct extends fairygui.GComponent
 {

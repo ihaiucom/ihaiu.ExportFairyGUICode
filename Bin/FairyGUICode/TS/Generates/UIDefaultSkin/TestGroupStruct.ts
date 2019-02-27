@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TestGroup from "../../Extends/UIDefaultSkin/TestGroup";
 
 export default class TestGroupStruct extends fairygui.GComponent
 {

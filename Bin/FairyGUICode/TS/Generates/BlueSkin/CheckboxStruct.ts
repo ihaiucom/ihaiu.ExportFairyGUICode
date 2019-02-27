@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import Checkbox from "../../Extends/BlueSkin/Checkbox";
 
 export default class CheckboxStruct extends fairygui.GButton
 {

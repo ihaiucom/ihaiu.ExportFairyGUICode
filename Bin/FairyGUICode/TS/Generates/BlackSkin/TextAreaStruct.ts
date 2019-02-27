@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TextArea from "../../Extends/BlackSkin/TextArea";
 
 export default class TextAreaStruct extends fairygui.GLabel
 {

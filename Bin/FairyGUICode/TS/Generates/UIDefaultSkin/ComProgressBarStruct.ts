@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ComProgressBar from "../../Extends/UIDefaultSkin/ComProgressBar";
 
 export default class ComProgressBarStruct extends fairygui.GProgressBar
 {

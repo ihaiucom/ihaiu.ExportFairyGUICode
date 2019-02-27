@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import GripButton_VT from "../../Extends/BlackSkin/GripButton_VT";
 
 export default class GripButton_VTStruct extends fairygui.GButton
 {

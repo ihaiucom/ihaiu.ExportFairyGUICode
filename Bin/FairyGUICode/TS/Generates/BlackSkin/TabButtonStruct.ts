@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TabButton from "../../Extends/BlackSkin/TabButton";
 
 export default class TabButtonStruct extends fairygui.GButton
 {

@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import TestTextStruct from "../../Generates/UIDefaultSkin/TestTextStruct.ts";
+import TestTextStruct from "../../Generates/UIDefaultSkin/TestTextStruct";
 
 export default class TestText extends TestTextStruct
 {

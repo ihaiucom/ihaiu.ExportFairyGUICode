@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import InputTextField from "../../Extends/BlueSkin/InputTextField";
 
 export default class InputTextFieldStruct extends fairygui.GLabel
 {

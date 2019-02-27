@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ScrollUpButton from "../../Extends/BlackSkin/ScrollUpButton";
 
 export default class ScrollUpButtonStruct extends fairygui.GButton
 {

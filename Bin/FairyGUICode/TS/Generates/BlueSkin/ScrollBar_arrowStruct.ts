@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import ScrollBar_arrow from "../../Extends/BlueSkin/ScrollBar_arrow";
 
 export default class ScrollBar_arrowStruct extends fairygui.GButton
 {

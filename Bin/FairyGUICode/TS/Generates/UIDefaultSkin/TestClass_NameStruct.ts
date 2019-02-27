@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import TestClass_Name from "../../Extends/UIDefaultSkin/TestClass_Name";
 
 export default class TestClass_NameStruct extends fairygui.GComponent
 {

@@ -3,8 +3,9 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import RightArrow from "../../Extends/UIDefaultSkin/RightArrow.ts";
-import HelpButton from "../../Extends/UIDefaultSkin/HelpButton.ts";
+import RightArrow from "../../Extends/UIDefaultSkin/RightArrow";
+import HelpButton from "../../Extends/UIDefaultSkin/HelpButton";
+import TestCom from "../../Extends/UIDefaultSkin/TestCom";
 
 export default class TestComStruct extends fairygui.GComponent
 {

@@ -3,6 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
+import LinkButton from "../../Extends/BlackSkin/LinkButton";
 
 export default class LinkButtonStruct extends fairygui.GButton
 {

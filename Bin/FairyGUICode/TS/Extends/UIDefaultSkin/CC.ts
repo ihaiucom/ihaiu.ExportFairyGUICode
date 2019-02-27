@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import CCStruct from "../../Generates/UIDefaultSkin/CCStruct.ts";
+import CCStruct from "../../Generates/UIDefaultSkin/CCStruct";
 
 export default class CC extends CCStruct
 {

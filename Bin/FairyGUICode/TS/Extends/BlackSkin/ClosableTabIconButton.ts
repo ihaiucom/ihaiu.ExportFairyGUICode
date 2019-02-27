@@ -3,7 +3,7 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import ClosableTabIconButtonStruct from "../../Generates/BlackSkin/ClosableTabIconButtonStruct.ts";
+import ClosableTabIconButtonStruct from "../../Generates/BlackSkin/ClosableTabIconButtonStruct";
 
 export default class ClosableTabIconButton extends ClosableTabIconButtonStruct
 {
