@@ -64,7 +64,7 @@ public class TsExportComponent
             if (node.isIngore)
                 continue;
 
-            object[] lines = new object[] { node.fieldName, node.GetType(com) };
+            object[] lines = new object[] { node.fieldName, node.GetTypeForLaya2(com) };
             fields.Add(lines);
         }
 
@@ -75,7 +75,13 @@ public class TsExportComponent
             if (node.isIngore)
                 continue;
 
-            if(!importDict.ContainsKey(node.resourceComponent.classNameExtend))
+            if (node.resourceComponent == null)
+                continue;
+
+            if (node.resourceComponent.isIngore)
+                continue;
+
+            if (!importDict.ContainsKey(node.resourceComponent.classNameExtend))
             {
                 importDict.Add(node.resourceComponent.classNameExtend, true);
                 object[] lines = new object[] { node.resourceComponent.classNameExtend, node.GetImportPathForStruct(com) };
@@ -121,7 +127,7 @@ public class TsExportComponent
             if (node.isIngore)
                 continue;
 
-            object[] lines = new object[] { node.fieldName, node.name, node.GetType(com) };
+            object[] lines = new object[] { node.fieldName, node.name, node.GetTypeForLaya2(com) };
             setDisplayList.Add(lines);
         }
 

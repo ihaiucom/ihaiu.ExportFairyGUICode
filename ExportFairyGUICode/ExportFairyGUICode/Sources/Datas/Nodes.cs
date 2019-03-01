@@ -82,6 +82,22 @@ public class ComponentNode : Node
         }
     }
 
+    public string GetTypeForLaya2(ResourceComponent com)
+    {
+        if (resourceComponent == null)
+        {
+            return fairygui.CommonName.GObject;
+        }
+
+        if (resourceComponent.isIngore)
+        {
+            return resourceComponent.extendClassName;
+        }
+
+        return resourceComponent.classNameExtend;
+
+    }
+
     public string GetImportPathForStruct(ResourceComponent com)
     {
         string absolutePath = com.tsStructPath;

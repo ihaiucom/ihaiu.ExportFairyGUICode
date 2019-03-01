@@ -89,6 +89,7 @@ public class FairyManager
             foreach(ResourceComponent component in package.ComponentList)
             {
                 string path = package.rootPath + component.path + component.name;
+                component.pathFull = path;
                 ComponentReader.Load(path, component);
             }
         }

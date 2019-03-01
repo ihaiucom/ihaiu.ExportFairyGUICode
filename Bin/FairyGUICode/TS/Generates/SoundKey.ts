@@ -47,7 +47,7 @@ export default class SoundKey
 
 	public static getPath(key: string): string
 	{
-		return Games.GuiSetting.getResPath(`${SoundKey.SoundPackageName}_${SoundKey.getId(key)}${SoundKey.extDict.getValue(key)}`, "fgui")
+		return GuiSetting.getResPath(`${SoundKey.SoundPackageName}_${SoundKey.getId(key)}${SoundKey.extDict.getValue(key)}`, "fgui")
 	}
 
 

@@ -48,6 +48,14 @@ public class Options
     [Option("codeIgnorIllegalClassName", Required = false, Default = false)]
     public bool codeIgnorIllegalClassName { get; set; }
 
+    // 代码--忽略~NCode结尾的目录下的组件
+    [Option("codeIgnorNCode", Required = false, Default = true)]
+    public bool codeIgnorNCode { get; set; }
+
+    // 代码--忽略~NCode结尾的目录下的组件
+    [Option("codeIgnorNCodeFlag", Required = false, Default = "~NCode")]
+    public string codeIgnorNCodeFlag { get; set; }
+
 
     // 代码--忽略没设置导出的组件
     [Option("codeIgnorNoExported", Required = false, Default = true)]

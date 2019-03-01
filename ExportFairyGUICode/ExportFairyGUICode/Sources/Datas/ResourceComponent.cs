@@ -12,6 +12,7 @@ public class ResourceComponent
     public string id;
     public string name;
     public string path;
+    public string pathFull;
     public bool exported;
 
     // 继承
@@ -87,6 +88,14 @@ public class ResourceComponent
             if(name.StartsWith("_"))
             {
                 return true;
+            }
+
+            if(Setting.Options.codeIgnorNCode)
+            {
+                if(pathFull.ToLower().IndexOf(Setting.Options.codeIgnorNCodeFlag.ToLower()) != -1)
+                {
+                    return true;
+                }
             }
 
             if (Setting.Options.codeIgnorNoExported)

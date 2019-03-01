@@ -47,3 +47,22 @@
 2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n7
 2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n8
 2018-08-07 15:58:40.4195    没有找到 resourceComponent packagename= Login comname= lingshi.xml nodename=n9
+2019-03-01 11:50:34.8936   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 11:56:26.1157   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 11:56:34.0966   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 14:08:43.5586   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 16:25:40.7482   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 16:26:26.0764   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 16:26:36.0721   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 16:28:16.1790   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:04:26.0044   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:06:10.2246   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:06:26.9056   (FairyManager.cs:108) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:08:44.8840   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:08:59.1665   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:09:31.4618   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:09:52.9877   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:10:11.5543   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:10:21.4443   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:19:28.6448   (FairyManager.cs:109) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
+2019-03-01 17:19:52.0669   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleLogin comname= RegisterPanel.xml nodename=lb_agreement
