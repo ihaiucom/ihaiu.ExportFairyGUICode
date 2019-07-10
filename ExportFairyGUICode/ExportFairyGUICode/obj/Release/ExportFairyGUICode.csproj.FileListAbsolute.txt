@@ -25,4 +25,3 @@ E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICo
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Release\ExportFairyGUICode.csproj.CopyComplete
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Release\ExportFairyGUICode.dll
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Release\ExportFairyGUICode.pdb
-E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Release\ExportFairyGUICode.csprojAssemblyReference.cache

@@ -5,9 +5,9 @@
 
 import DialogCloseWindow from "../../Extends/GameLaunch/DialogCloseWindow";
 
-export default class DialogCloseWindowStruct extends fairygui.GComponent
+export default class DialogCloseWindowStruct extends fgui.GComponent
 {
-	public m_closeButton : fairygui.GButton;
+	public m_closeButton : fgui.GButton;
 
 	
 	public static URL:string = "ui://47qsdr42f84sg";
@@ -16,7 +16,7 @@ export default class DialogCloseWindowStruct extends fairygui.GComponent
 
 	
 	public static createInstance():DialogCloseWindow {
-		return <DialogCloseWindow><any>(fairygui.UIPackage.createObject("GameLaunch","DialogCloseWindow"));
+		return <DialogCloseWindow><any>(fgui.UIPackage.createObject("GameLaunch","DialogCloseWindow"));
 	}
 
 	
@@ -26,14 +26,21 @@ export default class DialogCloseWindowStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_closeButton = <fairygui.GButton><any>(this.getChild("closeButton"));
+		this.m_closeButton = <fgui.GButton><any>(this.getChild("closeButton"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

@@ -5,9 +5,9 @@
 
 import BGModel from "../../Extends/GameLaunch/BGModel";
 
-export default class BGModelStruct extends fairygui.GComponent
+export default class BGModelStruct extends fgui.GComponent
 {
-	public m_bg : fairygui.GImage;
+	public m_bg : fgui.GImage;
 
 	
 	public static URL:string = "ui://47qsdr42f84so";
@@ -16,7 +16,7 @@ export default class BGModelStruct extends fairygui.GComponent
 
 	
 	public static createInstance():BGModel {
-		return <BGModel><any>(fairygui.UIPackage.createObject("GameLaunch","BGModel"));
+		return <BGModel><any>(fgui.UIPackage.createObject("GameLaunch","BGModel"));
 	}
 
 	
@@ -26,14 +26,21 @@ export default class BGModelStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_bg = <fairygui.GImage><any>(this.getChild("bg"));
+		this.m_bg = <fgui.GImage><any>(this.getChild("bg"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

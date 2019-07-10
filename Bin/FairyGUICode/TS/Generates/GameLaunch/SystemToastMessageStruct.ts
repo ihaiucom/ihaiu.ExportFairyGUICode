@@ -5,18 +5,18 @@
 
 import SystemToastMessage from "../../Extends/GameLaunch/SystemToastMessage";
 
-export default class SystemToastMessageStruct extends fairygui.GComponent
+export default class SystemToastMessageStruct extends fgui.GComponent
 {
-	public m_title : fairygui.GRichTextField;
+	public m_title : fgui.GTextField;
 
 	
 	public static URL:string = "ui://47qsdr42nk8t3";
 	
-	public static DependPackages:string[] = ["GameLaunch"];
+	public static DependPackages:string[] = ["GameLaunch","_ResImageUIV1"];
 
 	
 	public static createInstance():SystemToastMessage {
-		return <SystemToastMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemToastMessage"));
+		return <SystemToastMessage><any>(fgui.UIPackage.createObject("GameLaunch","SystemToastMessage"));
 	}
 
 	
@@ -26,14 +26,21 @@ export default class SystemToastMessageStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_title = <fairygui.GRichTextField><any>(this.getChild("title"));
+		this.m_title = <fgui.GTextField><any>(this.getChild("title"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

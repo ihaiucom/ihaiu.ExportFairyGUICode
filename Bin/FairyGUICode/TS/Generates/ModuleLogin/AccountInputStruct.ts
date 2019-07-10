@@ -5,11 +5,11 @@
 
 import AccountInput from "../../Extends/ModuleLogin/AccountInput";
 
-export default class AccountInputStruct extends fairygui.GComponent
+export default class AccountInputStruct extends fgui.GComponent
 {
-	public m_txt_account : fairygui.GTextInput;
-	public m_accountComboBox : fairygui.GComboBox;
-	public m_button : fairygui.GButton;
+	public m_txt_account : fgui.GTextInput;
+	public m_accountComboBox : fgui.GComboBox;
+	public m_button : fgui.GButton;
 
 	
 	public static URL:string = "ui://4698ugpknz0c1h";
@@ -18,7 +18,7 @@ export default class AccountInputStruct extends fairygui.GComponent
 
 	
 	public static createInstance():AccountInput {
-		return <AccountInput><any>(fairygui.UIPackage.createObject("ModuleLogin","AccountInput"));
+		return <AccountInput><any>(fgui.UIPackage.createObject("ModuleLogin","AccountInput"));
 	}
 
 	
@@ -28,16 +28,23 @@ export default class AccountInputStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_txt_account = <fairygui.GTextInput><any>(this.getChild("txt_account"));
-		this.m_accountComboBox = <fairygui.GComboBox><any>(this.getChild("accountComboBox"));
-		this.m_button = <fairygui.GButton><any>(this.getChild("button"));
+		this.m_txt_account = <fgui.GTextInput><any>(this.getChild("txt_account"));
+		this.m_accountComboBox = <fgui.GComboBox><any>(this.getChild("accountComboBox"));
+		this.m_button = <fgui.GButton><any>(this.getChild("button"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

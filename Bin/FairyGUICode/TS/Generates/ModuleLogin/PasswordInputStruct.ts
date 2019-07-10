@@ -5,10 +5,10 @@
 
 import PasswordInput from "../../Extends/ModuleLogin/PasswordInput";
 
-export default class PasswordInputStruct extends fairygui.GComponent
+export default class PasswordInputStruct extends fgui.GComponent
 {
-	public m_txt_password : fairygui.GTextInput;
-	public m_btn_pwdeye : fairygui.GButton;
+	public m_txt_password : fgui.GTextInput;
+	public m_btn_pwdeye : fgui.GButton;
 
 	
 	public static URL:string = "ui://4698ugpknz0c1n";
@@ -17,7 +17,7 @@ export default class PasswordInputStruct extends fairygui.GComponent
 
 	
 	public static createInstance():PasswordInput {
-		return <PasswordInput><any>(fairygui.UIPackage.createObject("ModuleLogin","passwordInput"));
+		return <PasswordInput><any>(fgui.UIPackage.createObject("ModuleLogin","passwordInput"));
 	}
 
 	
@@ -27,15 +27,22 @@ export default class PasswordInputStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_txt_password = <fairygui.GTextInput><any>(this.getChild("txt_password"));
-		this.m_btn_pwdeye = <fairygui.GButton><any>(this.getChild("btn_pwdeye"));
+		this.m_txt_password = <fgui.GTextInput><any>(this.getChild("txt_password"));
+		this.m_btn_pwdeye = <fgui.GButton><any>(this.getChild("btn_pwdeye"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

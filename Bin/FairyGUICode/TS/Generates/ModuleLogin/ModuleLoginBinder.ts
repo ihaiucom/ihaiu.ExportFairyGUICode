@@ -15,7 +15,7 @@ export default class ModuleLoginBinder
 {
 	public static bindAll():void 
 	{
-		let bind = fairygui.UIObjectFactory.setPackageItemExtension;
+		let bind = fgui.UIObjectFactory.setPackageItemExtension;
 		bind(LoginWindowUI.URL, LoginWindowUI);
 		bind(LoginPanel.URL, LoginPanel);
 		bind(AccountInput.URL, AccountInput);

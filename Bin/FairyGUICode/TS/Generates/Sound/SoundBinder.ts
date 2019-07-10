@@ -9,6 +9,6 @@ export default class SoundBinder
 {
 	public static bindAll():void 
 	{
-		let bind = fairygui.UIObjectFactory.setPackageItemExtension;
+		let bind = fgui.UIObjectFactory.setPackageItemExtension;
 	}
 }

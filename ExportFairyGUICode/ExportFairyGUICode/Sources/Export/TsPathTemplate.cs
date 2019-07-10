@@ -9,7 +9,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/ComponentStruct.txt";
+            return Setting.EngineSetting.templateDir + "/TS/ComponentStruct.txt";
         }
     }
 
@@ -17,7 +17,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/ComponentExtend.txt";
+            return Setting.EngineSetting.templateDir + "/TS/ComponentExtend.txt";
         }
     }
 
@@ -25,7 +25,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/Binder.txt";
+            return Setting.EngineSetting.templateDir + "/TS/Binder.txt";
         }
     }
 
@@ -33,7 +33,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/GuiPackageNames.txt";
+            return Setting.EngineSetting.templateDir + "/TS/GuiPackageNames.txt";
         }
     }
 
@@ -41,7 +41,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/GuiBinderList.txt";
+            return Setting.EngineSetting.templateDir + "/TS/GuiBinderList.txt";
         }
     }
 
@@ -50,7 +50,7 @@ public class TsPathTemplate
     {
         get
         {
-            return Setting.Options.templateDir + "/TS/SoundKey.txt";
+            return Setting.EngineSetting.templateDir + "/TS/SoundKey.txt";
         }
     }
 }

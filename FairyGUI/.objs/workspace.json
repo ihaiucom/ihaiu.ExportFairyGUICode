@@ -1,13 +1,4 @@
 {
-	"expanded_nodes": [
-		"snq31xvr",
-		"/"
-	],
-	"active_doc": [
-		"snq31xvr",
-		"hkst4k"
-	],
-	"hidden_packages": [],
 	"docs": [
 		"snq31xvr",
 		"raoc0",
@@ -85,5 +76,14 @@
 		"oett1",
 		"snq31xvr",
 		"hkst4k"
+	],
+	"hidden_packages": [],
+	"active_doc": [
+		"snq31xvr",
+		"hkst4k"
+	],
+	"expanded_nodes": [
+		"lcxzsda7",
+		"/"
 	]
 }

@@ -10,6 +10,7 @@ class Program
         //注册EncodeProvider
         //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
+        Console.WriteLine("Program Root:" + Path.GetFullPath("./"));
 
 
         Setting.Init(args);

@@ -14,6 +14,8 @@ public class CmdType
 public class Setting
 {
     public static Options Options { get; set; }
+    public static EngineSetting EngineSetting { get; set; }
+
     public static string cmd = CmdType.generatecode;
 
     public static void Init(string[] args)
@@ -46,6 +48,10 @@ public class Setting
         {
             Options = Options.Load(Options.optionSetting);
         }
+
+
+        EngineSetting = EngineSetting.Load();
+
     }
 
 

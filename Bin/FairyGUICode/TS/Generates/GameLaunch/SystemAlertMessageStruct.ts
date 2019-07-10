@@ -6,12 +6,12 @@
 import DialogCloseWindow from "../../Extends/GameLaunch/DialogCloseWindow";
 import SystemAlertMessage from "../../Extends/GameLaunch/SystemAlertMessage";
 
-export default class SystemAlertMessageStruct extends fairygui.GComponent
+export default class SystemAlertMessageStruct extends fgui.GComponent
 {
-	public m_content : fairygui.GRichTextField;
-	public m_title : fairygui.GRichTextField;
+	public m_content : fgui.GTextField;
+	public m_title : fgui.GTextField;
 	public m_dialog : DialogCloseWindow;
-	public m_okBtn : fairygui.GButton;
+	public m_okBtn : fgui.GButton;
 
 	
 	public static URL:string = "ui://47qsdr42nk8t1";
@@ -20,7 +20,7 @@ export default class SystemAlertMessageStruct extends fairygui.GComponent
 
 	
 	public static createInstance():SystemAlertMessage {
-		return <SystemAlertMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemAlertMessage"));
+		return <SystemAlertMessage><any>(fgui.UIPackage.createObject("GameLaunch","SystemAlertMessage"));
 	}
 
 	
@@ -30,17 +30,24 @@ export default class SystemAlertMessageStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_content = <fairygui.GRichTextField><any>(this.getChild("content"));
-		this.m_title = <fairygui.GRichTextField><any>(this.getChild("title"));
+		this.m_content = <fgui.GTextField><any>(this.getChild("content"));
+		this.m_title = <fgui.GTextField><any>(this.getChild("title"));
 		this.m_dialog = <DialogCloseWindow><any>(this.getChild("dialog"));
-		this.m_okBtn = <fairygui.GButton><any>(this.getChild("okBtn"));
+		this.m_okBtn = <fgui.GButton><any>(this.getChild("okBtn"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

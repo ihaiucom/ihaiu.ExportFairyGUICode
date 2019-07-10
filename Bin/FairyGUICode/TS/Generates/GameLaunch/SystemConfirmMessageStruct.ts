@@ -6,13 +6,13 @@
 import DialogCloseWindow from "../../Extends/GameLaunch/DialogCloseWindow";
 import SystemConfirmMessage from "../../Extends/GameLaunch/SystemConfirmMessage";
 
-export default class SystemConfirmMessageStruct extends fairygui.GComponent
+export default class SystemConfirmMessageStruct extends fgui.GComponent
 {
-	public m_content : fairygui.GRichTextField;
-	public m_title : fairygui.GRichTextField;
+	public m_content : fgui.GTextField;
+	public m_title : fgui.GTextField;
 	public m_dialog : DialogCloseWindow;
-	public m_okBtn : fairygui.GButton;
-	public m_cancleBtn : fairygui.GButton;
+	public m_okBtn : fgui.GButton;
+	public m_cancleBtn : fgui.GButton;
 
 	
 	public static URL:string = "ui://47qsdr42nk8t2";
@@ -21,7 +21,7 @@ export default class SystemConfirmMessageStruct extends fairygui.GComponent
 
 	
 	public static createInstance():SystemConfirmMessage {
-		return <SystemConfirmMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemConfirmMessage"));
+		return <SystemConfirmMessage><any>(fgui.UIPackage.createObject("GameLaunch","SystemConfirmMessage"));
 	}
 
 	
@@ -31,18 +31,25 @@ export default class SystemConfirmMessageStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_content = <fairygui.GRichTextField><any>(this.getChild("content"));
-		this.m_title = <fairygui.GRichTextField><any>(this.getChild("title"));
+		this.m_content = <fgui.GTextField><any>(this.getChild("content"));
+		this.m_title = <fgui.GTextField><any>(this.getChild("title"));
 		this.m_dialog = <DialogCloseWindow><any>(this.getChild("dialog"));
-		this.m_okBtn = <fairygui.GButton><any>(this.getChild("okBtn"));
-		this.m_cancleBtn = <fairygui.GButton><any>(this.getChild("cancleBtn"));
+		this.m_okBtn = <fgui.GButton><any>(this.getChild("okBtn"));
+		this.m_cancleBtn = <fgui.GButton><any>(this.getChild("cancleBtn"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

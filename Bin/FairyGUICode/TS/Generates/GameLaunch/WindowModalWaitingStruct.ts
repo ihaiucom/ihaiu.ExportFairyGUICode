@@ -5,10 +5,10 @@
 
 import WindowModalWaiting from "../../Extends/GameLaunch/WindowModalWaiting";
 
-export default class WindowModalWaitingStruct extends fairygui.GComponent
+export default class WindowModalWaitingStruct extends fgui.GComponent
 {
-	public m_rotation : fairygui.Transition;
-	public m_circle : fairygui.GImage;
+	public m_rotation : fgui.Transition;
+	public m_circle : fgui.GImage;
 
 	
 	public static URL:string = "ui://47qsdr42f84sp";
@@ -17,7 +17,7 @@ export default class WindowModalWaitingStruct extends fairygui.GComponent
 
 	
 	public static createInstance():WindowModalWaiting {
-		return <WindowModalWaiting><any>(fairygui.UIPackage.createObject("GameLaunch","WindowModalWaiting"));
+		return <WindowModalWaiting><any>(fgui.UIPackage.createObject("GameLaunch","WindowModalWaiting"));
 	}
 
 	
@@ -27,15 +27,22 @@ export default class WindowModalWaitingStruct extends fairygui.GComponent
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_circle = <fairygui.GImage><any>(this.getChild("circle"));
+		this.m_circle = <fgui.GImage><any>(this.getChild("circle"));
 		
 		
 		this.m_rotation =  this.getTransition("rotation");
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }

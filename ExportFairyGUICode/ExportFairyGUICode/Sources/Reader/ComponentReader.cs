@@ -32,11 +32,11 @@ public class ComponentReader
             {
                 // 控制器
                 case fairygui.NodeName.controller:
-                    resourceComponent.controllerList.Add(new Node() { name = node .Attributes.GetNamedItem("name").InnerText, type = fairygui.CommonName.Controller});
+                    resourceComponent.controllerList.Add(new Node() { name = node .Attributes.GetNamedItem("name").InnerText, type = Setting.EngineSetting.commonName.Controller});
                     break;
                 // 动效
                 case fairygui.NodeName.transition:
-                    resourceComponent.transitionList.Add(new Node() { name = node.Attributes.GetNamedItem("name").InnerText, type = fairygui.CommonName.Transition });
+                    resourceComponent.transitionList.Add(new Node() { name = node.Attributes.GetNamedItem("name").InnerText, type = Setting.EngineSetting.commonName.Transition });
                     break;
 
                 case fairygui.NodeName.displayList:
@@ -63,7 +63,7 @@ public class ComponentReader
                                 {
                                     src = displayNode.Attributes.GetNamedItem("src").InnerText;
                                 }
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GImage, pkg= pkg, src = src });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GImage, pkg= pkg, src = src });
                                 break;
                             // 文本
                             case fairygui.NodeName.text:
@@ -75,22 +75,22 @@ public class ComponentReader
 
                                 if(input)
                                 {
-                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GTextInput });
+                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GTextInput });
                                 }
                                 else
                                 {
-                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GTextField });
+                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GTextField });
                                 }
                                 break;
 
                             // 富文本
                             case fairygui.NodeName.richtext:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GRichTextField });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GRichTextField });
                                 break;
 
                             // 图形
                             case fairygui.NodeName.graph:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GGraph });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GGraph });
                                 break;
 
                             // 组
@@ -102,22 +102,22 @@ public class ComponentReader
                                 }
 
                                 if(advanced)
-                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GGroup });
+                                    resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GGroup });
                                 break;
 
                             // 装载器
                             case fairygui.NodeName.loader:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GLoader });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GLoader });
                                 break;
 
                             // 列表
                             case fairygui.NodeName.list:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GList });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GList });
                                 break;
 
                             // 序列帧动画
                             case fairygui.NodeName.movieclip:
-                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = fairygui.CommonName.GMovieClip });
+                                resourceComponent.displayList.Add(new Node() { name = nodeName, type = Setting.EngineSetting.commonName.GMovieClip });
                                 break;
 
                             // 自定义组件
@@ -127,7 +127,7 @@ public class ComponentReader
                                 {
                                     pkg = displayNode.Attributes.GetNamedItem("pkg").InnerText;
                                 }
-                                resourceComponent.AddNode(new ComponentNode() { name = nodeName, type = fairygui.CommonName.GComponent,
+                                resourceComponent.AddNode(new ComponentNode() { name = nodeName, type = Setting.EngineSetting.commonName.GComponent,
                                     pkg = pkg,
                                     src = displayNode.Attributes.GetNamedItem("src").InnerText
                                 });

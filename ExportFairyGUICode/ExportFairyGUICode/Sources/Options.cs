@@ -22,10 +22,6 @@ public class Options
     [Option("xlsxDir", Required = false, Default = "../FairyGUI")]
     public string fairyProject { get; set; }
 
-    // 模板目录
-    [Option("templateDir", Required = false, Default = "../../../Template")]
-    public string templateDir { get; set; }
-
 
     // 代码--代码保存路径
     [Option("codePath", Required = false, Default = "../FairyGUICode")]
@@ -72,6 +68,11 @@ public class Options
     // 声音--包名
     [Option("soundPackageName", Required = false, Default = "Sound")]
     public string soundPackageName { get; set; }
+
+    // 代码--引擎设置
+    [Option("engineSettingJson", Required = false, Default = "ExportFairyGUICode-EngineSetting-laya2.json")]
+    public string engineSettingJson { get; set; }
+
 
 
 

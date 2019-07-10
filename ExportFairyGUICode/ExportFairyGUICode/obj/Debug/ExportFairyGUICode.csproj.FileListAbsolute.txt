@@ -19,7 +19,6 @@ E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.runtimeconfi
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.runtimeconfig.dev.json
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.dll
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\Bin\ExportFairyGUICode.pdb
-E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csprojAssemblyReference.cache
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.csproj.CoreCompileInputs.cache
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.AssemblyInfoInputs.cache
 E:\zengfeng\githubs\ihaiu.ExportFairyGUICode\ExportFairyGUICode\ExportFairyGUICode\obj\Debug\ExportFairyGUICode.AssemblyInfo.cs

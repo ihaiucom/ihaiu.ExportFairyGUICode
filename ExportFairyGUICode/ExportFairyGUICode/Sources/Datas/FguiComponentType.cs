@@ -56,6 +56,7 @@ public static class fairygui
 
         public static string GetExtendClass(string name)
         {
+            CommonName CommonName = Setting.EngineSetting.commonName;
             string cls = CommonName.GComponent;
             switch(name)
             {
@@ -84,71 +85,71 @@ public static class fairygui
     }
 
 
-    public static class CommonName
-    {
-        // 对象
-        public const string GObject = "fairygui.GObject";
+    //public static class CommonName
+    //{
+    //    // 对象
+    //    public const string GObject = "fairygui.GObject";
 
-        // 组件
-        public const string GComponent = "fairygui.GComponent";
+    //    // 组件
+    //    public const string GComponent = "fairygui.GComponent";
 
-        // 控制器
-        public const string Controller = "fairygui.Controller";
+    //    // 控制器
+    //    public const string Controller = "fairygui.Controller";
 
-        // 动效
-        public const string Transition = "fairygui.Transition";
+    //    // 动效
+    //    public const string Transition = "fairygui.Transition";
 
-        // 图片
-        public const string GImage = "fairygui.GImage";
+    //    // 图片
+    //    public const string GImage = "fairygui.GImage";
 
-        // 文本
-        public const string GTextField = "fairygui.GTextField";
+    //    // 文本
+    //    public const string GTextField = "fairygui.GTextField";
 
-        // 文本输入
-        public const string GTextInput = "fairygui.GTextInput";
+    //    // 文本输入
+    //    public const string GTextInput = "fairygui.GTextInput";
 
-        // 富文本
-        public const string GRichTextField = "fairygui.GRichTextField";
+    //    // 富文本
+    //    public const string GRichTextField = "fairygui.GRichTextField";
 
-        // 图形
-        public const string GGraph = "fairygui.GGraph";
+    //    // 图形
+    //    public const string GGraph = "fairygui.GGraph";
 
-        // 组
-        public const string GGroup = "fairygui.GGroup";
+    //    // 组
+    //    public const string GGroup = "fairygui.GGroup";
 
-        // 装载器
-        public const string GLoader = "fairygui.GLoader";
-
-
-        // 列表
-        public const string GList = "fairygui.GList";
-
-        // 序列帧动画
-        public const string GMovieClip = "fairygui.GMovieClip";
+    //    // 装载器
+    //    public const string GLoader = "fairygui.GLoader";
 
 
+    //    // 列表
+    //    public const string GList = "fairygui.GList";
+
+    //    // 序列帧动画
+    //    public const string GMovieClip = "fairygui.GMovieClip";
 
 
-        // 按钮
-        public const string GButton = "fairygui.GButton";
-
-        // 下拉框
-        public const string GComboBox = "fairygui.GComboBox";
-
-        // 标签
-        public const string GLabel = "fairygui.GLabel";
-
-        // 进度条
-        public const string GProgressBar = "fairygui.GProgressBar";
-
-        // 滚动条
-        public const string GScrollBar = "fairygui.GScrollBar";
-
-        // 滑动条
-        public const string GSlider = "fairygui.GSlider";
 
 
-    }
+    //    // 按钮
+    //    public const string GButton = "fairygui.GButton";
+
+    //    // 下拉框
+    //    public const string GComboBox = "fairygui.GComboBox";
+
+    //    // 标签
+    //    public const string GLabel = "fairygui.GLabel";
+
+    //    // 进度条
+    //    public const string GProgressBar = "fairygui.GProgressBar";
+
+    //    // 滚动条
+    //    public const string GScrollBar = "fairygui.GScrollBar";
+
+    //    // 滑动条
+    //    public const string GSlider = "fairygui.GSlider";
+
+
+    //}
 
     public static class ButtonType
     {

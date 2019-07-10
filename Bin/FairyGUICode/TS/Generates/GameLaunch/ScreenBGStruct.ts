@@ -5,9 +5,9 @@
 
 import ScreenBG from "../../Extends/GameLaunch/ScreenBG";
 
-export default class ScreenBGStruct extends fairygui.GLabel
+export default class ScreenBGStruct extends fgui.GLabel
 {
-	public m_icon : fairygui.GLoader;
+	public m_icon : fgui.GLoader;
 
 	
 	public static URL:string = "ui://47qsdr42f84s1";
@@ -16,7 +16,7 @@ export default class ScreenBGStruct extends fairygui.GLabel
 
 	
 	public static createInstance():ScreenBG {
-		return <ScreenBG><any>(fairygui.UIPackage.createObject("GameLaunch","ScreenBG"));
+		return <ScreenBG><any>(fgui.UIPackage.createObject("GameLaunch","ScreenBG"));
 	}
 
 	
@@ -26,14 +26,21 @@ export default class ScreenBGStruct extends fairygui.GLabel
 		super();
 	}
 
-	protected constructFromXML(xml: any): void 
+	protected onConstruct(): void 
 	{
-		super.constructFromXML(xml);
 		
 
 		
-		this.m_icon = <fairygui.GLoader><any>(this.getChild("icon"));
+		this.m_icon = <fgui.GLoader><any>(this.getChild("icon"));
 		
 		
+
+		this.constructFromXML();
+	}
+
+
+	protected constructFromXML(xml?: any): void 
+	{
+
 	}
 }
