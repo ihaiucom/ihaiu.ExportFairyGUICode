@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-public static class fairygui
+public static class fgui
 {
     public static class NodeName
     {
@@ -87,65 +87,65 @@ public static class fairygui
     public static class CommonName
     {
         // 对象
-        public const string GObject = "fairygui.GObject";
+        public const string GObject = "fgui.GObject";
 
         // 组件
-        public const string GComponent = "fairygui.GComponent";
+        public const string GComponent = "fgui.GComponent";
 
         // 控制器
-        public const string Controller = "fairygui.Controller";
+        public const string Controller = "fgui.Controller";
 
         // 动效
-        public const string Transition = "fairygui.Transition";
+        public const string Transition = "fgui.Transition";
 
         // 图片
-        public const string GImage = "fairygui.GImage";
+        public const string GImage = "fgui.GImage";
 
         // 文本
-        public const string GTextField = "fairygui.GTextField";
+        public const string GTextField = "fgui.GTextField";
 
         // 文本输入
-        public const string GTextInput = "fairygui.GTextInput";
+        public const string GTextInput = "fgui.GTextInput";
 
         // 富文本
-        public const string GRichTextField = "fairygui.GRichTextField";
+        public const string GRichTextField = "fgui.GRichTextField";
 
         // 图形
-        public const string GGraph = "fairygui.GGraph";
+        public const string GGraph = "fgui.GGraph";
 
         // 组
-        public const string GGroup = "fairygui.GGroup";
+        public const string GGroup = "fgui.GGroup";
 
         // 装载器
-        public const string GLoader = "fairygui.GLoader";
+        public const string GLoader = "fgui.GLoader";
 
 
         // 列表
-        public const string GList = "fairygui.GList";
+        public const string GList = "fgui.GList";
 
         // 序列帧动画
-        public const string GMovieClip = "fairygui.GMovieClip";
+        public const string GMovieClip = "fgui.GMovieClip";
 
 
 
 
         // 按钮
-        public const string GButton = "fairygui.GButton";
+        public const string GButton = "fgui.GButton";
 
         // 下拉框
-        public const string GComboBox = "fairygui.GComboBox";
+        public const string GComboBox = "fgui.GComboBox";
 
         // 标签
-        public const string GLabel = "fairygui.GLabel";
+        public const string GLabel = "fgui.GLabel";
 
         // 进度条
-        public const string GProgressBar = "fairygui.GProgressBar";
+        public const string GProgressBar = "fgui.GProgressBar";
 
         // 滚动条
-        public const string GScrollBar = "fairygui.GScrollBar";
+        public const string GScrollBar = "fgui.GScrollBar";
 
         // 滑动条
-        public const string GSlider = "fairygui.GSlider";
+        public const string GSlider = "fgui.GSlider";
 
 
     }

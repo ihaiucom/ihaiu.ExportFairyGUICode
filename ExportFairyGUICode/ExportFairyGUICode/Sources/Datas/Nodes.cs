@@ -57,7 +57,7 @@ public class ComponentNode : Node
     {
         if(resourceComponent == null)
         {
-            return fairygui.CommonName.GObject;
+            return fgui.CommonName.GObject;
         }
 
         if(resourceComponent.isIngore)
@@ -86,7 +86,7 @@ public class ComponentNode : Node
     {
         if (resourceComponent == null)
         {
-            return fairygui.CommonName.GObject;
+            return fgui.CommonName.GObject;
         }
 
         if (resourceComponent.isIngore)

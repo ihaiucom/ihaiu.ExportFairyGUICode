@@ -54,7 +54,7 @@ public class FguiModifyXml
             switch (displayNode.Name)
             {
                 // 文本
-                case fairygui.NodeName.text:
+                case fgui.NodeName.text:
 
                     if (displayNode.HasAttribute("input"))
                     {
@@ -87,7 +87,7 @@ public class FguiModifyXml
                     break;
 
                 // 富文本
-                case fairygui.NodeName.richtext:
+                case fgui.NodeName.richtext:
 
                     if (displayNode.HasAttribute("text"))
                     {

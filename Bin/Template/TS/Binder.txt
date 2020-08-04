@@ -12,7 +12,7 @@ export default class >:className:<
 {
 	public static bindAll():void 
 	{
-		let bind = fairygui.UIObjectFactory.setPackageItemExtension;
+		let bind = fgui.UIObjectFactory.setPackageItemExtension;
 		>:FOREACH coms:<
 		bind(>:[0]:<.URL, >:[0]:<);
 		>:ENDFOREACH:<

@@ -161,7 +161,7 @@ public class ResourceComponent
         {
             if (string.IsNullOrEmpty(_extendClassName))
             {
-                _extendClassName = fairygui.ExtendType.GetExtendClass(extention);
+                _extendClassName = fgui.ExtendType.GetExtendClass(extention);
             }
             return _extendClassName;
         }
